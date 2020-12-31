@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Actinia Quickstart &#8212; OSGeoLive 14.0 Documentation</title>
+    <title>Actinia クイックスタート &#8212; OSGeoLive 14.0 Documentation</title>
     <link rel="stylesheet" href="../../_static/overview.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <script type="text/javascript">
@@ -71,11 +71,8 @@
             
   <a class="reference external image-reference" href="https://actinia.mundialis.de/"><img alt="../../_images/logo_actinia.png" class="align-right" src="../../_images/logo_actinia.png" /></a>
 <div class="section" id="actinia-quickstart">
-<h1>Actinia Quickstart<a class="headerlink" href="#actinia-quickstart" title="このヘッドラインへのパーマリンク">¶</a></h1>
-<p>Actinia is an open source REST API for scalable, distributed, high performance
-processing of geographical data that uses GRASS GIS for computational tasks.
-Actinia provides a REST API to process satellite images, time series of
-satellite images, raster and vector data.</p>
+<h1>Actinia クイックスタート<a class="headerlink" href="#actinia-quickstart" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<p>Actiniaは、地理データのスケーラブルで分散した高パフォーマンス処理のためのオープンソースREST APIであり、計算タスクにGRASS GISを使用します。Actiniaは、衛星画像、時系列衛星画像データ、ベクタデータを処理するREST APIを提供しています。</p>
 <div class="contents local topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
@@ -101,7 +98,7 @@ satellite images, raster and vector data.</p>
 <li><a class="reference internal" href="#what-next" id="id15">次のステップ</a></li>
 </ul>
 </div>
-<p>Actinia can be used in different ways:</p>
+<p>アクチニアは様々な方法で利用されています。</p>
 <ul class="simple">
 <li><cite>curl</cite> or similar command line tools</li>
 <li>the <cite>Postman</cite> extension for browsers</li>
@@ -380,9 +377,7 @@ test_mapset</p>
 <div class="code bash highlight-default"><div class="highlight"><pre><span></span><span class="n">ace</span> <span class="o">--</span><span class="n">location</span> <span class="n">nc_spm_08</span> <span class="o">--</span><span class="n">delete</span><span class="o">-</span><span class="n">mapset</span> <span class="n">test_mapset</span>
 </pre></div>
 </div>
-<p>If the active GRASS GIS session has identical location/mapset settings,
-then an alias can be used to avoid the persistent option in each single
-command call:</p>
+<p>アクティブなGRASS GISセッションのロケーション/マップセット設定が同じである場合は、エイリアスを使用して、単一のコマンド呼び出しごとに永続的なオプションを回避できます。</p>
 <div class="code bash highlight-default"><div class="highlight"><pre><span></span><span class="n">alias</span> <span class="n">acp</span><span class="o">=</span><span class="s2">&quot;ace --persistent `g.mapset -p`&quot;</span>
 </pre></div>
 </div>
