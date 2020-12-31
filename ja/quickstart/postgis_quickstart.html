@@ -58,7 +58,7 @@
 	<font size="-2">
 		<div id="translations">
 		<!-- alphabetical order -->
-              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a>
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
 		</div>
 	</font>
     </div>
@@ -77,7 +77,7 @@
 PostgreSQL so it can store, query, and manipulate spatial data. In this Quickstart we will
 use 『PostgreSQL』 when describing general database functions, and 『PostGIS』 when
 describing the additional spatial functionality provided by PostGIS.</p>
-<p>This Quick Start describes how to:</p>
+<p>このクイックスタートでは、次の方法について説明します。</p>
 <blockquote>
 <div><ul class="simple">
 <li>Create and query a spatial database from the command line and <a class="reference internal" href="../overview/qgis_overview.html"><span class="doc">QGIS</span></a> graphical client.</li>
@@ -98,8 +98,8 @@ describing the additional spatial functionality provided by PostGIS.</p>
 <li><a class="reference internal" href="#executing-a-sql-query-from-pgadmin-iii" id="id9">Executing a SQL query from pgAdmin III</a></li>
 <li><a class="reference internal" href="#get-to-know-foreign-data-wrappers-fdw" id="id10">Get to know Foreign Data Wrappers (FDW)</a></li>
 <li><a class="reference internal" href="#connect-to-a-remote-ogr-data-source-via-ogr-fdw" id="id11">Connect to a remote OGR data source via ogr_fdw</a></li>
-<li><a class="reference internal" href="#things-to-try" id="id12">Things to try</a></li>
-<li><a class="reference internal" href="#what-next" id="id13">What next?</a></li>
+<li><a class="reference internal" href="#things-to-try" id="id12">試してみること</a></li>
+<li><a class="reference internal" href="#what-next" id="id13">次のステップ</a></li>
 </ul>
 </div>
 <div class="section" id="client-server-architecture">
@@ -548,10 +548,10 @@ GeoPackage, WFS, GeoJSON, GPX, GML and more.</p>
 </div>
 </div>
 <div class="section" id="things-to-try">
-<h2><a class="toc-backref" href="#id12">Things to try</a><a class="headerlink" href="#things-to-try" title="このヘッドラインへのパーマリンク">¶</a></h2>
-<p>Here are some additional challenges for you to try:</p>
+<h2><a class="toc-backref" href="#id12">試してみること</a><a class="headerlink" href="#things-to-try" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>次に、試すべき追加の課題をいくつか示します。</p>
 <ul class="simple">
-<li>Try some more spatial functions like <code class="docutils literal"><span class="pre">st_buffer(geom)</span></code>, <code class="docutils literal"><span class="pre">st_transform(geom,25831)</span></code>, <code class="docutils literal"><span class="pre">st_x(geom)</span></code> - you will find full documentation at <a class="reference external" href="http://postgis.net/documentation/">http://postgis.net/documentation/</a></li>
+<li><code class="docutils literal"><span class="pre">st_buffer(geom)</span></code>, <code class="docutils literal"><span class="pre">st_transform(geom,25831)</span></code>, <code class="docutils literal"><span class="pre">st_x(geom)</span></code> - のようないくつかの空間関数を試してください。完全なドキュメントは <a class="reference external" href="http://postgis.net/documentation/">http://postgis.net/documentation/</a></li>
 <li>Export your tables to shapefiles with <code class="docutils literal"><span class="pre">pgsql2shp</span></code> on the command line.</li>
 <li>Try <code class="docutils literal"><span class="pre">ogr2ogr</span></code> on the command line to import/export data to your database.</li>
 <li>Try to import data with <code class="docutils literal"><span class="pre">shp2pgsql</span></code> on the command line to your database.</li>
@@ -559,11 +559,11 @@ GeoPackage, WFS, GeoJSON, GPX, GML and more.</p>
 </ul>
 </div>
 <div class="section" id="what-next">
-<h2><a class="toc-backref" href="#id13">What next?</a><a class="headerlink" href="#what-next" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#id13">次のステップ</a><a class="headerlink" href="#what-next" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>This is only the first step on the road to using PostGIS. There is a lot more functionality you can try.</p>
 <ul class="simple">
-<li>PostGIS Project home -  <a class="reference external" href="http://postgis.net">http://postgis.net</a></li>
-<li>PostGIS Documentation -  <a class="reference external" href="http://postgis.net/documentation/">http://postgis.net/documentation/</a></li>
+<li>PostGISプロジェクトホーム -  <a class="reference external" href="http://postgis.net">http://postgis.net</a></li>
+<li>PostGISドキュメント -  <a class="reference external" href="http://postgis.net/documentation/">http://postgis.net/documentation/</a></li>
 </ul>
 </div>
 </div>
@@ -578,7 +578,7 @@ GeoPackage, WFS, GeoJSON, GPX, GML and more.</p>
 	<font size="-2">
 		<div id="translations">
 		<!-- alphabetical order -->
-              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a>
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
 		</div>
 	</font>
     </div>
