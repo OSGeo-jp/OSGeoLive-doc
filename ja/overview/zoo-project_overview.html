@@ -78,18 +78,18 @@
 <p>ZOO プロジェクトは、 Web Processing Service を作成・連結するための、開発者向けの Web Processing Service (WPS) フレームワークを提供します。WPSは空間アルゴリズムを実行する機能へのWebアクセスを提供します。ZOO プロジェクトは多くのプログラミング言語をサポートし、3つのデモアプリケーションが用意されています。第1に、 <cite>GEOS &lt;geos_overview&gt;</cite> および <a class="reference internal" href="gdal_overview.html"><span class="doc">OGR</span></a> ライブラリをベースとしたシンプルな空間ツールサービスを使用します。第2に、ボロノイとドロネーの三角分割(CGALライブラリから)を紹介します。第3に、WPSサービスとして動作するOTBアプリケーションとの相互運用方法を紹介します。</p>
 <p>3つのデモアプリケーションは、以下に示す ZOO プロジェクトのデモランディングページから利用できます。</p>
 <p>ZOO は3つのパーツで構成されています:</p>
-<p><em>ZOO カーネル</em> : 異なるプログラミング言語でコーディングされたWebサービスの管理と連結を可能にする、強力なサーバーサイドCカーネルです。</p>
-<p><em>ZOO サービス</em> : さまざまなオープンソースライブラリをベースとした、成長中のサンプルWebサービスのスイートです。</p>
-<p><em>ZOO API</em> : ZOO サービスを呼び出して連結できるサーバー側のJavaScript APIです。これにより、プロセスの開発と連結が容易になります。</p>
-<p>ZOO は、ZOO のコアシステム(ZOO カーネル)を構成する「WPS サービスカーネル」に基づいています。後者は、動的ライブラリをロードして、オンデマンドのWebサービスとして処理することができます。ZOOカーネルはC言語で書かれていますが、数多くのライブラリに接続するためにいくつかの一般的なプログラミング言語をサポートしています。特に、Webサービスのエンド開発者の仕事である単純化に接続します。</p>
-<p>ZOOサービスは、メタデータファイル(.zcfg)と対応する実装のコードで構成されるリンクです。メタデータファイルには、WPS Exec Requestを使用して呼び出すことができるすべての関数と、目的の入出力が記述されています。サービスにはアルゴリズムと関数が含まれており、C/C++、Fortran、Java、Python、PHP、Ruby、C#、およびJavaScriptで実装できるようになりました。</p>
+<p><em>ZOO カーネル</em> : 異なるプログラミング言語でコーディングされたWebサービスの管理と連結を可能にする、強力なサーバーサイドのCカーネル。</p>
+<p><em>ZOO サービス</em> : さまざまなオープンソースライブラリに基づいた、発展中のサンプルWebサービスのスイート。</p>
+<p><em>ZOO API</em> : プロセスの開発と連結をより簡単にする、ZOO サービスの呼び出し・連結が可能なサーバサイドのJavaScript API。</p>
+<p>ZOO は、ZOO のコアシステムを構成している「WPS サービスカーネル」(別名ZOO カーネル)に基づいています。ZOO カーネルは、動的ライブラリをロードして、オンデマンドのWebサービスとして処理することができます。ZOO カーネルはC言語で書かれていますが、数多くのライブラリに接続するために、いくつかの一般的なプログラミング言語をサポートし、上記のすべてのWebサービスのエンド開発者の仕事を簡素化します。</p>
+<p>ZOO サービスは、メタデータファイル(.zcfg)と対応する実装のコードで構成されるリンクです。メタデータファイルには、WPS Exec リクエストを使用して呼び出すことができるすべての利用可能な機能と、必要な入出力が記述されています。サービスにはアルゴリズムと機能が含まれていて、現在は、C/C++、Fortran、Java、Python、PHP、Ruby、C#、および JavaScript で実装することができます。</p>
 <a class="reference internal image-reference" href="../../_images/zoo-project_screenshot.png"><img alt="zoo-project screenshot" class="align-right" src="../../_images/zoo-project_screenshot.png" style="width: 500px;" /></a>
 <div class="section" id="core-features">
-<h3>主要機能<a class="headerlink" href="#core-features" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<h3>主な機能<a class="headerlink" href="#core-features" title="このヘッドラインへのパーマリンク">¶</a></h3>
 <ul class="simple">
-<li>多言語WPSサーバ</li>
+<li>マルチ開発言語 WPS サーバ</li>
 <li>シンプルなWebサービスの作成と導入手順</li>
-<li>ZOO APIによるシンプルなWPS連鎖</li>
+<li>ZOO API によるシンプルな WPS 連結</li>
 </ul>
 </div>
 <div class="section" id="implemented-standards">
@@ -104,7 +104,7 @@
 <ul class="simple">
 <li><a class="reference external" href="http://localhost/zoo-demo/ogr-example.html">GEOS と OGR ライブラリをベースとしたサービスプロパイダのデモ</a></li>
 <li><a class="reference external" href="http://localhost/zoo-demo/cgal.html">CGAL ライブラリをベースとしたサービスプロバイダのデモ</a></li>
-<li><a class="reference external" href="http://localhost/zoo-demo/otb-example.html">WPSサービスとしてのOTBアプリケーションのデモ</a></li>
+<li><a class="reference external" href="http://localhost/zoo-demo/otb-example.html">WPS サービスとしての OTB アプリケーションのデモ</a></li>
 </ul>
 </div>
 <div class="section" id="details">
