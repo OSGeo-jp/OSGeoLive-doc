@@ -74,21 +74,21 @@
 <div class="section" id="geotools">
 <h1>GeoTools<a class="headerlink" href="#geotools" title="このヘッドラインへのパーマリンク">¶</a></h1>
 <p>GeoTools は Open Geospatial Consortium (OGC) の標準に準拠した空間データの操作やデータ構造を利用するための、オープンソース (LGPL) の Java ライブラリです。</p>
-<p>GeoTools は Web サービスやコマンドライン、デスクトップアプリケーションなどを含むいくつかのプロジェクトで利用されています。OSGeoLive のアプリケーションで  GeoTools を利用しているものは以下となります: <a class="reference internal" href="52nSOS_overview.html"><span class="doc">52North SOS</span></a>, <a class="reference internal" href="52nWPS_overview.html"><span class="doc">52North WPS</span></a>, AtlasStyler, <a class="reference internal" href="geomajas_overview.html"><span class="doc">Geomajas</span></a>, Geopublisher, <a class="reference internal" href="geoserver_overview.html"><span class="doc">GeoServer</span></a>, 及び <a class="reference internal" href="udig_overview.html"><span class="doc">uDig</span></a></p>
+<p>GeoTools は Web サービスやコマンドラインツール、デスクトップアプリケーションなど、さまざまなプロジェクトで利用されています。OSGeoLive のアプリケーションで  GeoTools を利用しているのは次のものです: <a class="reference internal" href="52nSOS_overview.html"><span class="doc">52North SOS</span></a>, <a class="reference internal" href="52nWPS_overview.html"><span class="doc">52North WPS</span></a>, AtlasStyler, <a class="reference internal" href="geomajas_overview.html"><span class="doc">Geomajas</span></a>, Geopublisher, <a class="reference internal" href="geoserver_overview.html"><span class="doc">GeoServer</span></a>, 及び <a class="reference internal" href="udig_overview.html"><span class="doc">uDig</span></a> 。</p>
 <a class="reference internal image-reference" href="../../_images/geotools_screenshot.png"><img alt="geotools screenshot" class="align-right" src="../../_images/geotools_screenshot.png" style="width: 500px;" /></a>
 <div class="section" id="core-features">
 <h2>主な機能<a class="headerlink" href="#core-features" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <ul>
 <li><p class="first">主要な空間概念とデータ構造のためのインタフェースの定義</p>
 <ul class="simple">
-<li>統合されたジオメトリのサポートは、<a class="reference external" href="https://sourceforge.net/projects/jts-topo-suite/">JTS Topology Suite (JTS)</a> によって提供されます。</li>
-<li>OGC Filter Encoding仕様を使用する属性および空間フィルタ</li>
+<li><a class="reference external" href="https://sourceforge.net/projects/jts-topo-suite/">JTS Topology Suite (JTS)</a> による、統合されたジオメトリのサポート</li>
+<li>OGC Filter Encoding 仕様を利用した、属性および空間フィルタ</li>
 </ul>
 </li>
-<li><p class="first">スレッド間、トランザクションサポート、スレッド間のロックをサポートするクリーンなデータアクセスAPI</p>
+<li><p class="first">地物へのアクセス、トランザクション、スレッド間のロックをサポートする、クリーンなデータアクセスAPI</p>
 <ul class="simple">
-<li>多くのファイル形式および空間データベースのGISデータにアクセスする</li>
-<li>座標参照系と変換サポート</li>
+<li>多くのファイル形式や空間データベースのGISデータへのアクセス</li>
+<li>座標参照系と座標変換のサポート</li>
 <li>広範囲のマップ投影を使用する</li>
 <li>空間的および非空間的属性に関してデータをフィルタ処理および分析する</li>
 </ul>
@@ -120,7 +120,7 @@
 <li><p class="first">サポートされていないGeoTools</p>
 <ul class="simple">
 <li>GeoToolsはまた、新しい人材を育成し、実験を促進するために使用されるステージング領域を持つ、より広いコミュニティの一部として動作します。</li>
-<li>注目すべき点は、スイングサポート(geotoolsチュートリアルで使用)、swt、ローカルおよびWebプロセスサポート、シンボロジーの追加、データフォーマットの追加、グリッドの生成、およびISOジオメトリのいくつかの実装です。</li>
+<li>注目すべき点は、swingサポート(geotoolsチュートリアルで使用)、swt、ローカルおよびWebプロセスサポート、シンボロジーの追加、データフォーマットの追加、グリッドの生成、およびISOジオメトリのいくつかの実装です。</li>
 </ul>
 </li>
 </ul>
@@ -139,32 +139,32 @@
 </li>
 <li><p class="first">XML バインディング:</p>
 <p>次データのために提供されるJavaデータ構造とバインディング: xsd-core (xml simple types), fes, filter, gml2, gml3, kml, ows, sld, wcs, wfs, wms, wps, vpf.</p>
-<p>DOMおよびSAXサプリケーションで利用できる追加のジオメトリ、フィルタ、スタイルのパーサ/エンコーダ。</p>
+<p>DOMおよびSAXアプリケーションで利用できる追加のジオメトリ、フィルタ、スタイルのパーサ/エンコーダ。</p>
 </li>
 </ul>
 </div>
 <div class="section" id="implemented-standards">
 <h2>実装されている標準規格<a class="headerlink" href="#implemented-standards" title="このヘッドラインへのパーマリンク">¶</a></h2>
-<p>多数のオープン地理空間コンソーシアム(OGC)標準のサポート:</p>
+<p>多くの Open Geospatial Consortium (OGC) 標準をサポート:</p>
 <ul class="simple">
-<li>OGC Style Layer Descriptor/データ構造とレンダリングエンジンのシンボロジーのエンコード</li>
-<li>Simple Featureサポートを含むOGC General Feature Model</li>
-<li>ラスタ情報表現のOGC Grid Coverage</li>
-<li>OGC  Filterと Common Constraint Language (CQL)</li>
-<li>Web Feature Service(WFS)、Web Map Service(WMS)、およびWeb Process Service(WPS)の試験的サポートのクライアント</li>
-<li>ISO19107ジオメトリ</li>
+<li>OGC Style Layer Descriptor / Symbology Encoding データ構造とレンダリングエンジン</li>
+<li>Simple Feature サポートを含む OGC General Feature Model</li>
+<li>ラスタ情報表現の OGC Grid Coverage</li>
+<li>OGC Filterと Common Constraint Language (CQL)</li>
+<li>Web Feature Service (WFS)、Web Map Service (WMS) のクライアントと、Web Process Service(WPS) の試験的なサポート</li>
+<li>ISO 19107 ジオメトリ</li>
 </ul>
 </div>
 <div class="section" id="details">
 <h2>詳細<a class="headerlink" href="#details" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p><strong>Webサイト:</strong> <a class="reference external" href="https://geotools.org/">https://geotools.org/</a></p>
 <p><strong>ライセンス:</strong> LGPL</p>
-<p><strong>対応OS:</strong> Cross Platform Java 8,9,10</p>
-<p><strong>API インターフェイス:</strong> Java</p>
-<p><strong>サポート:</strong> <a class="reference external" href="http://docs.geotools.org/latest/userguide/welcome/support.html">Communication and Support</a></p>
+<p><strong>対応プラットフォーム:</strong> クロスプラットフォーム Java 8,9,10</p>
+<p><strong>API インタフェース:</strong> Java</p>
+<p><strong>サポート:</strong> <a class="reference external" href="http://docs.geotools.org/latest/userguide/welcome/support.html">コミュニケーションとサポート</a></p>
 </div>
 <div class="section" id="geotools-support">
-<h2>GeoTools_サポート<a class="headerlink" href="#geotools-support" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2>GeoTools サポート<a class="headerlink" href="#geotools-support" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <ul class="simple">
 <li><a class="reference external" href="http://docs.geotools.org/latest/userguide/tutorial/quickstart/index.html">クイックスタート文書</a></li>
 </ul>
