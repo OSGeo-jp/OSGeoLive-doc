@@ -87,40 +87,40 @@
 </li>
 <li><p class="first">地物へのアクセス、トランザクション、スレッド間のロックをサポートする、クリーンなデータアクセスAPI</p>
 <ul class="simple">
-<li>多くのファイル形式や空間データベースのGISデータへのアクセス</li>
+<li>多くのファイルフォーマットや空間データベースのGISデータへのアクセス</li>
 <li>座標参照系と座標変換のサポート</li>
-<li>広範囲のマップ投影を使用する</li>
-<li>空間的および非空間的属性に関してデータをフィルタ処理および分析する</li>
+<li>広範囲の地図投影法との連携</li>
+<li>空間的および非空間的属性の観点からの、データのフィルタと分析</li>
 </ul>
 </li>
-<li><p class="first">ステートレスでメモリの少ないレンダラ。サーバ側の環境で特に便利です。</p>
+<li><p class="first">ステートレスで低メモリのレンダラは、特にサーバ側の環境で便利です。</p>
 <ul class="simple">
-<li>複雑なスタイルを使用してマップを作成および表示する</li>
+<li>複雑なスタイルを使用して地図の構成と表示できます</li>
 </ul>
 </li>
-<li><p class="first">XML Schemaを使用してGMLコンテンツにバインドする強力な*schema assisted*解析テクノロジ</p>
+<li><p class="first">GML コンテンツにバインドするための XML Schema を利用した強力な <em>スキーマ支援の</em> 構文解析技術</p>
 <ul class="simple">
-<li>構文解析/符号化技術は、GML、Filter、KML、SLD、およびSEを含む多くのOGC標準のバインディングを備えています。</li>
+<li>構文解析/符号化技術は、GML、Filter、KML、SLD、および SE を含む多くの OGC 標準のバインディングを備えています。</li>
 </ul>
 </li>
-<li><p class="first">GeoToolsプラグイン:ライブラリに追加のフォーマットを追加ができるオープンなプラグインシステム</p>
+<li><p class="first">GeoTools プラグイン: ライブラリに追加のフォーマットを設定できる、オープンなプラグインシステム</p>
 <ul class="simple">
-<li>GDALから追加のラスター形式を読み込めるようにするImageIO-EXTプロジェクトのプラグイン</li>
+<li>ImageIO-EXTプロジェクトのプラグインは、GeoTools で GDAL 経由で追加のラスタフォーマットを読み込めるようにしています。</li>
 </ul>
 </li>
-<li><p class="first">GeoTools拡張機能</p>
+<li><p class="first">GeoTools 拡張機能</p>
 <ul class="simple">
-<li>コアライブラリのspatial facilitesを使用して構築された追加機能を提供します。</li>
+<li>コアライブラリの空間機能を使用して構築された追加機能を提供します。</li>
 </ul>
 <img alt="Extensions built using the GeoTools library" src="../../_images/geotools-extension.png" />
 <ul class="simple">
-<li>拡張機能は、(最短パスを見つけるための)グラフとネットワーキングのサポート、検証、Webマップサーバクライアント、XML構文解析とエンコーディングのバインディング、そしてカラーbrewerを提供します。</li>
+<li>拡張機能は、(最短パスを見つけるための)グラフとネットワーキングのサポート、検証、Webマップサーバクライアント、XML構文解析とエンコーディングのバインディング、そして Color Brewer を提供します。</li>
 </ul>
 </li>
-<li><p class="first">サポートされていないGeoTools</p>
+<li><p class="first">GeoTools 未サポート機能</p>
 <ul class="simple">
-<li>GeoToolsはまた、新しい人材を育成し、実験を促進するために使用されるステージング領域を持つ、より広いコミュニティの一部として動作します。</li>
-<li>注目すべき点は、swingサポート(geotoolsチュートリアルで使用)、swt、ローカルおよびWebプロセスサポート、シンボロジーの追加、データフォーマットの追加、グリッドの生成、およびISOジオメトリのいくつかの実装です。</li>
+<li>GeoTools はまた、新しい人材の育成や実験の促進に使用されるステージング領域を持つ、より広いコミュニティの一部としても運営されています。</li>
+<li>注目すべき点は、Swing サポート (geotoolsチュートリアルで使用)、SWT、ローカルおよびWebプロセスサポート、追加のシンボロジー、追加のデータフォーマット、グリッドの生成、および ISO ジオメトリのいくつかの実装です。</li>
 </ul>
 </li>
 </ul>
@@ -128,18 +128,18 @@
 <div class="section" id="supported-formats">
 <h2>サポートするフォーマット<a class="headerlink" href="#supported-formats" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <ul>
-<li><p class="first">ラスター形式とデータアクセス:</p>
+<li><p class="first">ラスタフォーマットとデータアクセス:</p>
 <p>arcsde, arcgrid, geotiff, grassraster, gtopo30, image (JPEG, TIFF, GIF, PNG), imageio-ext-gdal, imagemoasaic, imagepyramid, JP2K, matlab.</p>
 </li>
-<li><p class="first">データベース 「jdbc-ng」のサポート:</p>
+<li><p class="first">データベース 「jdbc-ng」 サポート:</p>
 <p>db2, h2, mysql, oracle, postgis, spatialite, sqlserver.</p>
 </li>
 <li><p class="first">ベクタフォーマットとデータアクセス:</p>
 <p>app-schema, arcsde, csv, dxf, edigeo, excel, geojson, org, property, shapefile, wfs.</p>
 </li>
 <li><p class="first">XML バインディング:</p>
-<p>次データのために提供されるJavaデータ構造とバインディング: xsd-core (xml simple types), fes, filter, gml2, gml3, kml, ows, sld, wcs, wfs, wms, wps, vpf.</p>
-<p>DOMおよびSAXアプリケーションで利用できる追加のジオメトリ、フィルタ、スタイルのパーサ/エンコーダ。</p>
+<p>Javaデータ構造とバインディングによって次の形式が利用できます: xsd-core (xml simple types), fes, filter, gml2, gml3, kml, ows, sld, wcs, wfs, wms, wps, vpf.</p>
+<p>DOM および SAX アプリケーションで利用できる、追加のジオメトリ、フィルタ、スタイルのパーサ/エンコーダ。</p>
 </li>
 </ul>
 </div>
