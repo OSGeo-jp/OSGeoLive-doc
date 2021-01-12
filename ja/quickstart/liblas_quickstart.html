@@ -58,7 +58,7 @@
 	<font size="-2">
 		<div id="translations">
 		<!-- alphabetical order -->
-              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a>
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
 		</div>
 	</font>
     </div>
@@ -72,7 +72,7 @@
   <a class="reference external image-reference" href="https://liblas.org/"><img alt="../../_images/logo_liblas.png" class="align-right" src="../../_images/logo_liblas.png" /></a>
 <div class="section" id="liblas-quickstart">
 <h1>libLAS クイックスタート<a class="headerlink" href="#liblas-quickstart" title="このヘッドラインへのパーマリンク">¶</a></h1>
-<p>ibLAS は一般的な LAS LiDAR フォーマットを読み書きするための C/C++ ライブラリです。 ASPRS LAS format は LiDAR センサや LiDAR 処理ソフトウェアがデータの保存、交換，アーカイブに使用しているシーケンシャルなバイナリフォーマットです。</p>
+<p>ibLAS は一般的な LAS LiDAR フォーマットを読み書きするための C/C++ ライブラリです。 。ASPRS LAS フォーマットは LiDAR センサや LiDAR 処理ソフトウェアがデータの保存、交換，アーカイブに使用しているシーケンシャルなバイナリフォーマットです。</p>
 <p>LiDAR (ライダー、Light Detection and Ranging) はレーダーと似た高精度な距離検出の一種で、電磁放射線の代わりにレーザー光線を使用するものです。LiDAR システムは 「点群」 データのように、センサからの距離等を反射波を用いて計測した結果を概念化したデータを出力します。一般的な点群データの保存に使用されているのが ASPRS LAS フォーマットです。</p>
 <div class="contents local topic" id="id1">
 <ul class="simple">
@@ -84,7 +84,7 @@
 </div>
 <div class="section" id="processing">
 <h2><a class="toc-backref" href="#id2">処理方法</a><a class="headerlink" href="#processing" title="このヘッドラインへのパーマリンク">¶</a></h2>
-<p>libLASの「コマンドライン・ユーティリティー」は、libLAS用のユーザー向けの操作ソフトウェアの大部分を提供していますが、基礎となるlibLAS・ライブラリーがその原動力となっています。以下は、LASデータに対して実行する一般的な操作と、これらのタスクを実行するために使用するユーティリティとアプローチの一覧です。デモデータは、<code class="file docutils literal"><span class="pre">/home/user/data/las/srs.las</span></code> にあります。</p>
+<p>libLASの「コマンドライン・ユーティリティー」は、libLAS用のユーザー向けの操作ソフトウェアの大部分を提供していますが、基礎となるlibLAS・ライブラリーがその原動力となっています。以下は、LASデータに対して実行する一般的な操作と、これらのタスクを実行するために使用するユーティリティとアプローチの一覧です。デモデータは、 <code class="file docutils literal"><span class="pre">/home/user/data/las/srs.las</span></code> にあります。</p>
 </div>
 <div class="section" id="reprojecting-an-las-file">
 <h2><a class="toc-backref" href="#id3">LASファイルの再投影</a><a class="headerlink" href="#reprojecting-an-las-file" title="このヘッドラインへのパーマリンク">¶</a></h2>
@@ -121,7 +121,7 @@
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">las2las</span> <span class="n">srs</span><span class="o">.</span><span class="n">las</span> <span class="o">--</span><span class="n">t_srs</span> <span class="n">EPSG</span><span class="p">:</span><span class="mi">4326</span>
 </pre></div>
 </div>
-<p>私たちのプロセスは成功しましたが、<code class="docutils literal"><span class="pre">lasinfo</span> <span class="pre">output.las</span></code> を使ってデータを調べたところ、問題がありました。</p>
+<p>私たちのプロセスは成功しましたが、 <code class="docutils literal"><span class="pre">lasinfo</span> <span class="pre">output.las</span></code> を使ってデータを調べたところ、問題がありました。</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">...</span>
 <span class="n">Scale</span> <span class="n">Factor</span> <span class="n">X</span> <span class="n">Y</span> <span class="n">Z</span><span class="p">:</span>          <span class="mf">0.01</span> <span class="mf">0.01</span> <span class="mf">0.01</span>
 <span class="n">Offset</span> <span class="n">X</span> <span class="n">Y</span> <span class="n">Z</span><span class="p">:</span>                <span class="o">-</span><span class="mf">0.00</span> <span class="o">-</span><span class="mf">0.00</span> <span class="o">-</span><span class="mf">0.00</span>
@@ -139,7 +139,7 @@ case:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">las2las</span> <span class="o">--</span><span class="n">t_srs</span> <span class="n">EPSG</span><span class="p">:</span><span class="mi">4326</span> <span class="n">srs</span><span class="o">.</span><span class="n">las</span> <span class="o">--</span><span class="n">scale</span> <span class="mf">0.000001</span> <span class="mf">0.000001</span> <span class="mf">0.01</span>
 </pre></div>
 </div>
-<p>『lasinfo’で更なる簡単な調査をすることで、快適な作業を提供してくれます。</p>
+<p>『lasinfo』 で更なる簡単な調査をすることで、快適な作業を提供してくれます。</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">...</span>
 <span class="n">Scale</span> <span class="n">Factor</span> <span class="n">X</span> <span class="n">Y</span> <span class="n">Z</span><span class="p">:</span>          <span class="mf">0.000001</span> <span class="mf">0.000001</span> <span class="mf">0.01</span>
 <span class="n">Offset</span> <span class="n">X</span> <span class="n">Y</span> <span class="n">Z</span><span class="p">:</span>                <span class="o">-</span><span class="mf">0.000000</span> <span class="o">-</span><span class="mf">0.000000</span> <span class="o">-</span><span class="mf">0.00</span>
@@ -174,7 +174,7 @@ case:</p>
 	<font size="-2">
 		<div id="translations">
 		<!-- alphabetical order -->
-              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a>
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
 		</div>
 	</font>
     </div>
