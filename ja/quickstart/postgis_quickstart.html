@@ -73,7 +73,7 @@
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
 <div class="section" id="postgis-quickstart">
 <h1>PostGIS クイックスタート<a class="headerlink" href="#postgis-quickstart" title="このヘッドラインへのパーマリンク">¶</a></h1>
-<p>PostGISは、PostgreSQLリレーショナルデータベースに空間機能を追加します。PostgreSQLを拡張して、空間データを格納、問い合わせ、操作できるようにします。このクイックスタートでは、一般的なデータベース関数を記述する場合は’PostgreSQL’を使用し、PostGISによって提供される追加の空間機能を記述する場合は’PostGIS’を使用します。</p>
+<p>PostGISは、PostgreSQLリレーショナルデータベースに空間機能を追加します。PostgreSQLを拡張して、空間データを格納、問い合わせ、操作できるようにします。このクイックスタートでは、一般的なデータベース関数を記述する場合は 『PostgreSQL』 を使用し、PostGISによって提供される追加の空間機能を記述する場合は 『PostGIS』 を使用します。</p>
 <p>このクイックスタートでは、次の方法について説明します:</p>
 <blockquote>
 <div><ul class="simple">
@@ -121,7 +121,7 @@
 We will create a new one for this quickstart.</p>
 <div class="admonition tip">
 <p class="first admonition-title">ちなみに</p>
-<p class="last">このリストでは標準的なUNIXのページャの使いかたを示します - スペースで次のページ、 <code class="kbd docutils literal"><span class="pre">b</span></code>  は戻る、 <code class="kbd docutils literal"><span class="pre">q</span></code> は終了、h はヘルプを表示します。</p>
+<p class="last">このリストでは標準的なUNIXのページャの使いかたを示します - スペースで次のページ、 <code class="kbd docutils literal"><span class="pre">b</span></code> は戻る、 <code class="kbd docutils literal"><span class="pre">q</span></code> は終了、h はヘルプを表示します。</p>
 </div>
 <p>PostgreSQLは、データベースを作成するためのユーティリティプログラム <code class="docutils literal"><span class="pre">createdb</span></code> を提供します。PostGIS拡張を追加する前に、データベースを作成する必要があります。わたしたちのデータベースを <code class="docutils literal"><span class="pre">demo</span></code> と呼びます。コマンドは次のようになります:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">createdb</span> <span class="n">demo</span>
@@ -401,7 +401,7 @@ We will create a new one for this quickstart.</p>
 <div class="section" id="connect-to-a-remote-ogr-data-source-via-ogr-fdw">
 <h2><a class="toc-backref" href="#id11">ogr_fdw経由でリモートOGRデータソースに接続</a><a class="headerlink" href="#connect-to-a-remote-ogr-data-source-via-ogr-fdw" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>拡張 <code class="docutils literal"><span class="pre">ogr_fdw</span></code> は、KML、GeoPackage、WFS、GeoJSON、GPX、GMLなどのいくつかの地理データフォーマットの接続を可能にします。</p>
-<p><code class="docutils literal"><span class="pre">ogr_fdw</span></code>: <em>リポジトリ: https://github.com/pramsey/pgsql-ogr-fdw</em> 新規改良版: <a class="reference external" href="http://blog.cleverelephant.ca/2016/04/ogr-fdw-update.html">http://blog.cleverelephant.ca/2016/04/ogr-fdw-update.html</a></p>
+<p><code class="docutils literal"><span class="pre">ogr_fdw</span></code>: * リポジトリ: <a class="reference external" href="https://github.com/pramsey/pgsql-ogr-fdw">https://github.com/pramsey/pgsql-ogr-fdw</a> * 新規改良版: <a class="reference external" href="http://blog.cleverelephant.ca/2016/04/ogr-fdw-update.html">http://blog.cleverelephant.ca/2016/04/ogr-fdw-update.html</a></p>
 <p class="rubric">拡張機能 <code class="docutils literal"><span class="pre">ogr_fdw</span></code> をデータベースにインストールします。</p>
 <p>データベースプロンプトで、次のように入力します。</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">CREATE</span> <span class="n">EXTENSION</span> <span class="n">ogr_fdw</span><span class="p">;</span>

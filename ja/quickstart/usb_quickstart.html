@@ -87,7 +87,7 @@
 </div></blockquote>
 </div>
 <div class="section" id="creating-bootable-usb-drive-with-dd-under-linux">
-<h2>Linux 環境でブータブル USB ドライブの作成<a class="headerlink" href="#creating-bootable-usb-drive-with-dd-under-linux" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2>Linux 環境で <code class="docutils literal"><span class="pre">dd</span></code> でブータブル USB ドライブの作成<a class="headerlink" href="#creating-bootable-usb-drive-with-dd-under-linux" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>OS GeoLive10.5以降のISOイメージは <em>isohybrid</em> です(amd64もサポートUEFIブート)。Linuxでは、 <code class="docutils literal"><span class="pre">dd</span></code> コマンドラインユーティリティを使用して、これらのイメージをUSBドライブのブロックデバイスに直接書き込むことができます。</p>
 <div class="highlight-console"><div class="highlight"><pre><span></span><span class="go">sudo dd if=osgeolive-10.5-amd64.iso of=/dev/sdX bs=4M; sync</span>
 </pre></div>
