@@ -58,7 +58,7 @@
 	<font size="-2">
 		<div id="translations">
 		<!-- alphabetical order -->
-              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a>
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
 		</div>
 	</font>
     </div>
@@ -76,7 +76,7 @@
 <h2>仮想マシンの利点<a class="headerlink" href="#virtual-machine-advantages" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <ul class="simple">
 <li>VMの応答速度はDVDよりもはるかに速く、通常はホストマシンに直接インストールするのと同等です。</li>
-<li>すべての構成変更、ソフトウェア更新、および保存されたファイルは、「通常の」コンピュータと同様に永続的です。So:</li>
+<li>すべての構成変更、ソフトウェア更新、および保存されたファイルは、「通常の」コンピュータと同様に永続的です。そのため:</li>
 </ul>
 <blockquote>
 <div><ul class="simple">
@@ -93,18 +93,18 @@
 <h2>動作環境<a class="headerlink" href="#system-requirements" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <ul class="simple">
 <li>RAM:2GB以上Ubuntuシステムは1GBのRAMで正常に動作するので、ホストシステムと少なくとも同じ量のメモリを確保する必要があります。したがって、スムーズな動作には合計2GBが必要です。GeoServerなどの一部のアプリケーションでは、仮想マシンに2GB以上のRAMが必要です。可能であれば、仮想マシンに2GB以上のRAMを用意することを検討してください。</li>
-<li>ハードディスクの空き容量 <a class="reference internal" href="../download.html"><span class="doc">live.osgeo.org</span></a>  の仮想ディスクファイル(vmdk)は、ほぼ10GBに解凍されます。また、仮想マシン上で作業できるスペースを確保するために、より多くのスペースが必要になります。したがって、20GBが推奨されます。</li>
-<li>CPU: どのCPUでもかまいませんが、」Virtualization Technology」をサポートの方が高速です。あなたのコンピュータのCPUは`ここ&lt;<a class="reference external" href="https://www.intel.com/content/www/us/en/support/articles/000005486/processors.html">https://www.intel.com/content/www/us/en/support/articles/000005486/processors.html</a>&gt;_ で確認できます。</li>
+<li>ハードディスクの空き容量 <a class="reference internal" href="../download.html"><span class="doc">live.osgeo.org</span></a> の仮想ディスクファイル(vmdk)は、ほぼ10GBに解凍されます。また、仮想マシン上で作業できるスペースを確保するために、より多くのスペースが必要になります。したがって、20GBが推奨されます。</li>
+<li>CPU: どのCPUでもかまいませんが、」Virtualization Technology」をサポートの方が高速です。あなたのコンピュータのCPUは <a class="reference external" href="https://www.intel.com/content/www/us/en/support/articles/000005486/processors.html">ここ</a> で確認できます。</li>
 </ul>
 <p>この 4〜5 年で製造されたマシンのほとんどは、この要件を満たしています。</p>
 </div>
 <div class="section" id="howto">
 <h2>手順<a class="headerlink" href="#howto" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p><strong>ダウンロード</strong></p>
-<p><a class="reference external" href="https://www.virtualbox.org/">Virtual Box</a>  をダウンロードし、ソフトウェアをインストールしてください。Windowsでインストーラを実行するか、UbuntuのようなLinuxシステムで次の操作を行います。</p>
+<p><a class="reference external" href="https://www.virtualbox.org/">Virtual Box</a> をダウンロードし、ソフトウェアをインストールしてください。Windowsでインストーラを実行するか、UbuntuのようなLinuxシステムで次の操作を行います。</p>
 <blockquote>
 <div><code class="docutils literal"><span class="pre">apt-get</span> <span class="pre">install</span> <span class="pre">virtualbox-ose</span></code></div></blockquote>
-<p>さらに、<a class="reference internal" href="../download.html"><span class="doc">live.osgeo.org</span></a> からOSGeo仮想ディスクファイル(vmdk)をダウンロードします。「Download virtual machine(仮想マシンのダウンロード)」ボタンをクリックします。次に、ダウンロードしたファイルを解凍します(<a class="reference external" href="https://www.7-zip.org">7zip</a> )。</p>
+<p>さらに、 <a class="reference internal" href="../download.html"><span class="doc">live.osgeo.org</span></a> からOSGeo仮想ディスクファイル(vmdk)をダウンロードします。「Download virtual machine(仮想マシンのダウンロード)」ボタンをクリックします。次に、ダウンロードしたファイルを解凍します(<a class="reference external" href="https://www7-zip.org">7zip</a>)。</p>
 <p><strong>仮想マシンの作成</strong></p>
 <p>VirtualBox アプリケーションを起動し、新しい VM を作成するために New ボタンをクリックし、Next をクリックします。</p>
 <blockquote>
@@ -180,7 +180,7 @@
 	<font size="-2">
 		<div id="translations">
 		<!-- alphabetical order -->
-              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a>
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
 		</div>
 	</font>
     </div>
