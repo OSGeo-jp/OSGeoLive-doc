@@ -102,7 +102,7 @@
 <div class="section" id="client-server-architecture">
 <h2><a class="toc-backref" href="#id1">クライアント/サーバ・アーキテクチャ</a><a class="headerlink" href="#client-server-architecture" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>PostgreSQLは、多くのデータベースと同様に、クライアント/サーバシステムのサーバとして機能します。クライアントはサーバーに要求を行い、応答を受け取ります。これは、インターネットが動作するのと同じ方法です。つまり、ブラウザあり、WebサーバはWebページを送り返します。PostgreSQLでは、要求はSQL言語で行われ、応答は通常データベースからのデータのテーブルです。</p>
-<p>サーバがクライアントと同じコンピュータ上にあることを止めるものは何もありません。これにより、単一のマシン上でPostgreSQLを使用することができます。クライアントは、内部の「ループバック」ネットワーク接続を介してサーバに接続し、そのように設定しない限り、他のコンピュータからは見えません。</p>
+<p>サーバがクライアントと同じコンピュータ上にあることを止めるものは何もありません。これにより、単一のマシン上でPostgreSQLを使用することができます。クライアントは、内部の 『ループバック』 ネットワーク接続を介してサーバに接続し、そのように設定しない限り、他のコンピュータからは見えません。</p>
 </div>
 <div class="section" id="creating-a-spatially-enabled-database">
 <h2><a class="toc-backref" href="#id2">空間的に有効なデータベースの作成</a><a class="headerlink" href="#creating-a-spatially-enabled-database" title="このヘッドラインへのパーマリンク">¶</a></h2>
@@ -343,7 +343,7 @@ We will create a new one for this quickstart.</p>
 <p>接続が確立されると、システムにすでに存在するデータベースの一覧が表示されます。</p>
 <a class="reference internal image-reference" href="../../_images/postgis_adminscreen0.png"><img alt="pgAdmin III" class="align-center" src="../../_images/postgis_adminscreen0.png" style="width: 768.75px; height: 556.5px;" /></a>
 <p>ほとんどのデータベースのイメージ上の赤い」X」は、まだどのデータベースにも接続していないことを示しています(あなたはデフォルトの <code class="docutils literal"><span class="pre">postgres</span></code> データベースにのみ接続しています)。この時点では、システム上の既存のデータベースしか表示できません。データベースの名前をダブルクリックすることで接続できます。Natural_earth2データベースで実行します。</p>
-<p>これで、赤いXが消え、左側に「+」が表示されたことがわかります。これを押すとツリーが表示され、データベースの内容が表示されます。</p>
+<p>これで、赤いXが消え、左側に 「+」 が表示されたことがわかります。これを押すとツリーが表示され、データベースの内容が表示されます。</p>
 <p><code class="docutils literal"><span class="pre">schemas</span></code> サブツリーに移動して展開します。その後、 <code class="docutils literal"><span class="pre">public</span></code> スキーマを展開します。 <code class="docutils literal"><span class="pre">Tables</span></code> を移動して展開すると、このスキーマに含まれるすべてのテーブルを表示できます。</p>
 <a class="reference internal image-reference" href="../../_images/postgis_adminscreen1.png"><img alt="pgAdmin III" class="align-center" src="../../_images/postgis_adminscreen1.png" style="width: 768.0px; height: 557.25px;" /></a>
 </div>
