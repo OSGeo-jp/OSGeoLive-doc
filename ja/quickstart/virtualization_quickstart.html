@@ -94,7 +94,7 @@
 <ul class="simple">
 <li>RAM:2GB以上Ubuntuシステムは1GBのRAMで正常に動作するので、ホストシステムと少なくとも同じ量のメモリを確保する必要があります。したがって、スムーズな動作には合計2GBが必要です。GeoServerなどの一部のアプリケーションでは、仮想マシンに2GB以上のRAMが必要です。可能であれば、仮想マシンに2GB以上のRAMを用意することを検討してください。</li>
 <li>ハードディスクの空き容量 <a class="reference internal" href="../download.html"><span class="doc">live.osgeo.org</span></a> の仮想ディスクファイル(vmdk)は、ほぼ10GBに解凍されます。また、仮想マシン上で作業できるスペースを確保するために、より多くのスペースが必要になります。したがって、20GBが推奨されます。</li>
-<li>CPU: どのCPUでもかまいませんが、」Virtualization Technology」をサポートの方が高速です。あなたのコンピュータのCPUは <a class="reference external" href="https://www.intel.com/content/www/us/en/support/articles/000005486/processors.html">ここ</a> で確認できます。</li>
+<li>CPU: どのCPUでもかまいませんが、 「Virtualization Technology」 をサポートの方が高速です。あなたのコンピュータのCPUは <a class="reference external" href="https://www.intel.com/content/www/us/en/support/articles/000005486/processors.html">ここ</a> で確認できます。</li>
 </ul>
 <p>この 4〜5 年で製造されたマシンのほとんどは、この要件を満たしています。</p>
 </div>
@@ -110,7 +110,7 @@
 <blockquote>
 <div><a class="reference internal image-reference" href="../../_images/virtualbox.png"><img alt="../../_images/virtualbox.png" src="../../_images/virtualbox.png" style="width: 386.5px; height: 291.5px;" /></a>
 </div></blockquote>
-<p>イメージに OSGeo-Live のような名前を付け、」Operating System」 に Linux、」Version」 に Ubuntu を選択します。</p>
+<p>イメージに OSGeoLive のような名前を付け、」オペレーティングシステム」 に Linux、 「バージョン」 に Ubuntu (64-bit) を選択します。</p>
 <blockquote>
 <div><a class="reference internal image-reference" href="../../_images/virtualbox_select_name.png"><img alt="../../_images/virtualbox_select_name.png" src="../../_images/virtualbox_select_name.png" style="width: 247.79999999999998px; height: 280.0px;" /></a>
 </div></blockquote>
@@ -118,7 +118,7 @@
 <blockquote>
 <div><a class="reference internal image-reference" href="../../_images/vmdk_memory.png"><img alt="../../_images/vmdk_memory.png" src="../../_images/vmdk_memory.png" style="width: 228.8px; height: 261.3px;" /></a>
 </div></blockquote>
-<p>次の画面に進み、」既存の仮想ハードディスクファイルを使用する」を選択します。次に、ボタン(フォルダアイコン)をクリックして、OSGeoLive vmdkファイルを保存した場所を参照します。このファイルを選択し、[次へ]と[作成]を押します。</p>
+<p>次の画面に進み、 「既存の仮想ハードディスクファイルを使用する」 を選択します。次に、ボタン(フォルダアイコン)をクリックして、OSGeoLive vmdkファイルを保存した場所を参照します。このファイルを選択し、[次へ]と[作成]を押します。</p>
 <blockquote>
 <div><a class="reference internal image-reference" href="../../_images/vmdk_disk.png"><img alt="../../_images/vmdk_disk.png" src="../../_images/vmdk_disk.png" style="width: 229.45000000000002px; height: 261.3px;" /></a>
 </div></blockquote>
@@ -131,11 +131,11 @@
 <blockquote>
 <div><a class="reference internal image-reference" href="../../_images/vmdk_display.png"><img alt="../../_images/vmdk_display.png" src="../../_images/vmdk_display.png" style="width: 424.45px; height: 282.1px;" /></a>
 </div></blockquote>
-<p>さらに、」Shared Folders」 セクションに移動し、」Add folder」 (右側の緑の 「+」 アイコン) をクリックし、VM 内部で共有したいホストコンピュータのディレクトリを指定します。</p>
+<p>さらに、 「共有フォルダー」 セクションに移動し、 「フォルダーを追加」 (右側の緑の 「+」 アイコン) をクリックし、VM 内部で共有したいホストコンピュータのディレクトリを指定します。</p>
 <blockquote>
 <div><a class="reference internal image-reference" href="../../_images/vmdk_shared_folders.png"><img alt="../../_images/vmdk_shared_folders.png" src="../../_images/vmdk_shared_folders.png" style="width: 423.15000000000003px; height: 280.8px;" /></a>
 </div></blockquote>
-<p>共有フォルダを読み取り専用にし、自動マウントすることもできます。」フォルダパス」 と 「フォルダ名」 を定義したら、[OK]をクリックし、もう一度[OK]をクリックして設定ウィンドウを閉じます。</p>
+<p>共有フォルダを読み取り専用にし、自動マウントすることもできます。 「フォルダパス」 と 「フォルダ名」 を定義したら、[OK]をクリックし、もう一度[OK]をクリックして設定ウィンドウを閉じます。</p>
 <p><strong>仮想マシンの起動</strong></p>
 <p>Start (緑の矢印) ボタンをクリックして、VM を起動しましょう。</p>
 <p>VMにisoをインストールする場合は、ユーザー名を 「user」 に設定する必要があります。</p>

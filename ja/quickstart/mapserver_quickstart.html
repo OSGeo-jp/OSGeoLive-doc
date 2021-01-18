@@ -219,7 +219,7 @@
 </pre></div>
 </div>
 <p>これで、Mapfileに2つのレイヤ定義が作成されました。ここで追加した新しいオブジェクトの 「STATUS」 プロパティが 「ON」 に設定されていることに注意してください。具体的にお願いしないと出せないということですね。</p>
-<p>前述のWMSの <strong>GetMap</strong> 要求を受け取り、レンダリングしたイメージに新しい 「Lakes」 レイヤを追加します。」LAYERS」 プロパティリストに新しいレイヤ名を追加するだけです。</p>
+<p>前述のWMSの <strong>GetMap</strong> 要求を受け取り、レンダリングしたイメージに新しい 「Lakes」 レイヤを追加します。 「LAYERS」 プロパティリストに新しいレイヤ名を追加するだけです。</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&amp;SERVICE=WMS&amp;REQUEST=Getmap&amp;VERSION=1.1.1&amp;LAYERS=Countries,Lakes&amp;SRS=EPSG:4326&amp;BBOX=-137,29,-53,88&amp;FORMAT=PNG&amp;WIDTH=800&amp;HEIGHT=600
 </pre></div>
 </div>
