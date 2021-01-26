@@ -281,15 +281,13 @@ OSGeoLive
         :title-heading: h3
   
 
-            ==================== ================ ================= ==================
-            ==================== ================ ================= ==================
-              |openlayers_logo|   |leaflet_logo|   |cesium_logo|     |geomajas_logo|
-              OpenLayers          Leaflet          Cesium            Geomajas       
-              |mapbender_logo|    |geoext_logo|    |geomoose_logo|   |geonode_logo| 
-              Mapbender           GeoExt           GeoMoose          GeoNode        
-              |geostyler_logo|                  
-              GeoStyler                         
-            ==================== ================ ================= ==================
+            ==================== ================= ================ ===================
+            ==================== ================= ================ ===================
+              |openlayers_logo|   |leaflet_logo|    |cesium_logo|    |mapbender_logo|
+              OpenLayers          Leaflet           Cesium           Mapbender       
+              |geoext_logo|       |geomoose_logo|   |geonode_logo|   |geostyler_logo|
+              GeoExt              GeoMoose          GeoNode          GeoStyler       
+            ==================== ================= ================ ===================
 
 
 
@@ -338,19 +336,6 @@ OSGeoLive
             Note 
             Cesium is a JavaScript library for creating 3D globes and 2D maps in a web browser without any plugins. It uses WebGL for hardware-accelerated graphics, and is cross-platform, cross-browser, and tuned for dynamic-data visualization.
         
-
-
-
-
-    .. revealjs:: Geomajas
-        :title-heading: h3
-  
-        .. image:: ../images/projects/geomajas/geomajas_screenshot.png
-            :height: 600
-
-        .. rv_note::
-            Note 
-            Geomajas provides a wide range of spatial tools in a thin browser mapping client which integrates into the powerful server-side, java- based geotools library for processing. This means Geomajas applications can provide very powerful functionality in the browser and still be performant.
 
 
 
@@ -440,7 +425,7 @@ OSGeoLive
               |52nSOS_logo|      |52nWPS_logo|      |zoo-project_logo|      |t-rex_logo|  
               52 North SOS       52 North WPS       Zoo Project             t-rex         
               |actinia_logo|     |re3gistry_logo|   |pygeoapi_logo|           
-              Actinia            Re3gistry          pygeoapi                  
+              actinia            Re3gistry          pygeoapi                  
             =================== ================== ======================= =================
 
 
@@ -663,7 +648,7 @@ OSGeoLive
 
 
 
-    .. revealjs:: Actinia
+    .. revealjs:: actinia
         :title-heading: h3
   
         .. image:: ../images/projects/actinia/actinia_screenshot.png
@@ -888,13 +873,11 @@ OSGeoLive
         :title-heading: h3
   
 
-            =================== =============== =============== ================
-            =================== =============== =============== ================
-              |gmt_logo|         |otb_logo|      |R_logo|        |mapnik_logo|
-              GMT                OTB             R               Mapnik       
-              |mapslicer_logo|            
-              MapSlicer                   
-            =================== =============== =============== ================
+            ============= ============ ========== ================
+            ============= ============ ========== ================
+              |gmt_logo|   |otb_logo|   |R_logo|   |mapnik_logo|
+              GMT          OTB          R          Mapnik       
+            ============= ============ ========== ================
 
 
 
@@ -952,19 +935,6 @@ OSGeoLive
         .. rv_note::
             Note 
             Mapnik is a toolkit for rendering beautiful maps, with clean, soft edges for features provided by quality anti-aliasing graphics, also intelligent label placement, and scalable, SVG symbolisation. Most famously, mapnik is used to render the Open Street Map layers.
-
-
-
-
-    .. revealjs:: MapSlicer
-        :title-heading: h3
-  
-        .. image:: ../images/projects/mapslicer/mapslicer_screenshot.png
-            :height: 600
-
-        .. rv_note::
-            Note 
-            MapSlicer provides a desktop interface for creating tiles, which can then be stored on the local filesystem or published via direct upload to any webserver or cloud storage. Browser viewing is provided by OpenLayers and Google Maps and can be easily customized.
 
 
 
@@ -1073,13 +1043,13 @@ OSGeoLive
         :title-heading: h3
   
 
-            ================ ================= =============== ================
-            ================ ================= =============== ================
-              |gdal_logo|     |geotools_logo|   |geos_logo|     |proj4_logo| 
-              GDAL/OGR        GeoTools          GEOS            Proj.4       
-              |liblas_logo|   |jts_logo|             
-              libLAS          JTS                    
-            ================ ================= =============== ================
+            ============== ================= =============== ================
+            ============== ================= =============== ================
+              |gdal_logo|   |geotools_logo|   |geos_logo|     |proj_logo|  
+              GDAL/OGR      GeoTools          GEOS            PROJ         
+              |jts_logo|               
+              JTS                      
+            ============== ================= =============== ================
 
 
 
@@ -1125,28 +1095,15 @@ OSGeoLive
 
 
 
-    .. revealjs:: Proj.4
+    .. revealjs:: PROJ
         :title-heading: h3
   
-        .. image:: ../images/projects/proj4/proj4_screenshot.png
+        .. image:: ../images/projects/proj/proj_screenshot.png
             :height: 600
 
         .. rv_note::
             Note 
-            Proj4 is a library that provides methods to transform between different coordinate reference systems. A geographic coordinate reference systems allows all points on the earth to be described as a set of coordinates (such as latitude, longitude and elevation). Different systems are used to represent the 3 dimensional earth on a flat, 2 dimensional map..
-
-
-
-
-    .. revealjs:: libLAS
-        :title-heading: h3
-  
-        .. image:: ../images/projects/liblas/liblas_screenshot.png
-            :height: 600
-
-        .. rv_note::
-            Note 
-            libLAS is a C/C++ library for reading and writing the LAS LiDAR format. LiDAR, or Light Detection and Ranging, is a form of high precision range detection, much like radar or sonar, that uses laser light as the electromagnetic emission.
+            PROJ is a library that provides methods to transform between different coordinate reference systems. A geographic coordinate reference systems allows all points on the earth to be described as a set of coordinates (such as latitude, longitude and elevation). Different systems are used to represent the 3 dimensional earth on a flat, 2 dimensional map..
 
 
 
@@ -1273,7 +1230,6 @@ OSGeoLive
 .. |openlayers_logo| image:: ../images/projects/openlayers/logo_openlayers.png
 .. |leaflet_logo| image:: ../images/projects/leaflet/logo_leaflet.png
 .. |cesium_logo| image:: ../images/projects/cesium/logo_cesium.png
-.. |geomajas_logo| image:: ../images/projects/geomajas/logo_geomajas.png
 .. |mapbender_logo| image:: ../images/projects/mapbender/logo_mapbender.png
 .. |geoext_logo| image:: ../images/projects/geoext/logo_geoext.png
 .. |geomoose_logo| image:: ../images/projects/geomoose/logo_geomoose.png
@@ -1312,7 +1268,6 @@ OSGeoLive
 .. |otb_logo| image:: ../images/projects/otb/logo_otb.png
 .. |R_logo| image:: ../images/projects/R/logo_R.png
 .. |mapnik_logo| image:: ../images/projects/mapnik/logo_mapnik.png
-.. |mapslicer_logo| image:: ../images/projects/mapslicer/logo_mapslicer.png
 .. |zygrib_logo| image:: ../images/projects/zygrib/logo_zygrib.png
 .. |naturalearth_logo| image:: ../images/projects/naturalearth/logo_naturalearth.png
 .. |nc_dataset_logo| image:: ../images/projects/nc_dataset/logo_nc_dataset.png
@@ -1321,8 +1276,7 @@ OSGeoLive
 .. |gdal_logo| image:: ../images/projects/gdal/logo_gdal.png
 .. |geotools_logo| image:: ../images/projects/geotools/logo_geotools.png
 .. |geos_logo| image:: ../images/projects/geos/logo_geos.png
-.. |proj4_logo| image:: ../images/projects/proj4/logo_proj4.png
-.. |liblas_logo| image:: ../images/projects/liblas/logo_liblas.png
+.. |proj_logo| image:: ../images/projects/proj/logo_proj.png
 .. |jts_logo| image:: ../images/projects/jts/logo_jts.png
 
 

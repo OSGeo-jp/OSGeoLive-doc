@@ -72,7 +72,9 @@
   <a class="reference external image-reference" href="https://docs.eoxserver.org/en/stable/"><img alt="../../_images/logo_eoxserver.png" class="align-right" src="../../_images/logo_eoxserver.png" /></a>
 <div class="section" id="eoxserver-quickstart">
 <h1>EOxServer クイックスタートt<a class="headerlink" href="#eoxserver-quickstart" title="このヘッドラインへのパーマリンク">¶</a></h1>
-<p>EOxServerは、大規模な地球観測(EO)データアーカイブとメタデータをオープンスタンダードで提供するサーバです。これは、Python、<a class="reference internal" href="../overview/mapserver_overview.html"><span class="doc">MapServer</span></a>、  Django/GeoDjango、<a class="reference internal" href="../overview/gdal_overview.html"><span class="doc">GDAL</span></a>、<a class="reference internal" href="../overview/proj4_overview.html"><span class="doc">PROJ.4</span></a> と  <a class="reference internal" href="../overview/spatialite_overview.html"><span class="doc">SpatiaLite</span></a>  または  <a class="reference internal" href="../overview/postgis_overview.html"><span class="doc">PostGIS</span></a> データベースを含むソフトウェアのオープンソーススタック上に構築されています。</p>
+<p>EOxServer is a server for presenting big Earth Observation (EO) data
+archives and metadata via Open Standards. It builds upon an Open Source
+stack of software which includes Python, <a class="reference internal" href="../overview/mapserver_overview.html"><span class="doc">MapServer</span></a>, Django/GeoDjango, <a class="reference internal" href="../overview/gdal_overview.html"><span class="doc">GDAL</span></a>,  <a class="reference internal" href="../overview/proj_overview.html"><span class="doc">PROJ</span></a> and a <a class="reference internal" href="../overview/spatialite_overview.html"><span class="doc">SpatiaLite</span></a> or <a class="reference internal" href="../overview/postgis_overview.html"><span class="doc">PostGIS</span></a> database.</p>
 <p>このクイックスタートでは、次の方法について説明します:</p>
 <ul class="simple">
 <li>Web Clientを使用して、EOデータをビュー、フィルタリング、サブセット、ダウンロード</li>
@@ -99,13 +101,22 @@
 <a class="reference internal image-reference" href="../../_images/eoxserver_webclient1.png"><img alt="Main view of the EOxServer Web Client" src="../../_images/eoxserver_webclient1.png" style="width: 512.0px; height: 384.0px;" /></a>
 <p>クライアントは一連の操作を提供します。上部には、レイヤ選択とツールウィジェットを表示するメニューバーが表示されます。主な領域は、クライアントのマップウィジェットで、一連のデータセットがすでに表示されています。下部にはタイムスライダウィジェットが表示され、時間次元のコンテンツを表示できます。</p>
 <a class="reference internal image-reference" href="../../_images/eoxserver_webclient2.png"><img alt="EOxServer demonstration embedded client outlines" src="../../_images/eoxserver_webclient2.png" style="width: 512.0px; height: 384.0px;" /></a>
-<p>レイヤ選択ウィジェットを使用すると、表示/非表示を切り替えたり、レイヤーのレンダリングを設定したりできます。また、通りのオーバーレイを表示または非表示にしたり、背景のレイヤを選択したりすることもできます。 「MER FRS1P RGB reduced」 レイヤを無効にすると、タイムスライダウィジェットは非表示になり、データセットレイヤが有効になると再表示されることに注意してください。ツールウィジェットには、境界ボックス選択ツール、選択管理ツール、ダウンロードツールの3つの異なるツールが用意されています。</p>
+<p>The Layer Selection widget allows you to enable or disable the visibility and
+configure the rendering of the layers. Also, you can show or hide the
+streets-overlay and select the background layer. Please note, that when you
+disable the 「MER FRS 1P RGB reduced」 layer, the timeslider widget is hidden and
+only reappears once a dataset layer is enabled.
+The Tools widget provides three different tools: the Bounding Box Selection Tool,
+the Selection Management Tool and the Download Tool.</p>
 <a class="reference internal image-reference" href="../../_images/eoxserver_webclient3.png"><img alt="EOxServer demonstration embedded client outlines" src="../../_images/eoxserver_webclient3.png" style="width: 512.0px; height: 384.0px;" /></a>
 <p>マップと同様に、現在表示されている注視点をズームおよびパンしたり、赤い点を含む領域を描画して注視点を選択したりできます。点の上にカーソルを置くと、データセットIDを表示することもできます。点をクリックすると、マップは自動的にデータセットの範囲にズームします。</p>
 <a class="reference internal image-reference" href="../../_images/eoxserver_webclient4.png"><img alt="EOxServer demonstration embedded client outlines" src="../../_images/eoxserver_webclient4.png" style="width: 512.0px; height: 384.0px;" /></a>
 <p>境界ボックスツールを有効にすると、境界ボックスを直接地図上に描画できます。境界ボックスは、ダウンロードツール内でクエリに使用されます。</p>
 <a class="reference internal image-reference" href="../../_images/eoxserver_webclient5.png"><img alt="EOxServer demonstration embedded client outlines" src="../../_images/eoxserver_webclient5.png" style="width: 512.0px; height: 384.0px;" /></a>
-<p>ダウンロードツールが有効になると、サーバーへのクエリーが送信されます。このクエリには、選択された対象の時刻と境界ボックスが含まれています。結果はダウンロードウィジェットに表示され、ダウンロードするフォーマット、投影、データセットを選択できます。</p>
+<p>When the Download Tool is enabled, a query to the server is sent. This query
+includes the selected time of interest and bounding box. The results are shown
+in the Download widget, where you can select the format, projection and datasets
+to download.</p>
 <p>これは、EOxServer Web Clientの簡単な説明です。このトピックの詳細については、 <a class="reference external" href="https://docs.eoxserver.org/en/latest/users/webclient.html">オンライン文書</a> を参照してください。</p>
 </div>
 <div class="section" id="work-with-the-admin-client">
