@@ -26,7 +26,7 @@
     <link rel="index" title="索引" href="../genindex.html" />
     <link rel="search" title="検索" href="../search.html" />
     <link rel="copyright" title="著作権" href="../copyright.html" />
-    <link rel="next" title="コマンドライン クイックスタート" href="commandline_quickstart.html" />
+    <link rel="next" title="Command Line Quickstart" href="commandline_quickstart.html" />
     <link rel="prev" title="OSGeoLive を起動できる ブータブル USB フラッシュドライブの作成" href="usb_quickstart.html" />
 	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
 
@@ -58,7 +58,7 @@
 	<font size="-2">
 		<div id="translations">
 		<!-- alphabetical order -->
-              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a>
 		</div>
 	</font>
     </div>
@@ -71,13 +71,14 @@
             
   <div class="section" id="osgeolive-quickstart-for-running-in-a-hyper-v-virtual-machine">
 <h1>OSGeoLive Quickstart for Running in a Hyper-V Virtual Machine<a class="headerlink" href="#osgeolive-quickstart-for-running-in-a-hyper-v-virtual-machine" title="このヘッドラインへのパーマリンク">¶</a></h1>
-<p>This Quick Start describes how to run OSGeoLive using Hyper-V, Microsoft’s virtualisation software. 他の方法については、以下の 「参照」 の章のリンクにしたがってください。Hyper-V is available on both Windows Server, and Windows 10 Professional - it is not part of Windows 10 Home.</p>
+<p>This Quick Start describes how to run OSGeoLive using Hyper-V, Microsoft’s virtualisation software. For other methods, follow links from the 「See Also」 section below.
+Hyper-V is available on both Windows Server, and Windows 10 Professional - it is not part of Windows 10 Home.</p>
 <p>The advantages of using a virtual machine are the same as those outlined at <a class="reference internal" href="virtualization_quickstart.html"><span class="doc">仮想マシン内での OSGeoLive 起動クイックスタート</span></a>. Unfortunately Virtual Box and Hyper-V
 cannot be run simultaneously. This leaves 2 options - disabling the Hyper-V feature, or configuring a new Hyper-V machine to run OSGeoLive.
 A free tool <a class="reference external" href="https://unclassified.software/en/apps/hypervswitch">hypervswitch</a> can be used to quickly enable and disable Hyper-V - however it still
 requires a reboot each time the setting is changed. The rest of this page documents how to configure OSGeoLive to run on Hyper-V.</p>
 <div class="section" id="system-requirements">
-<h2>動作環境<a class="headerlink" href="#system-requirements" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2>System Requirements<a class="headerlink" href="#system-requirements" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>Hyper-V requirements can be found <a class="reference external" href="https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/reference/hyper-v-requirements">here</a>.
 This link also provides information on checking if your machine is compatible using the <code class="docutils literal"><span class="pre">systeminfo</span></code> command. In summary the host machine
 needs to have the following hardware requirements:</p>
@@ -140,7 +141,7 @@ ConvertTo-MvmcVirtualHardDisk -SourceLiteralPath .\osgeo-live-11.0-vm.vmdk -VhdF
 <h2>How-To<a class="headerlink" href="#how-to" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>This guide assumes Hyper-V is already installed and enabled - if this is not the case the more typical approach using
 Virtual Box outlined at <a class="reference internal" href="virtualization_quickstart.html"><span class="doc">仮想マシン内での OSGeoLive 起動クイックスタート</span></a> can be used.</p>
-<p><strong>仮想マシンの作成</strong></p>
+<p><strong>Create a Virtual Machine</strong></p>
 <ol class="arabic">
 <li><p class="first">Start the Hyper-V Manager application and under Actions select New &gt; Virtual Machine, and then Next. Then enter an appropriate
 name for the virtual machine.</p>
@@ -159,20 +160,20 @@ name for the virtual machine.</p>
 <blockquote>
 <div><img alt="../../_images/osgeolive_hyperv_install2_harddisk.png" src="../../_images/osgeolive_hyperv_install2_harddisk.png" />
 </div></blockquote>
-<p><strong>仮想マシンの起動</strong></p>
+<p><strong>Running the Virtual Machine</strong></p>
 <ol class="arabic simple">
 <li>Select the virtual machine from the Virtual Machines list</li>
 <li>Right-click and select 「Connect」. You will be prompted to start the machine, and a new 「Virtual Machine Connection」 window will open.</li>
 </ol>
 </div>
 <div class="section" id="see-also">
-<h2>参照:<a class="headerlink" href="#see-also" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2>See Also:<a class="headerlink" href="#see-also" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <blockquote>
 <div><ul class="simple">
 <li><a class="reference internal" href="virtualization_quickstart.html"><span class="doc">仮想マシン内での OSGeoLive 起動クイックスタート</span></a>.</li>
 <li><dl class="first docutils">
-<dt>OSGeo Wiki ページ:</dt>
-<dd><a class="reference external" href="https://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine">仮想マシンを作成するその他の方法</a></dd>
+<dt>OSGeo wiki pages:</dt>
+<dd><a class="reference external" href="https://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine">Other ways to create a Virtual Machine</a></dd>
 </dl>
 </li>
 <li><a class="reference internal" href="osgeolive_quickstart.html"><span class="doc">OSGeoLive クイックスタート</span></a></li>
@@ -193,7 +194,7 @@ name for the virtual machine.</p>
 	<font size="-2">
 		<div id="translations">
 		<!-- alphabetical order -->
-              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a>
 		</div>
 	</font>
     </div>
