@@ -115,7 +115,12 @@ or from cartesian data with a wide range of selectable projection functions.</p>
 <span class="n">EOF</span>
 </pre></div>
 </div>
-<p>will perform UTM forward projection with a stan- dard UTM central meridian nearest longitude 112W. The geographic values of this example are equivalent and meant as examples of various forms of DMS input. x-y アウトプットデータは、3行で表示され:</p>
+<p>will perform UTM forward projection with a stan-
+dard UTM central meridian nearest longitude
+112W. The geographic values of this example are
+equivalent and meant as examples of various
+forms of DMS input. The x-y output data will
+appear as three lines of:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="mf">460769.27</span>     <span class="mf">5011648.45</span>
 </pre></div>
 </div>
@@ -152,7 +157,10 @@ projected and geographic coordinates as well as the application of datum shifts.
 <span class="n">EOF</span>
 </pre></div>
 </div>
-<p>will transform the input NAD83 geographic coordinates into NAD27 coordinates in the UTM projection with zone 10 selected. The geographic values of this example are equivalent and meant as examples of various forms of DMS input. x-y出力データは、次の3行で表示されます:</p>
+<p>will transform the input NAD83 geographic coordinates into NAD27
+coordinates in the UTM projection with zone 10 selected. The geographic
+values of this example are equivalent and meant as examples of various forms of DMS input.
+The x-y output data will appear as three lines of:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="mf">1402285.99</span>      <span class="mf">5076292.42</span> <span class="mf">0.000</span>
 </pre></div>
 </div>
@@ -187,7 +195,8 @@ call geod with the -I option.</p>
 </div>
 <div class="section" id="geod-example">
 <h3>geodの例<a class="headerlink" href="#geod-example" title="このヘッドラインへのパーマリンク">¶</a></h3>
-<p>The following script determines the geodesic azimuths and distance in U.S. マサチューセッツ州ボストンからオレゴン州ポートランドまでの法定マイル:</p>
+<p>The following script determines the geodesic azimuths and distance in U.S.
+statute miles from Boston, MA, to Portland, OR:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">geod</span> <span class="o">+</span><span class="n">ellps</span><span class="o">=</span><span class="n">clrk66</span> <span class="o">&lt;&lt;</span><span class="n">EOF</span> <span class="o">-</span><span class="n">I</span> <span class="o">+</span><span class="n">units</span><span class="o">=</span><span class="n">us</span><span class="o">-</span><span class="n">mi</span>
 <span class="mi">42</span><span class="n">d15</span><span class="s1">&#39;N 71d07&#39;</span><span class="n">W</span> <span class="mi">45</span><span class="n">d31</span><span class="s1">&#39;N 123d41&#39;</span><span class="n">W</span>
 <span class="n">EOF</span>
