@@ -79,11 +79,11 @@
 <ul class="simple">
 <li><a class="reference internal" href="#setup" id="id3">セットアップ</a></li>
 <li><a class="reference internal" href="#running-wcps-queries" id="id4">WCPSクエリを実行</a></li>
-<li><a class="reference internal" href="#running-coverage" id="id5">Running coverage</a></li>
-<li><a class="reference internal" href="#access-full-coverage" id="id6">Access full coverage</a></li>
-<li><a class="reference internal" href="#select-a-subset-of-the-coverage" id="id7">Select a subset of the coverage</a></li>
-<li><a class="reference internal" href="#band-extraction-from-the-coverage" id="id8">Band extraction from the coverage</a></li>
-<li><a class="reference internal" href="#arithmetic-operation-extracting-ndvi-of-the-coverage" id="id9">Arithmetic operation: Extracting NDVI of the coverage</a></li>
+<li><a class="reference internal" href="#running-coverage" id="id5">実行中のカバレッジ</a></li>
+<li><a class="reference internal" href="#access-full-coverage" id="id6">フル・カバレッジへのアクセス</a></li>
+<li><a class="reference internal" href="#select-a-subset-of-the-coverage" id="id7">カバレッジのサブセットを選択します。</a></li>
+<li><a class="reference internal" href="#band-extraction-from-the-coverage" id="id8">カバレッジからのバンド抽出</a></li>
+<li><a class="reference internal" href="#arithmetic-operation-extracting-ndvi-of-the-coverage" id="id9">算術演算:カバレッジのNDVIの抽出</a></li>
 <li><a class="reference internal" href="#what-next" id="id10">次のステップ</a></li>
 </ul>
 </div>
@@ -98,47 +98,46 @@
 <dt>Either:</dt>
 <dd><ul class="first last simple">
 <li>Go to the <a class="reference external" href="http://localhost:8080/rasdaman/ows">rasdaman web client</a>, switch to the <em>ProcessCoverages</em> tab, and enter your query in the query boxes and press send.</li>
-<li>Add your query in this url: <a class="reference external" href="http://localhost:8080/rasdaman/ows?query=your_query">http://localhost:8080/rasdaman/ows?query=your_query</a> and run it using a browser.</li>
+<li>クエリーをURLに追加し、ブラウザーを使って実行します:  <a class="reference external" href="http://localhost:8080/rasdaman/ows?query=your_query">http://localhost:8080/rasdaman/ows?query=your_query</a></li>
 </ul>
 </dd>
 </dl>
 </div>
 <div class="section" id="running-coverage">
-<h2><a class="toc-backref" href="#id5">Running coverage</a><a class="headerlink" href="#running-coverage" title="このヘッドラインへのパーマリンク">¶</a></h2>
-<p>The example coverage which will be used subsequently is a 6 MB image as below:</p>
+<h2><a class="toc-backref" href="#id5">実行中のカバレッジ</a><a class="headerlink" href="#running-coverage" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>後で使用されるカバレッジの例は、次の6MBイメージです：</p>
 <a class="reference internal image-reference" href="../../_images/rasdaman_ndvi1.png"><img alt="../../_images/rasdaman_ndvi1.png" src="../../_images/rasdaman_ndvi1.png" style="width: 479.0px; height: 269.0px;" /></a>
 </div>
 <div class="section" id="access-full-coverage">
-<h2><a class="toc-backref" href="#id6">Access full coverage</a><a class="headerlink" href="#access-full-coverage" title="このヘッドラインへのパーマリンク">¶</a></h2>
-<p>The WCPS query to access the full coverage is as follows:</p>
+<h2><a class="toc-backref" href="#id6">フル・カバレッジへのアクセス</a><a class="headerlink" href="#access-full-coverage" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>すべてのカバレッジにアクセスするためのWCPSクエリは次のとおりです。</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="p">(</span><span class="n">NIR</span><span class="p">)</span> <span class="k">return</span> <span class="n">encode</span><span class="p">(</span><span class="n">c</span><span class="p">,</span> <span class="s2">&quot;png&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>Click on <a class="reference external" href="http://localhost:8080/rasdaman/ows?query=for%20c%20in%20(NIR)%20return%20encode%28c,%20%22png%22%29">coverage request</a> to execute it in the browser.</p>
+<p><a href="#id1"><span class="problematic" id="id2">`</span></a>coverage request &lt;<a class="reference external" href="http://localhost:8080/rasdaman/ows?query=for%20c%20">http://localhost:8080/rasdaman/ows?query=for%20c%20</a> in%20(NIR)%20 return%20 encode%28c,%20%22 png%22%29&gt;`_を クリックしてブラウザで実行してください。</p>
 </div>
 <div class="section" id="select-a-subset-of-the-coverage">
-<h2><a class="toc-backref" href="#id7">Select a subset of the coverage</a><a class="headerlink" href="#select-a-subset-of-the-coverage" title="このヘッドラインへのパーマリンク">¶</a></h2>
-<p>The WCPS query to access a subset of the coverage is as follows:</p>
+<h2><a class="toc-backref" href="#id7">カバレッジのサブセットを選択します。</a><a class="headerlink" href="#select-a-subset-of-the-coverage" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>カバレッジのサブセットにアクセスするためのWCPSクエリは次のとおりです：</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="p">(</span><span class="n">NIR</span><span class="p">)</span> <span class="k">return</span> <span class="n">encode</span><span class="p">(</span><span class="n">c</span><span class="p">[</span><span class="n">i</span><span class="p">(</span><span class="mi">0</span><span class="p">:</span><span class="mi">500</span><span class="p">),</span><span class="n">j</span><span class="p">(</span><span class="mi">0</span><span class="p">:</span><span class="mi">500</span><span class="p">)],</span> <span class="s2">&quot;png&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>Click on the <a class="reference external" href="http://localhost:8080/rasdaman/ows?query=for%20c%20in%20(NIR)%20return%20encode%28c[i(0:500),j(0:500)],%20%22png%22%29">subsetting request</a> to execute it on the browser.</p>
-<p>The query result is an image as follows:</p>
+<p>ブラウザで実行するには、<a class="reference external" href="http://localhost:8080/rasdaman/ows?query=for%20c%20in%20(NIR)%20return%20encode%28c[i(0:500),j(0:500)],%20%22png%22%29">subsetting request</a>  をクリックします。</p>
+<p>クエリー結果は次のようなイメージです:</p>
 <a class="reference internal image-reference" href="../../_images/rasdaman_ndvi2.png"><img alt="../../_images/rasdaman_ndvi2.png" src="../../_images/rasdaman_ndvi2.png" style="width: 479.0px; height: 125.25px;" /></a>
 </div>
 <div class="section" id="band-extraction-from-the-coverage">
-<h2><a class="toc-backref" href="#id8">Band extraction from the coverage</a><a class="headerlink" href="#band-extraction-from-the-coverage" title="このヘッドラインへのパーマリンク">¶</a></h2>
-<p>The WCPS query to access the red band of the coverage is as follows:</p>
+<h2><a class="toc-backref" href="#id8">カバレッジからのバンド抽出</a><a class="headerlink" href="#band-extraction-from-the-coverage" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>カバレッジの赤色帯域にアクセスするためのWCPSクエリは次のとおりです:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="p">(</span><span class="n">NIR</span><span class="p">)</span> <span class="k">return</span> <span class="n">encode</span><span class="p">(</span><span class="n">c</span><span class="o">.</span><span class="n">red</span><span class="p">,</span> <span class="s2">&quot;png&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>Click on <a class="reference external" href="http://localhost:8080/rasdaman/ows?query=for%20c%20in%20(NIR)%20return%20encode%28c.red,%20%22png%22%29">band extraction</a> to execute it; you should see the following image in the browser as a result:</p>
+<p><a class="reference external" href="http://localhost:8080/rasdaman/ows?query=for%20c%20in%20(NIR)%20return%20encode%28c.red,%20%22png%22%29">band extraction</a> をクリックして、実行します。その結果、つぎのような画像が表示されます：</p>
 <a class="reference internal image-reference" href="../../_images/rasdaman_ndvi3.png"><img alt="../../_images/rasdaman_ndvi3.png" src="../../_images/rasdaman_ndvi3.png" style="width: 479.0px; height: 269.0px;" /></a>
 </div>
 <div class="section" id="arithmetic-operation-extracting-ndvi-of-the-coverage">
-<h2><a class="toc-backref" href="#id9">Arithmetic operation: Extracting NDVI of the coverage</a><a class="headerlink" href="#arithmetic-operation-extracting-ndvi-of-the-coverage" title="このヘッドラインへのパーマリンク">¶</a></h2>
-<p>The NDVI (Normalized Difference Vegetation Index) is a measure for the probability of vegetation in remote sensing, i.e., the closer to +1 a pixel is, the more likely it is plants.
-The WCPS query to derive NDVI from the coverage is as follows:</p>
+<h2><a class="toc-backref" href="#id9">算術演算:カバレッジのNDVIの抽出</a><a class="headerlink" href="#arithmetic-operation-extracting-ndvi-of-the-coverage" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>NDVI(Normalized Difference Vegetation Index)はリモートセンシングにおける植生の確率の尺度です。カバレッジからNDVIを導出するためのWCPSクエリは次のとおりです。</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="p">(</span> <span class="n">NIR</span> <span class="p">)</span> <span class="k">return</span>
 <span class="n">encode</span><span class="p">(</span>
   <span class="p">(</span><span class="n">unsigned</span> <span class="n">char</span><span class="p">)</span> <span class="p">(</span>
@@ -153,11 +152,9 @@ The WCPS query to derive NDVI from the coverage is as follows:</p>
 <div class="section" id="what-next">
 <h2><a class="toc-backref" href="#id10">次のステップ</a><a class="headerlink" href="#what-next" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <ul class="simple">
-<li>The <a class="reference external" href="https://tutorial.rasdaman.org/">rasdaman tutorial</a> provides a condensed introduction to the concepts behind rasdaman, rasql and the OGC web services support.</li>
-<li>Learn more about the OGC  <a class="reference external" href="https://www.ogc.org/standards/wcps">Web Coverage Processing Service</a> Language standard (which was heavily inspired
-by rasdaman); a good starting point is the
-<a class="reference external" href="https://standards.rasdaman.com/">documentation and tutorials page</a>  and <a class="reference external" href="http://localhost/rasdaman-demo/demo/client/query-sandbox.html">WCPS Query SandBox</a>.</li>
-<li>Interested in coverage data and services in general? Visit OGC’s <a class="reference external" href="https://external.ogc.org/twiki_public/CoveragesDWG/WebHome">Coverages Domain Working Group wiki</a>.</li>
+<li><a class="reference external" href="https://tutorial.rasdaman.org/">rasdaman tutorial</a> は、rasdaman, rasql そして、OGC Webサービスサポートの背景にある概念を要約して紹介しています。</li>
+<li>OGC  <a class="reference external" href="https://www.ogc.org/standards/wcps">Web Coverage Processing Service</a> 言語標準 (rasdamanに影響されて制定された)について、学習してください。 <a class="reference external" href="https://standards.rasdaman.com/">documentation and tutorials page</a>  そして、 <a class="reference external" href="http://localhost/rasdaman-demo/demo/client/query-sandbox.html">WCPS Query SandBox</a> が良い出発点になるでしょう。</li>
+<li>カバレッジデータおよびサービス全般に興味がありますか?OGCの <a class="reference external" href="https://external.ogc.org/twiki_public/CoveragesDWG/WebHome">Coverages Domain Working Group wiki</a> を参照してみましょう。</li>
 <li>Explore the <a class="reference external" href="https://doc.rasdaman.org">rasdaman documentation</a> to learn about rasdaman administration, its query language, and data ingestion.</li>
 <li>Go to the <a class="reference external" href="http://localhost/rasdaman-demo">multi-dimensional demo</a> to explore interactive 1-D to 4-D rasdaman demos.
 The small ones are part of OSGeoLive, those utilizing larger sets (beyond this drive’s capacity)

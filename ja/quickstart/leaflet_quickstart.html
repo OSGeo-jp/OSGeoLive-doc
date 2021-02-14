@@ -80,9 +80,9 @@
 <li><a class="reference internal" href="#running" id="id2">実行する</a></li>
 <li><a class="reference internal" href="#preparing-your-page" id="id3">HTMLページを用意する</a></li>
 <li><a class="reference internal" href="#setting-up-the-map" id="id4">地図を設定する</a></li>
-<li><a class="reference internal" href="#markers-circles-and-polygons" id="id5">Markers, circles and polygons</a></li>
-<li><a class="reference internal" href="#working-with-popups" id="id6">Working with popups</a></li>
-<li><a class="reference internal" href="#dealing-with-events" id="id7">Dealing with events</a></li>
+<li><a class="reference internal" href="#markers-circles-and-polygons" id="id5">マーカー、円、ポリゴン</a></li>
+<li><a class="reference internal" href="#working-with-popups" id="id6">ポップアップの操作</a></li>
+<li><a class="reference internal" href="#dealing-with-events" id="id7">イベントへの対応</a></li>
 <li><a class="reference internal" href="#what-next" id="id8">次のステップ</a></li>
 </ul>
 </li>
@@ -146,17 +146,16 @@
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">L</span><span class="o">.</span><span class="n">tileLayer</span><span class="p">(</span><span class="s1">&#39;http://</span><span class="si">{s}</span><span class="s1">.tile.openstreetmap.org/</span><span class="si">{z}</span><span class="s1">/</span><span class="si">{x}</span><span class="s1">/</span><span class="si">{y}</span><span class="s1">.png&#39;</span><span class="p">,{</span><span class="n">maxZoom</span><span class="p">:</span><span class="mi">18</span><span class="p">,</span> <span class="n">attribution</span><span class="p">:</span> <span class="s1">&#39;© &lt;a href=&quot;https://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt; contributors&#39;</span><span class="p">})</span><span class="o">.</span><span class="n">addTo</span><span class="p">(</span><span class="nb">map</span><span class="p">);</span>
 </pre></div>
 </div>
-<p>Make sure all the code is called after the <strong>div</strong> and <strong>leaflet.js</strong> inclusion. That’s it! You have a working Leaflet map now.</p>
-<p>It’s worth noting that Leaflet is provider-agnostic, meaning that it doesn’t enforce a particular choice of providers for tiles, and it doesn’t even contain a single provider-specific line of code, so you’re free to use other providers if you need to.</p>
+<p>すべてのコードが <strong>div</strong> タグと <strong>leaflet.js</strong> の読み込みの後に呼び出されていることを確認してください。これが全てです。これで、Leaflet の地図をうごかすことができました。</p>
+<p>Leaflopはプロバイダに依存しないので、タイルに対して特定のプロバイダの選択を強制することはなく、プロバイダ固有のコード行も含まれていないので、必要に応じて他のプロバイダを使用することもできます。</p>
 </div>
 <div class="section" id="markers-circles-and-polygons">
-<h2><a class="toc-backref" href="#id5">Markers, circles and polygons</a><a class="headerlink" href="#markers-circles-and-polygons" title="このヘッドラインへのパーマリンク">¶</a></h2>
-<p>Besides tile layers, you can easily add other things to your map, including markers, polylines, polygons, circles and popups.
-Let’s add a marker:</p>
+<h2><a class="toc-backref" href="#id5">マーカー、円、ポリゴン</a><a class="headerlink" href="#markers-circles-and-polygons" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>タイルレイヤ以外にも、マーカー、ポリライン、ポリゴン、円、ポップアップなど、他のものをマップに簡単に追加できます。マーカーを追加しましょう：</p>
 <div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">marker</span> <span class="o">=</span> <span class="nx">L</span><span class="p">.</span><span class="nx">marker</span><span class="p">([</span><span class="mf">44.437</span> <span class="p">,</span><span class="mf">26.104</span><span class="p">]).</span><span class="nx">addTo</span><span class="p">(</span><span class="nx">map</span><span class="p">);</span>
 </pre></div>
 </div>
-<p>Adding a circle is the same (except for specifying the radius in meters as a second argument), but lets you control how it looks by passing options as the last argument when creating the object:</p>
+<p>円の追加もだいたい同じです。ただし、2番目の引数として半径をメートル単位で指定する点が違います。 さらに、オブジェクトの作成時に最後の引数としてオプションを渡すことで、円の外観を制御できます。</p>
 <div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">circle</span> <span class="o">=</span> <span class="nx">L</span><span class="p">.</span><span class="nx">circle</span><span class="p">([</span><span class="mf">44.435</span><span class="p">,</span> <span class="mf">26.11</span><span class="p">],</span> <span class="mf">250</span><span class="p">,</span> <span class="p">{</span>
    <span class="nx">color</span><span class="o">:</span> <span class="s1">&#39;red&#39;</span><span class="p">,</span>
    <span class="nx">fillColor</span><span class="o">:</span> <span class="s1">&#39;#f03&#39;</span><span class="p">,</span>
@@ -164,7 +163,7 @@ Let’s add a marker:</p>
 <span class="p">}).</span><span class="nx">addTo</span><span class="p">(</span><span class="nx">map</span><span class="p">);</span>
 </pre></div>
 </div>
-<p>Adding a polygon is as easy:</p>
+<p>ポリゴンの追加は簡単です：</p>
 <div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">polygon</span> <span class="o">=</span> <span class="nx">L</span><span class="p">.</span><span class="nx">polygon</span><span class="p">([</span>
     <span class="p">[</span><span class="mf">44.433</span><span class="p">,</span> <span class="mf">26.102</span><span class="p">],</span>
     <span class="p">[</span><span class="mf">44.442</span><span class="p">,</span> <span class="mf">26.095</span><span class="p">],</span>
@@ -174,19 +173,19 @@ Let’s add a marker:</p>
 </div>
 </div>
 <div class="section" id="working-with-popups">
-<h2><a class="toc-backref" href="#id6">Working with popups</a><a class="headerlink" href="#working-with-popups" title="このヘッドラインへのパーマリンク">¶</a></h2>
-<p>Popups are usually used when you want to attach some information to a particular object on a map. Leaflet has a very handy shortcut for this:</p>
+<h2><a class="toc-backref" href="#id6">ポップアップの操作</a><a class="headerlink" href="#working-with-popups" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>ポップアップは通常、マップ上の特定のオブジェクトに情報をアタッチする場合に使用します。リーフレットには非常に便利なショートカットがあります：</p>
 <div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">popup</span> <span class="o">=</span> <span class="nx">L</span><span class="p">.</span><span class="nx">popup</span><span class="p">()</span>
    <span class="p">.</span><span class="nx">setLatLng</span><span class="p">([</span><span class="mf">44.437</span><span class="p">,</span> <span class="mf">26.104</span><span class="p">])</span>
    <span class="p">.</span><span class="nx">setContent</span><span class="p">(</span><span class="s2">&quot;I am a standalone popup.&quot;</span><span class="p">)</span>
    <span class="p">.</span><span class="nx">openOn</span><span class="p">(</span><span class="nx">map</span><span class="p">);</span>
 </pre></div>
 </div>
-<p>Here we use <strong>openOn</strong> instead of <strong>addTo</strong> because it handles automatic closing of a previously opened popup when opening a new one which is good for usability.</p>
+<p>ここでは、 <strong>addTo</strong> の代わりに <strong>openOn</strong> を使用しています。これは、新しいポップアップを開いたときに、以前に開いたポップアップを閉じる処理を自動化します。使いやすさを優先しています。</p>
 </div>
 <div class="section" id="dealing-with-events">
-<h2><a class="toc-backref" href="#id7">Dealing with events</a><a class="headerlink" href="#dealing-with-events" title="このヘッドラインへのパーマリンク">¶</a></h2>
-<p>Every time something happens in Leaflet, e.g. user clicks on a marker or map zoom changes, the corresponding object sends an event which you can subscribe to with a function. It allows you to react to user interaction:</p>
+<h2><a class="toc-backref" href="#id7">イベントへの対応</a><a class="headerlink" href="#dealing-with-events" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>ユーザーがマーカーをクリックしたり、地図のズームを変更したりするなど、何か Leaflet に起こるたびに、対応するオブジェクトがイベントを送信し、ユーザーはそのイベントを関数でsubscribe (受信) することができます。この仕組みで、ユーザーの操作に反応できます。</p>
 <div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">function</span> <span class="nx">onMapClick</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
    <span class="nx">alert</span><span class="p">(</span><span class="s2">&quot;You clicked the map at &quot;</span> <span class="o">+</span> <span class="nx">e</span><span class="p">.</span><span class="nx">latlng</span><span class="p">);</span>
 <span class="p">}</span>
@@ -194,8 +193,8 @@ Let’s add a marker:</p>
 <span class="nx">map</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;click&#39;</span><span class="p">,</span> <span class="nx">onMapClick</span><span class="p">);</span>
 </pre></div>
 </div>
-<p>Each object has its own set of events - see <a class="reference external" href="https://leafletjs.com/reference.html">documentation</a> for details. The first argument of the listener function is an event object - it contains useful information about the event that happened. For example, map click event object (e in the example above) has latlng property which is a location at which the click occured.</p>
-<p>Let’s improve our example by using a popup instead of an alert:</p>
+<p>各オブジェクトには独自のイベント・セットがあります。詳細は <a class="reference external" href="https://leafletjs.com/reference.html">documentation</a> を参照してください。リスナー関数の最初の引数はイベントオブジェクトです。イベントオブジェクトには、発生したイベントに関する有用な情報が含まれています。たとえば、マップクリックイベントオブジェクト(上の例のe)には、クリックが発生した場所であるlatlngプロパティがあります。</p>
+<p>アラートの代わりにポップアップを使用して、例を改善しましょう。</p>
 <div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">popup</span> <span class="o">=</span> <span class="nx">L</span><span class="p">.</span><span class="nx">popup</span><span class="p">();</span>
 
 <span class="kd">function</span> <span class="nx">onMapClick</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
@@ -208,11 +207,11 @@ Let’s add a marker:</p>
 <span class="nx">map</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;click&#39;</span><span class="p">,</span> <span class="nx">onMapClick</span><span class="p">);</span>
 </pre></div>
 </div>
-<p>Try clicking on the map and you will see the coordinates in a popup. View the full <a class="reference external" href="https://localhost/leaflet-demo.html">example</a></p>
+<p>マップをクリックすると、座標がポップアップで表示されます。完全な <a class="reference external" href="https://localhost/leaflet-demo.html">example</a> を表示します</p>
 </div>
 <div class="section" id="what-next">
 <h2><a class="toc-backref" href="#id8">次のステップ</a><a class="headerlink" href="#what-next" title="このヘッドラインへのパーマリンク">¶</a></h2>
-<p>Now you’ve learned Leaflet basics and can start building map apps straight away! Don’t forget to take a look at the detailed <a class="reference external" href="https://leafletjs.com/reference.html">documentation</a> or other <a class="reference external" href="https://leafletjs.com/examples.html">examples</a>.</p>
+<p>これで、Leaflet の基礎を学び、地図アプリをすぐに作ることができます!詳細な <a class="reference external" href="https://leafletjs.com/reference.html">documentation</a> やその他の <a class="reference external" href="https://leafletjs.com/examples.html">examples</a> をぜひ見てください。</p>
 </div>
 </div>
 
