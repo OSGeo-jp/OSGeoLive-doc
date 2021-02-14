@@ -137,12 +137,12 @@
 </div>
 <p>デフォルトで、 (地図インスタンスを作成するときに、設定オプションを与えない場合), 全てのマウス操作とタッチ操作は有効化されます。ズームや属性制御することができます。</p>
 <p>setView のよびだしも、地図オブジェクトを返却します。 - 多くのLeafletのメソッドは、明示的な戻り値がない場合、同様に動作します。 jQueryのようなメソッドのチェインニングができて便利です。</p>
-<p>次に、地図にレイヤを追加します。In this case we will be using the tile images provided by TileStache on the live dvd. Note that using nicer background maps such as openstreetmap will result in a much better user experience.</p>
-<p>Creating a tile layer usually involves setting the URL template for the tile images, the attribution text and the maximum zoom level of the layer:</p>
+<p>次に、地図にレイヤを追加します。この例では、ライブDVDでTileStacheから提供されたタイルイメージを使用します。OpenStreetMap などの、より良い背景地図を使用すると、ユーザ体験を向上させられることに注意してください。</p>
+<p>タイルレイヤ を作成するには、通常、タイルイメージのURLテンプレート、属性テキスト、およびレイヤーの最大ズームレベルを設定します。</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">L</span><span class="o">.</span><span class="n">tileLayer</span><span class="p">(</span><span class="s1">&#39;http://localhost:8012/example/</span><span class="si">{z}</span><span class="s1">/</span><span class="si">{x}</span><span class="s1">/</span><span class="si">{y}</span><span class="s1">.png,</span><span class="si">{}</span><span class="s1">).addTo(map);</span>
 </pre></div>
 </div>
-<p>If you have online access you may want to use a nicer tilemap as the background:</p>
+<p>オンラインアクセスがある場合は、バックグラウンドとしてより良いタイルマップサービスを使用することができます。</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">L</span><span class="o">.</span><span class="n">tileLayer</span><span class="p">(</span><span class="s1">&#39;http://</span><span class="si">{s}</span><span class="s1">.tile.openstreetmap.org/</span><span class="si">{z}</span><span class="s1">/</span><span class="si">{x}</span><span class="s1">/</span><span class="si">{y}</span><span class="s1">.png&#39;</span><span class="p">,{</span><span class="n">maxZoom</span><span class="p">:</span><span class="mi">18</span><span class="p">,</span> <span class="n">attribution</span><span class="p">:</span> <span class="s1">&#39;© &lt;a href=&quot;https://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt; contributors&#39;</span><span class="p">})</span><span class="o">.</span><span class="n">addTo</span><span class="p">(</span><span class="nb">map</span><span class="p">);</span>
 </pre></div>
 </div>
