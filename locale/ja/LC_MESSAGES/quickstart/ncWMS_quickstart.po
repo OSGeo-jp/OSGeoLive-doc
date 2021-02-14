@@ -281,6 +281,9 @@ msgid ""
 " a colleague. The \"Permalink\" under the bottom right-hand corner of the "
 "map links to a complete URL that recreates the current view."
 msgstr ""
+"You may want to save the current view to return to it later or share it with"
+" a colleague. The \"Permalink\" under the bottom right-hand corner of the "
+"map links to a complete URL that recreates the current view."
 
 #: ../../build/doc/quickstart/ncWMS_quickstart.rst:129
 msgid "Left-click on the permalink to bring up a new window with an identical view."
