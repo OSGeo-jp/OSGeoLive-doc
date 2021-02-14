@@ -72,7 +72,7 @@
   <div class="section" id="osgeolive-quickstart-for-running-in-a-hyper-v-virtual-machine">
 <h1>Hyper-V 仮想マシン内での OSGeoLive 起動クイックスタート<a class="headerlink" href="#osgeolive-quickstart-for-running-in-a-hyper-v-virtual-machine" title="このヘッドラインへのパーマリンク">¶</a></h1>
 <p>ここでは、OSGeoLive を マイクロソフトの仮想マシン技術ソフトウエアのHyper-V から起動する方法を説明します。他の方法については、以下の 「参照」 の章のリンクにしたがってください。Hyper-V は、Windowsサーバか、Windows 10 プロフェッショナル版で利用することができます。Windows 10 Homeには含まれていません。</p>
-<p>仮想マシンを利用する利点は、 <a class="reference internal" href="virtualization_quickstart.html"><span class="doc">仮想マシン内での OSGeoLive 起動クイックスタート</span></a> にまとまっています。残念ですが、VirtualBoxと、Hyper-Vの両方を同時に試すことはできません。つまり、二つの選択肢のどちらかだけです。Hyper-Vを無告にするか、OSGeoLiveをHyper-Vで起動できるように設定するか、です。無料ツールの <a class="reference external" href="https://unclassified.software/en/apps/hypervswitch">hypervswitch</a> を使えば、簡単にすぐにHyper-Vの有効/無効を切りかえできます。しかし、設定を変更したときは再起動が必要です。このページのこれ以降は、OSGeoLiveをHyper-Vで稼動させる方法を説明します。</p>
+<p>仮想マシンを利用する利点は、 <a class="reference internal" href="virtualization_quickstart.html"><span class="doc">仮想マシン内での OSGeoLive 起動クイックスタート</span></a> にまとまっています。残念ですが、VirtualBoxと、Hyper-Vの両方を同時に試すことはできません。つまり、二つの選択肢のどちらかだけです。Hyper-Vを無効にするか、OSGeoLiveをHyper-Vで起動できるように設定するか、です。無料ツールの <a class="reference external" href="https://unclassified.software/en/apps/hypervswitch">hypervswitch</a> を使えば、簡単にすぐにHyper-Vの有効/無効を切りかえできます。しかし、設定を変更したときは再起動が必要です。このページのこれ以降は、OSGeoLiveをHyper-Vで稼動させる方法を説明します。</p>
 <div class="section" id="system-requirements">
 <h2>動作環境<a class="headerlink" href="#system-requirements" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>Hyper-V の必要要件は <a class="reference external" href="https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/reference/hyper-v-requirements">ここ</a> で確認できます。このリンク先には、あなたが利用しているPCが、Hyper-Vをサポートできるかをチェックするツールの <code class="docutils literal"><span class="pre">systeminfo</span></code> コマンドの情報もあります。簡単にまとめると、ホストマシンは次のハードウエア要件を満す必要があります:</p>
@@ -83,19 +83,17 @@
 </div>
 <div class="section" id="downloads-and-virtual-machine-conversion">
 <h2>ダウンロード後に仮想マシンの変換<a class="headerlink" href="#downloads-and-virtual-machine-conversion" title="このヘッドラインへのパーマリンク">¶</a></h2>
-<p>Download the OSGeoLive VirtualBox virtual hard disk (vmdk) by following the links on <a class="reference internal" href="../download.html"><span class="doc">live.osgeo.org</span></a>.
-Once downloaded unzip the downloaded file (using <a class="reference external" href="https://www.7-zip.org">7zip</a> ).</p>
+<p><a class="reference internal" href="../download.html"><span class="doc">live.osgeo.org</span></a> のリンクから、 OSGeoLiveの VirtualBox仮想ハードディスク(vmdk)をダウンロードします。ダウンロードして、(<a class="reference external" href="https://www.7-zip.org">7zip</a> を使って)Unzipします。</p>
 <p>Hyper-Vの仮想マシンのイメージフォーマットは、VirtualBoxのダウンロードされたイメージと異なっています。つまり、<code class="docutils literal"><span class="pre">vmdk</span></code> ファイルを <code class="docutils literal"><span class="pre">vhdx</span></code> へ変換しないといけないのです。二つの変換方法がいまのところあります。</p>
 <div class="section" id="starwind-v2v-converter">
 <h3>StarWind V2V Converter<a class="headerlink" href="#starwind-v2v-converter" title="このヘッドラインへのパーマリンク">¶</a></h3>
-<p>Use the <a class="reference external" href="https://www.starwindsoftware.com/starwind-v2v-converter">StarWind V2V Converter</a> program. This has a simple user interface allowing you to select the
-<code class="docutils literal"><span class="pre">osgeo-live-XX.X-vm.vmdk</span></code> file and convert to a <em>Microsoft VHDX</em> image.</p>
+<p><a class="reference external" href="https://www.starwindsoftware.com/starwind-v2v-converter">StarWind V2V Converter</a> プログラムを使う方法これは、簡易なユーザインターフェースをもち、 <code class="docutils literal"><span class="pre">osgeo-live-XX.X-vm.vmdk</span></code> ファイルを選択して、 <em>Microsoft VHDX</em> イメージに変換できます。</p>
 </div>
 <div class="section" id="microsoft-virtual-machine-converter-3-0">
 <h3>Microsoft Virtual Machine Converter 3.0<a class="headerlink" href="#microsoft-virtual-machine-converter-3-0" title="このヘッドラインへのパーマリンク">¶</a></h3>
 <p>二つ目の選択肢は、以下に示すように少し複雑です。</p>
 <ol class="arabic simple">
-<li>Download the <a class="reference external" href="https://www.microsoft.com/en-us/download/details.aspx?id=42497">Microsoft Virtual Machine Converter 3.0</a> and install.</li>
+<li><a class="reference external" href="https://www.microsoft.com/en-us/download/details.aspx?id=42497">Microsoft Virtual Machine Converter 3.0</a> をダウンロードしてインストールします。</li>
 <li>DS File Ops Kit をダウンロードして、unzipします。</li>
 <li>PowerShellを管理者権限で開きます。</li>
 <li>OSGeoLiveのvmdkファイルから、ディスクの記述子を取得するため、次のコマンドを実行します。」descriptor1.txt」 に仮想ディスクの情報が保存されます。</li>
@@ -142,9 +140,9 @@ ConvertTo-MvmcVirtualHardDisk -SourceLiteralPath .\osgeo-live-11.0-vm.vmdk -VhdF
 </li>
 <li><p class="first">メモリ割り当てのときは、 「仮想マシンに動的メモリを使用する」を選択することもできます。</p>
 </li>
-<li><p class="first">仮想マシンがインターネット接続させる必要がある場合、」ネットワーク設定」スクリーンで設定する必要があります。</p>
+<li><p class="first">仮想マシンがインターネット接続させる必要がある場合、 「ネットワーク設定」 スクリーンで設定する必要があります。</p>
 </li>
-<li><p class="first">「仮想ハードディスクの接続」では、 「既存の仮想ハードディスクを使用」 を選択し、先程解凍した <code class="docutils literal"><span class="pre">.vhdx</span></code> ファイルを指定します。</p>
+<li><p class="first">「仮想ハードディスクの接続」 では、 「既存の仮想ハードディスクを使用」 を選択し、先程解凍した <code class="docutils literal"><span class="pre">.vhdx</span></code> ファイルを指定します。</p>
 </li>
 </ol>
 <blockquote>
@@ -153,7 +151,7 @@ ConvertTo-MvmcVirtualHardDisk -SourceLiteralPath .\osgeo-live-11.0-vm.vmdk -VhdF
 <p><strong>仮想マシンの起動</strong></p>
 <ol class="arabic simple">
 <li>仮想マシンの一覧から、作成した仮想マシンを選択します。</li>
-<li>右クリックして、」接続」 を選択。仮想マシンが起動するまで、すこし待つと、 「仮想マシン接続」 ウインドウが開きます。</li>
+<li>右クリックして、 「接続」 を選択。仮想マシンが起動するまで、すこし待つと、 「仮想マシン接続」 ウインドウが開きます。</li>
 </ol>
 </div>
 <div class="section" id="see-also">
