@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../build/doc/overview/proj_overview.rst:17
 msgid "PROJ"
-msgstr ""
+msgstr "PROJ"
 
 #: ../../build/doc/overview/proj_overview.rst:19
 msgid ""
@@ -33,6 +33,7 @@ msgid ""
 " as latitude, longitude and elevation). Different systems are used to "
 "represent the tridimensional earth on a flat, bidimensional map."
 msgstr ""
+"PROJは、異なる座標参照システム間で変換するメソッドを提供するライブラリです。地理座標参照システムでは、地球上のすべての点を座標(緯度、経度、高度など)のセットとして記述できます。それぞれのシステムは、平坦な二次元マップ上に三次元地球を表現ししています。"
 
 #: ../../build/doc/overview/proj_overview.rst:25
 msgid ""
@@ -41,41 +42,50 @@ msgid ""
 "<mapnik_overview>`, Thuban, OGDI, TopoCad, OGRCoordinateTransformation and "
 "various others."
 msgstr ""
+"PROJは、 :doc:`MapServer <mapserver_overview>` 、 :doc:`GRASS GIS "
+"<grass_overview>` 、 :doc:`PostGIS <postgis_overview>` 、 :doc:`Mapnik "
+"<mapnik_overview>` 、そして、 Thuban, OGDI, TopoCad, OGRCoordinateTransformation "
+"などなどで利用されています。"
 
 #: ../../build/doc/overview/proj_overview.rst:27
 msgid ""
 "PROJ has been translated from C to `other languages "
 "<https://trac.osgeo.org/metacrs/wiki>`_. These sub-projects include:"
 msgstr ""
+"PROJ は、Cから、 `ほかの言語へ <https://trac.osgeo.org/metacrs/wiki>`_ "
+"変換されています。サブプロジェクトには、:"
 
 #: ../../build/doc/overview/proj_overview.rst:29
 msgid ""
 "Proj4js (JavaScript) - used in :doc:`OpenLayers <openlayers_overview>`."
 msgstr ""
+"Proj4js (JavaScript) -  :doc:`OpenLayers <openlayers_overview>` で使われている。"
 
 #: ../../build/doc/overview/proj_overview.rst:30
 msgid "CS-Map (C++) - used in MapGuide."
-msgstr ""
+msgstr "CS-Map (C++) -   MapGuide に採用"
 
 #: ../../build/doc/overview/proj_overview.rst:31
 msgid "GeoTIFF/libgeotiff (C++)."
-msgstr ""
+msgstr "GeoTIFF/libgeotiff (C++)。"
 
 #: ../../build/doc/overview/proj_overview.rst:32
 msgid "Proj4J (Java)."
-msgstr ""
+msgstr "Proj4J (Java)。"
 
 #: ../../build/doc/overview/proj_overview.rst:33
 msgid ""
 "`EPSG.io <https://epsg.io/>`_ - website to retrieve coordinate system "
 "definitions"
-msgstr ""
+msgstr "`EPSG.io <https://epsg.io/>`_  - 座標系定義を取得するためのWebサイトです"
 
 #: ../../build/doc/overview/proj_overview.rst:34
 msgid ""
 "`SpatialReference.org <https://spatialreference.org/>`_ - website to "
 "retrieve coordinate system definitions (obsolete)."
 msgstr ""
+"`SpatialReference.org <https://spatialreference.org/>`_  - "
+"座標系定義を取得するためのWebサイトです(旧式)"
 
 #: ../../build/doc/overview/proj_overview.rst:43
 msgid "Core Features"
@@ -104,6 +114,8 @@ msgid ""
 "PROJ uses coordinate system definitions defined by the `European Petroleum "
 "Survey Group (EPSG) <https://www.epsg.org/>`_. Well Known Text (WKT) format."
 msgstr ""
+"PROJ は、 `European Petroleum Survey Group (EPSG) <https://www.epsg.org/>`_ "
+"で定義されている座標系定義を使用しています。Well Known Text(WKT)形式。"
 
 #: ../../build/doc/overview/proj_overview.rst:59
 msgid "Details"
@@ -111,17 +123,19 @@ msgstr "詳細"
 
 #: ../../build/doc/overview/proj_overview.rst:61
 msgid "**Website:** https://proj.org/"
-msgstr ""
+msgstr "**Webサイト:** https://proj.org/"
 
 #: ../../build/doc/overview/proj_overview.rst:63
 msgid ""
 "**Licence:** `X/MIT Open Source license "
 "<https://proj.org/about.html#license>`_"
 msgstr ""
+"**ライセンス:** `X/MIT Open Source license "
+"<https://proj.org/about.html#license>`_"
 
 #: ../../build/doc/overview/proj_overview.rst:65
 msgid "**Software Version:** |version-proj|"
-msgstr ""
+msgstr "**ソフトウエアバージョン:** |version-proj|"
 
 #: ../../build/doc/overview/proj_overview.rst:67
 msgid "**Supported Platforms:** Windows, Linux, Mac"
@@ -141,4 +155,4 @@ msgstr "クイックスタート"
 
 #: ../../build/doc/overview/proj_overview.rst:78
 msgid ":doc:`Quickstart documentation <../quickstart/proj_quickstart>`"
-msgstr ""
+msgstr ":doc:`クイックスタート文書 <../quickstart/proj_quickstart>`"

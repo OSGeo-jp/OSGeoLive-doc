@@ -31,6 +31,9 @@ msgid ""
 "functionality to :doc:`../overview/postgis_overview`/`PostgreSQL "
 "<https://www.postgresql.org>`_ databases."
 msgstr ""
+"pgRouting は、経路探索と他のネットワーク解析機能を "
+":doc:`../overview/postgis_overview`/`PostgreSQL "
+"<https://www.postgresql.org>`_ データベースに追加する拡張機能です。"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:32
 msgid "Enabling pgRouting in a database"
@@ -47,10 +50,12 @@ msgid ""
 "Open a :menuselection:`System Tools --> QTerminal` window and execute the "
 "commandline tool packaged with PostgreSQL `psql`"
 msgstr ""
+":menuselection:`システムツール --> QTerminal` ウィンドウを開き、PostgreSQL の `psql` "
+"コマンドラインツールを実行します。"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:43
 msgid "At the `psql` prompt type:"
-msgstr ""
+msgstr "`psql` プロンプトで次のように入力します::"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:52
 msgid "You can verify your installation by running this:"
@@ -58,11 +63,11 @@ msgstr "インストールの確認は、以下の実行により可能です:"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:65
 msgid "Your version should be 3.1.0 or higher"
-msgstr ""
+msgstr "バージョンは 3.1.0 かそれ以上である必要があります。"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:67
 msgid "Exit the database"
-msgstr ""
+msgstr "データベースから抜けます"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:75
 msgid "Loading OSM data with osm2pgrouting"
@@ -73,18 +78,19 @@ msgid ""
 "osm2pgrouting is a command-line tool for loading `.osm` files into the "
 "database with a pgRouting compatible format."
 msgstr ""
+"osm2pgrouting は、pgRouting互換形式でデータベースに `.osm` ファイルをロードするためのコマンドラインツールです。"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:80
 msgid "Check the installed version"
-msgstr ""
+msgstr "インストールされているバージョンを確認します"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:86
 msgid "Output shows"
-msgstr ""
+msgstr "出力が表示されます"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:92
 msgid "Load the data from osm file:"
-msgstr ""
+msgstr "osmファイルからデータをロードします:"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:108
 msgid "Output should be something like:"
@@ -92,15 +98,15 @@ msgstr "出力は以下のような形となるはずです:"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:177
 msgid "Check the imported data"
-msgstr ""
+msgstr "インポートしたデータをチェックします"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:179
 msgid "Connect to the `city_routing` database"
-msgstr ""
+msgstr "`city_routing` データベースに接続します"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:185
 msgid "The :command:`\\\\d` command will list all available tables and sequences"
-msgstr ""
+msgstr ":command:`\\\\d` コマンドは利用可能なすべてのテーブルとシーケンスをリストしますwill list"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:207
 msgid ""
@@ -108,41 +114,45 @@ msgid ""
 "unique identifier for all the data: `id` on the vertices, `gid` on the "
 "edges."
 msgstr ""
+"osm2pgrouting は OSM 識別子 `osm_id` をロードし、すべてのデータに対して一意の識別子を生成します: 頂点に対しては "
+"`id`、エッジに対しては `gid` となります。"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:216
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:275
 msgid "The results are:"
-msgstr ""
+msgstr "結果は次のとおりです:"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:228
 msgid "Inner Query"
-msgstr ""
+msgstr "内部クエリ"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:230
 msgid ""
 "Most of the pgRouting functions have a parameter that is an SQL statement, "
 "it is called **inner query**"
-msgstr ""
+msgstr "ほとんどの pgRouting 関数には SQL ステートメントであるパラメータがあり、これは **内部クエリ** と呼ばれます。"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:233
 msgid ""
 "The inner SQL statement must always have field names `id`, `source`, "
 "`target`, and `cost` having `reverse_cost` as optional."
 msgstr ""
+"内部 SQL ステートメントは常にフィールド名 `id`、`source`、`target` および `cost` "
+"を持たなければならず、`reverse_cost` はオプションとして扱われます。"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:236
 msgid "Inner query that use `gid` as identifier of the segments"
-msgstr ""
+msgstr "セグメントの識別子として `gid` を使用する内部クエリ"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:245
 msgid ""
 "Inner query that use `gid` as identifier of the segments and lenght as "
 "`cost` without the optional `reverse_cost`"
-msgstr ""
+msgstr "セグメントの識別子として `gid`、長さを `cost` として使用する、オプションの `reverse_cost` なしの内部クエリ"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:257
 msgid "pgr_Dijkstra"
-msgstr ""
+msgstr "pgr_Dijkstra"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:259
 msgid ""
@@ -150,16 +160,19 @@ msgid ""
 "traverse a segment on an undirected graph, using `id` as the identifier of a"
 " vertex"
 msgstr ""
+"ダイクストラ法による最短経路探索関数を、無向グラフ上のセグメントを横断する時間(秒)に基づき、頂点の識別子として `id` を使用して実行します"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:298
 msgid "A query that use the OSM identifier becomes:"
-msgstr ""
+msgstr "OSM 識別子を使用するクエリは次のようになります:"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:311
 msgid ""
 "Because the query is using fields `source_osm` and `target_osm` the query "
 "aliases them to have the required names `source` and `target`."
 msgstr ""
+"クエリはフィールド `source_osm` と `target_osm` を使用しているので、クエリは `source` と `target` "
+"という必要な名前となるよう、別名を付けます。"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:314
 msgid "Output is:"
@@ -167,21 +180,21 @@ msgstr "出力は:"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:336
 msgid "The costs are the same as in the first query"
-msgstr ""
+msgstr "コストは最初のクエリと同じです"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:339
 msgid "A query to get the geometry of the path"
-msgstr ""
+msgstr "経路のジオメトリを取得するクエリ"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:340
 msgid "The results of `pgr_dijkstra` need to be joined with the table ways."
-msgstr ""
+msgstr "`pgr_dijkstra` の結果は、ways テーブルに結合する必要があります。"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:356
 msgid ""
 "The results, for visual purposes are truncated here, the geometries are much"
 " longer than shown"
-msgstr ""
+msgstr "結果は、ここでは表示のために切り捨てられています。ジオメトリは表示よりもはるかに長くなっています"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:379
 msgid "With :command:`\\\\q` command leave the PostgreSQL shell."
@@ -196,14 +209,15 @@ msgid ""
 "**pgRouting Website** - Visit the project website https://pgrouting.org to "
 "learn more about pgRouting."
 msgstr ""
-"**pgRouting Webサイト** - pgRouting についてもっと知りたいときは、Webサイト https://pgrouting.org"
-" を訪問してください。 "
+"**pgRouting Webサイト** - pgRouting の詳細については、プロジェクトのWebサイト "
+"https://pgrouting.org を参照してください。 "
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:386
 msgid ""
 "**pgRouting Documentation** - Find the most recent documentation in "
 "https://docs.pgrouting.org."
-msgstr "**pgRoutingドキュメント** - https://docs.pgrouting.org で最新のドキュメントを検索してください。"
+msgstr ""
+"**pgRouting ドキュメント** - https://docs.pgrouting.org で最新のドキュメントを参照してください。"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:387
 msgid ""
@@ -211,9 +225,8 @@ msgid ""
 " and OpenStreetMap road data\"` is available in: "
 "https://workshop.pgrouting.org."
 msgstr ""
-"**pgRouting Workshop** - ワークショップ `\"pgRouting "
-"toolsとOpenStreetMap道路データを使用したFOSS4Gルーティング\"` は "
-"https://workshop.pgrouting.org で利用可能です。"
+"**pgRouting ワークショップ** - ワークショップ `\"pgRouting tools と OpenStreetMap "
+"道路データを使用した FOSS4G ルーティング\"` は https://workshop.pgrouting.org で利用可能です。"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:388
 msgid ""
@@ -221,3 +234,6 @@ msgid ""
 "https://github.com/pgRouting/osm2pgrouting/wiki/Documentation-for-"
 "osm2pgrouting-v2.3"
 msgstr ""
+"**osm2pgRouting によるデータの読み込み** - "
+"https://github.com/pgRouting/osm2pgrouting/wiki/Documentation-for-"
+"osm2pgrouting-v2.3"

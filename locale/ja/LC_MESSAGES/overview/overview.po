@@ -28,19 +28,19 @@ msgstr "|osgeolive-version| コンテンツ"
 
 #: ../../build/doc/overview/overview.rst:12
 msgid "Symbology"
-msgstr ""
+msgstr "記号"
 
 #: ../../build/doc/overview/overview.rst:13
 msgid "|osgeo_project| Is an OSGeo Project"
-msgstr ""
+msgstr "|osgeo_project| は OSGeo プロジェクト"
 
 #: ../../build/doc/overview/overview.rst:14
 msgid "|osgeo_community| Is an OSGeo Community Project"
-msgstr ""
+msgstr "|osgeo_community| は OSGeo コミュニティプロジェクト"
 
 #: ../../build/doc/overview/overview.rst:15
 msgid "|vmdk| Included only on OSGeoLive VMDK version"
-msgstr ""
+msgstr "|vmdk| は OSGeoLive VMDK バージョンにのみ含まれるもの"
 
 #: ../../build/doc/overview/overview.rst:19
 msgid "Desktop GIS"
@@ -63,6 +63,8 @@ msgid ""
 "|OSGeo_project| - |vmdk| :doc:`gvsig_overview` - [:doc:`Quickstart "
 "<../quickstart/gvsig_quickstart>`]"
 msgstr ""
+"|OSGeo_project| - |vmdk| :doc:`gvsig_overview` - [:doc:`クイックスタート "
+"<../quickstart/gvsig_quickstart>`]"
 
 #: ../../build/doc/overview/overview.rst:43
 msgid ""
@@ -285,6 +287,8 @@ msgid ""
 "|nologo| - |vmdk| :doc:`ncWMS_overview` - [:doc:`Quickstart "
 "<../quickstart/ncWMS_quickstart>`] - Web Map Service"
 msgstr ""
+"|nologo| - |vmdk| :doc:`ncWMS_overview` - [:doc:`クイックスタート "
+"<../quickstart/ncWMS_quickstart>`] - Web Map Service"
 
 #: ../../build/doc/overview/overview.rst:169
 msgid ""
@@ -299,6 +303,8 @@ msgid ""
 "|nologo| - |vmdk| :doc:`re3gistry_overview` - [:doc:`Quickstart "
 "<../quickstart/re3gistry_quickstart>`] - Management of reference codes"
 msgstr ""
+"|nologo| - |vmdk| :doc:`re3gistry_overview` - [:doc:`クイックスタート "
+"<../quickstart/re3gistry_quickstart>`] - リファレンスコードの管理"
 
 #: ../../build/doc/overview/overview.rst:173
 msgid ""
@@ -437,12 +443,16 @@ msgid ""
 "|nologo| - |vmdk| :doc:`gmt_overview` - [:doc:`Quickstart "
 "<../quickstart/gmt_quickstart>`] - Cartographic Rendering"
 msgstr ""
+"|nologo| - |vmdk| :doc:`gmt_overview` - [:doc:`クイックスタート "
+"<../quickstart/gmt_quickstart>`] - 地図レンダリング"
 
 #: ../../build/doc/overview/overview.rst:263
 msgid ""
 "|nologo| :doc:`jupyter_overview` - [:doc:`Quickstart "
 "<../quickstart/jupyter_quickstart>`] - Mixing rich media in presentations"
 msgstr ""
+"|nologo| :doc:`jupyter_overview` - [:doc:`クイックスタート "
+"<../quickstart/jupyter_quickstart>`] - プレゼンテーションにリッチメディアを混在させる"
 
 #: ../../build/doc/overview/overview.rst:265
 msgid ""
@@ -473,6 +483,8 @@ msgid ""
 "|nologo| :doc:`xygrib_overview` - [:doc:`Quickstart "
 "<../quickstart/xygrib_quickstart>`] - Weather Forecast Maps"
 msgstr ""
+"|nologo| :doc:`xygrib_overview` - [:doc:`クイックスタート "
+"<../quickstart/xygrib_quickstart>`] - 気象予想図"
 
 #: ../../build/doc/overview/overview.rst:285
 msgid "Data"
@@ -526,6 +538,8 @@ msgid ""
 "|OSGeo_community| :doc:`proj_overview` - [:doc:`Quickstart "
 "<../quickstart/proj_quickstart>`] - Coordinate Reference System Libraries"
 msgstr ""
+"|OSGeo_community| :doc:`proj_overview` - [:doc:`クイックスタート "
+"<../quickstart/proj_quickstart>`] - 座標参照系ライブラリ"
 
 #: ../../build/doc/overview/overview.rst:330
 msgid "|nologo| :doc:`jts_overview`  - Java Topology Suite"

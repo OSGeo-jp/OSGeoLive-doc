@@ -51,6 +51,10 @@ msgid ""
 "<gdal_overview>`, PROJ, and a :doc:`SpatiaLite <spatialite_overview>` or "
 ":doc:`PostGIS <postgis_overview>` database."
 msgstr ""
+"EOxServerは、Python、:doc:`MapServer "
+"<mapserver_overview>`、Django/GeoDjango、:doc:`GDAL <gdal_overview>`、PROJ と "
+":doc:`SpatiaLite <spatialite_overview>` または :doc:`PostGIS "
+"<postgis_overview>` データベースを含むソフトウェアのオープンソーススタック上に構築されています。"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:40
 msgid "Core Features"

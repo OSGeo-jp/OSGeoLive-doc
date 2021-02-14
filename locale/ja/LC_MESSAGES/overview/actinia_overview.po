@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../build/doc/overview/actinia_overview.rst:15
 msgid "actinia"
-msgstr ""
+msgstr "actinia"
 
 #: ../../build/doc/overview/actinia_overview.rst:18
 msgid "High Performance Geospatial Processing"

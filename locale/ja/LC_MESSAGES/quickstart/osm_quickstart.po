@@ -125,7 +125,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:77
 msgid "QuickOSM: See the `QuickOSM`_ section"
-msgstr ""
+msgstr "QuickOSM:  `QuickOSM`_ の章を参照ください"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:78
 msgid ""
@@ -184,7 +184,7 @@ msgstr "チュートリアル: https://learnosm.org/en/osm-data/osm2pgsql/"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:106
 msgid "Working with OSM data in QGIS"
-msgstr ""
+msgstr "QGISでOSMデータを操作する"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:108
 msgid ""
@@ -193,18 +193,21 @@ msgid ""
 " system at `/usr/local/share/data/osm/` or in the PostgreSQL database "
 "`osm_local`."
 msgstr ""
+"OSGeoLiveには、世界的な `FOSS4Gカンファレンス <https://FOSS4G.org/>`_ "
+"が開催されている都市のOSMデータが用意されています。ファイルシステムの `/usr/local/share/data/osm/` "
+"またはPostgreSQLデータベースの `osm_local` にデータがあります。"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:111
 msgid "Start QGIS and have a look at the data."
-msgstr ""
+msgstr "QGISを起動し、データを確認しましょう。"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:113
 msgid "Open the `Desktop GIS` folder."
-msgstr ""
+msgstr "`デスクトップGIS` フォルダを開きます。"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:114
 msgid "Double click on the `QGIS` icon."
-msgstr ""
+msgstr "`QGIS` アイコンをダブルクリックします。"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:115
 msgid "Go the browser panel on the left of the screen."
@@ -214,131 +217,140 @@ msgstr "画面の左側にあるブラウザパネルに移動します。"
 msgid ""
 "Navigate to `PostGIS` and then to the database `osm_local`. You will find "
 "the data in the schema `public`."
-msgstr ""
+msgstr "`PostGIS` に移動し、次にデータベース `osm_local` に移動します。データはスキーマの `public` にあります。"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:117
 msgid ""
 "Drag the layers from the `Browser` panel and drop them in the map canvas."
-msgstr ""
+msgstr "`ブラウザ` パネルからレイヤをドラッグし、マップキャンバスにドロップします。"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:122
 msgid ""
 "You find a QGIS introduction in the :doc:`QGIS Quickstart "
 "<../quickstart/qgis_quickstart>`"
-msgstr ""
+msgstr ":doc:`QGISクイックスタート <../quickstart/qgis_quickstart>` にQGISの紹介があります。"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:128
 msgid "QuickOSM"
-msgstr ""
+msgstr "QuickOSM"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:130
 msgid ""
 "`QuickOSM` allows you to work quickly with OSM data in QGIS thanks to "
 "Overpass API."
-msgstr ""
+msgstr "`QuickOSM` では、Overpass APIのおかげで、QGISでOSMデータをすばやく操作できます。"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:132
 msgid "Homepage: https://github.com/3liz/QuickOSM"
-msgstr ""
+msgstr "ホームページ: https://github.com/3liz/QuickOSM"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:134
 msgid ""
 "You have to enable the Plugin in QGIS. Search for `QuickOSM` from `Plugins "
 "--> Manage and Install Plugins` in QGIS"
 msgstr ""
+"QGISでプラグインを有効にしてください。QGISの `プラグイン --> プラグインの管理とインストール...` から `QuickOSM` "
+"を検索します。"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:135
 msgid "Open QuickOSM from `Vector --> QuickOSM --> QuickOSM`"
-msgstr ""
+msgstr "`ベクタ -->QuickOSM-->QuickOSM` からQuickOSMを開く"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:136
 #: ../../build/doc/quickstart/osm_quickstart.rst:195
 msgid "Search for all the pubs in the FOSS4G city"
-msgstr ""
+msgstr "FOSS4Gの開催都市のすべてのパブを検索"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:137
 msgid "Choose key `amenity`, value `pub`, in `Buenos Aires`"
-msgstr ""
+msgstr "`Buenos Aires` 内のキー `amenity` 、値は `pub` を選択してください"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:138
 msgid "Show the query to see the Overpass query"
-msgstr ""
+msgstr "Overpassのクエリを表示する"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:139
 msgid ""
 "Click  `Run query`. The resulting data will be loaded in your QGIS project "
 "as temporal data"
-msgstr ""
+msgstr "`クエリの実行` をクリックします。結果のデータは、時系列データとしてQGISプロジェクトにロードされます。"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:140
 msgid ""
 "You can now save the data via `Export -> Save as....`. Choose i.e. "
 "Geopackage and save the data as `buenos_aires_pubs`."
 msgstr ""
+"これで、 `Export->Save as....` を使用してデータを保存できます。i.e.Geopackageを選択し、データを "
+"`buenos_aires_pubs` として保存します。"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:142
 msgid ""
 "You also find many OSM Plugins for QGIS. Search for `OSM` in the plugin "
 "repository."
-msgstr ""
+msgstr "また、QGIS用のOSMプラグインも多数用意されています。プラグインリポジトリで `OSM` を検索します。"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:146
 msgid "Using OSM as basemap in QGIS"
-msgstr ""
+msgstr "QGISでOSMをベースマップとして使用する"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:149
 msgid "XYZ Tiles"
-msgstr ""
+msgstr "XYZ タイル"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:151
 msgid ""
 "By default, QGIS comes with OpenStreetMap basemap layer and is located in "
 "the `Browser Panel` under `XYZ Tiles`."
 msgstr ""
+"デフォルトでは、QGISにはOpenStreetMapベースマップのレイヤが付属しており、`XYZ タイル` の下の `ブラウザパネル` にあります。"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:157
 msgid "QuickMapServices"
-msgstr ""
+msgstr "QuickMapServices"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:159
 msgid ""
 "`QuickMapServices` plugin allows you to easily add various map services as "
 "basemaps with one click in QGIS."
 msgstr ""
+"`QuickMapServices` "
+"プラグインを使用すると、QGISで一回クリックするだけで、さまざまなマップサービスをベースマップとして追加できます。"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:161
 msgid "Homepage: https://github.com/nextgis/quickmapservices"
-msgstr ""
+msgstr "ホームページ: https://github.com/nextgis/quickmapservices"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:163
 msgid ""
 "You have to enable the Plugin in QGIS. Search for `QuickMapServices` from "
 "`Plugins --> Manage and Install Plugins` in QGIS"
 msgstr ""
+"QGISでプラグインを有効にしてください。QGISの `プラグイン --> プラグインの管理とインストール...` から、 "
+"`QuickMapServices` を検索します。"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:164
 msgid "Add an OSM basemap from `Web --> QuickMapServices --> OSM`"
-msgstr ""
+msgstr "`Web-->QuickMapServices-->OSM` からOSMベースマップを追加"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:170
 msgid "Start working with OSM data"
-msgstr ""
+msgstr "OSMデータで作業を開始"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:172
 msgid ""
 "There are several ways to download OpenStreetMap data for your region. You "
 "can get the data in several formats."
-msgstr ""
+msgstr "OpenStreetMapデータをダウンロードする方法が複数あります。データは複数の形式で取得できます。"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:174
 msgid ""
 "You can use the following tools and services to extract OSM data for your "
 "area of interest."
-msgstr ""
+msgstr "次のツールとサービスを使用して、対象エリアのOSMデータを抽出できます。"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:178
 msgid "Geofabrik"
-msgstr ""
+msgstr "Geofabrik"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:180
 msgid ""
@@ -348,6 +360,9 @@ msgid ""
 "`.osm.pbf`, `.shp.zip` and `.osm.bz2`. `.osm.pbf` and`.shp.zip` can be "
 "opened directly in QGIS."
 msgstr ""
+"`Geofabrik <https://download.geofabrik.de/>`_  は、地域や国ごとに、世界中の OpenStreetMap "
+"データを抽出して提供しています。興味のある地域または国を選択してください。データは次の3つのフォーマットで提供されています: `.osm.pbf`, "
+"`.shp.zip` and `.osm.bz2`. `.osm.pbf` と`.shp.zip` は、QGISで直接開くことができます。"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:184
 msgid ""
@@ -355,43 +370,47 @@ msgid ""
 " them, find out more about working with them here "
 "https://wiki.openstreetmap.org/wiki/OSM_XML"
 msgstr ""
+"**.osm.bz2** は、生のOSM XMLファイル `.osm` の圧縮形式で、 `osm2pgsql`_ "
+"を使うことで利用できます。利用方法の詳細については次のWikiを参照してください。 "
+"https://wiki.openstreetmap.org/wiki/OSM_XML"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:188
 msgid "Overpass turbo"
-msgstr ""
+msgstr "Overpass turbo"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:190
 msgid ""
 "Overpass turbo is a web based data mining tool for OpenStreetMap based on "
 "the Overpass-API."
 msgstr ""
+"Overpass turbo は、Overpass APIをベースに、OpenStreetMap向けのWebベースのデータマイニングツールです。"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:192
 msgid ""
 "Have a look at the web client and download all the pubs in the FOSS4G city."
-msgstr ""
+msgstr "Webクライアントを開いて、FOSS4Gの開催都市にある全てのパブ(居酒屋)をダウンロードしましょう。"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:194
 msgid "Open https://overpass-turbo.eu/"
-msgstr ""
+msgstr "https://overpass-turbo.eu/ を開く"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:196
 msgid ""
 "Click on the button `Wizard` and paste the query to the search column "
 "`amenity=pub in \"Buenos Aires\"`"
-msgstr ""
+msgstr "`Wizard` ボタンをクリックし、`amenity=pub in \"Buenos Aires\"` という検索行をはりつけます。"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:197
 msgid "Then click the button `build and run query`"
-msgstr ""
+msgstr "次に、 `build and run query` をクリック"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:198
 msgid "Click `zoom to data` in the map canvas to navigate to your results"
-msgstr ""
+msgstr "マップキャンパスで `zoom to data` をクリックし、検索結果へ移動します。"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:204
 msgid "HOT Export Tool"
-msgstr ""
+msgstr "HOT Export Tool"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:206
 msgid ""
@@ -399,11 +418,13 @@ msgid ""
 "OpenStreetMap too. To use it you need an OSM account. You can download data "
 "in several formats and have history for your downloaded data and exports."
 msgstr ""
+"人道的OpenStreetMapチーム(HOT: The Humanitarian OpenStreetMap Team) "
+"でも、OpenStreetMapのエキスポートツールを提供しています。これを使用するには、OSMアカウントが必要です。いくつかの形式でデータをダウンロードし、ダウンロードしたデータとエクスポートの履歴を持つことができます。"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:210
 msgid ""
 "Here is a quickstart: https://export.hotosm.org/en/v3/learn/quick_start"
-msgstr ""
+msgstr "クイックスタート: https://export.hotosm.org/en/v3/learn/quick_start"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:214
 msgid "What next?"

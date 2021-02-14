@@ -203,7 +203,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:95
 msgid "Things to Try"
-msgstr ""
+msgstr "試してみること"
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:96
 msgid ""

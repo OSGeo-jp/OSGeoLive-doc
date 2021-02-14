@@ -33,14 +33,13 @@ msgid ""
 "developers ever need for online maps. Leaflet is designed with simplicity, "
 "performance and usability in mind."
 msgstr ""
-"Leaflet is a JavaScript library for browser-based, mobile-friendly, "
-"interactive maps.  It is lightweight, yet has all the features most "
-"developers ever need for online maps. Leaflet "
+"Leaflet はブラウザベースで、モバイルフレンドリーなインタラクティブ地図のための JavaScript "
+"ライブラリです。軽量ですが、開発者が必要とする少し前のオンライン地図の全機能を持っています。Leaflet "
 "はシンプル、パフォーマンス、ユーザビリティを念頭に設計されています。"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:25
 msgid "Running"
-msgstr ""
+msgstr "実行する"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:27
 msgid ""
@@ -49,10 +48,12 @@ msgid ""
 "TileStache**. This will provide background tiles that will be used in this "
 "demo."
 msgstr ""
+"このクイックスタートを開始するまえに、TileStacheを開始します。OSGeoLiveでは、**Geospatial\\\\Spatial "
+"Tools\\\\Start Mapnik & TileStache** にあります。これで、このデモで必要な背景タイルを提供できるようになります。"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:30
 msgid "View the example_"
-msgstr ""
+msgstr "example_ を見る"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:32
 msgid ""
@@ -65,40 +66,40 @@ msgstr ""
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:35
 msgid "Preparing your page"
-msgstr ""
+msgstr "HTMLページを用意する"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:36
 msgid ""
 "Before writing any code for the map, you need to do the following "
 "preparation steps on your page:"
-msgstr ""
+msgstr "地図のコードをかきはじめる前に、ページで、次の準備ステップを実施する必要があります:"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:38
 msgid "Include Leaflet CSS files in the head section of your document"
-msgstr ""
+msgstr "文書のヘッダーで、Leaflet CSSファイルをよみこむ"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:47
 msgid "Include Leaflet JavaScript file:"
-msgstr ""
+msgstr "Leaflet JavaScritファイルをよみこむ:"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:53
 msgid ""
 "put a **div** element with a certain **id** where you want your map to be:"
-msgstr ""
+msgstr "地図を表示したい場所に適切な **id** をもつ  **div** エレメントを配置する:"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:59
 msgid ""
 "Make sure the map container has a defined height, for example by setting it "
 "in CSS:"
-msgstr ""
+msgstr "地図コンテナには、高さが定義されていること。CSSの例は次のとおり:"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:65
 msgid "Now you are ready to initialize the map and do some stuff with it."
-msgstr ""
+msgstr "これで地図を表示し、応用する準備がととのいました。"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:68
 msgid "Setting up the Map"
-msgstr ""
+msgstr "地図を設定する"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:69
 msgid ""
@@ -106,6 +107,7 @@ msgid ""
 "conference. First we'll initialize the map and set its view to our chosen "
 "geographical coordinates and a zoom level:"
 msgstr ""
+"では、2018年のFOSS4Gカンファレンスが開催された東アフリカの地図を作成してみましょう。最初に地図の初期化をおこないます。ビューを設定し投影法とズームレベルを選択します:"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:75
 msgid ""
@@ -113,6 +115,8 @@ msgid ""
 "all mouse and touch interactions on the map are enabled, and it has zoom and"
 " attribution controls."
 msgstr ""
+"デフォルトで、 (地図インスタンスを作成するときに、設定オプションを与えない場合), "
+"全てのマウス操作とタッチ操作は有効化されます。ズームや属性制御することができます。"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:77
 msgid ""
@@ -120,6 +124,8 @@ msgid ""
 "act like this when they don't return an explicit value, which allows "
 "convenient jQuery-like method chaining."
 msgstr ""
+"setView のよびだしも、地図オブジェクトを返却します。 - 多くのLeafletのメソッドは、明示的な戻り値がない場合、同様に動作します。 "
+"jQueryのようなメソッドのチェインニングができて便利です。"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:79
 msgid ""
@@ -128,6 +134,9 @@ msgid ""
 "background maps such as openstreetmap will result in a much better user "
 "experience."
 msgstr ""
+"次に、地図にレイヤを追加します。In this case we will be using the tile images provided by "
+"TileStache on the live dvd. Note that using nicer background maps such as "
+"openstreetmap will result in a much better user experience."
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:82
 msgid ""
@@ -185,6 +194,8 @@ msgid ""
 "Popups are usually used when you want to attach some information to a "
 "particular object on a map. Leaflet has a very handy shortcut for this:"
 msgstr ""
+"Popups are usually used when you want to attach some information to a "
+"particular object on a map. Leaflet has a very handy shortcut for this:"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:141
 msgid ""

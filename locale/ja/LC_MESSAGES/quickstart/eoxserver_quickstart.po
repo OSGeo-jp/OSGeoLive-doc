@@ -36,6 +36,11 @@ msgid ""
 " :doc:`SpatiaLite <../overview/spatialite_overview>` or :doc:`PostGIS "
 "<../overview/postgis_overview>` database."
 msgstr ""
+"EOxServerは、大規模な地球観測(EO)データアーカイブとメタデータをオープンスタンダードで提供するサーバです。これは、Python、:doc:`MapServer"
+" <../overview/mapserver_overview>`、  Django/GeoDjango、:doc:`GDAL "
+"<../overview/gdal_overview>`、:doc:`PROJ <../overview/proj_overview>` と  "
+":doc:`SpatiaLite <../overview/spatialite_overview>`  または  :doc:`PostGIS "
+"<../overview/postgis_overview>` データベースを含むソフトウェアのオープンソーススタック上に構築されています。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:31
 msgid "This Quick Start describes how to:"
@@ -97,6 +102,9 @@ msgid ""
 "provides three different tools: the Bounding Box Selection Tool, the "
 "Selection Management Tool and the Download Tool."
 msgstr ""
+"レイヤ選択ウィジェットを使用すると、表示/非表示を切り替えたり、レイヤーのレンダリングを設定したりできます。また、通りのオーバーレイを表示または非表示にしたり、背景のレイヤを選択したりすることもできます。"
+" \"MER FRS1P RGB reduced\" "
+"レイヤを無効にすると、タイムスライダウィジェットは非表示になり、データセットレイヤが有効になると再表示されることに注意してください。ツールウィジェットには、境界ボックス選択ツール、選択管理ツール、ダウンロードツールの3つの異なるツールが用意されています。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:82
 msgid ""
@@ -120,6 +128,7 @@ msgid ""
 "shown in the Download widget, where you can select the format, projection "
 "and datasets to download."
 msgstr ""
+"ダウンロードツールが有効になると、サーバーへのクエリーが送信されます。このクエリには、選択された対象の時刻と境界ボックスが含まれています。結果はダウンロードウィジェットに表示され、ダウンロードするフォーマット、投影、データセットを選択できます。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:103
 msgid ""
@@ -150,8 +159,8 @@ msgid ""
 "can be found in the `operators' guide "
 "<https://docs.eoxserver.org/en/latest/users/operators.html>`_."
 msgstr ""
-" `Admin Client` はDjangos標準の管理者であり、利用可能なデータを設定できます。クライアントを自由にご覧ください。詳細については、 "
-"`運用者ガイド <https://docs.eoxserver.org/en/latest/users/operators.html>`_ "
+"`Admin Client` はDjangos標準の管理者であり、利用可能なデータを設定できます。クライアントを自由にご覧ください。詳細については、 "
+"`オペレーターズ・ガイド <https://docs.eoxserver.org/en/latest/users/operators.html>`_ "
 "を参照してください。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:126
@@ -179,14 +188,14 @@ msgid ""
 " project website contains a lot of resources to help you get started. Here’s"
 " a few resources to check out next:"
 msgstr ""
-"これは簡単なデモですが、EOxServerでできることはたくさんあります。プロジェクトのWebサイトには、はじめての人に役立つ資材がたくさん用意されています。次に、いくつかのをいくつか紹介しましょう。"
+"これは簡単なデモですが、EOxServerでできることはたくさんあります。プロジェクトのWebサイトには、はじめての人に役立つ資材がたくさん用意されています。次にチェックすべきリソースはこちらです:"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:146
 msgid ""
 "See the :doc:`EOxServer Overview <../overview/eoxserver_overview>` for more "
 "information."
 msgstr ""
-"詳細については、 :doc:`EOxServer Overview <../overview/eoxserver_overview>` "
+"詳細については、:doc:`EOxServer Overview <../overview/eoxserver_overview>` "
 "を参照してください。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:147
@@ -194,7 +203,7 @@ msgid ""
 "Read the `EOxServer Operators' Guide "
 "<https://docs.eoxserver.org/en/latest/users/operators.html>`_."
 msgstr ""
-" `EOxServer Operators' Guide "
+"`EOxServer オペレーターズ・ガイド "
 "<https://docs.eoxserver.org/en/latest/users/operators.html>`_ を読んでください。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:148
@@ -204,9 +213,8 @@ msgid ""
 "`EOxServer Basics "
 "<https://docs.eoxserver.org/en/latest/users/basics.html>`_."
 msgstr ""
-" `EOxServer Basics "
-"<https://docs.eoxserver.org/en/latest/users/basics.html>`_ から始まる完全な "
-"`EOxServer Users' documentation "
+"`EOxServer Basics <https://docs.eoxserver.org/en/latest/users/basics.html>`_"
+" から始まる完全な `EOxServer ユーザーズ・ドキュメント "
 "<https://docs.eoxserver.org/en/latest/users/index.html>`_ を読んでください。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:150
@@ -215,8 +223,8 @@ msgid ""
 "`EOxServer Users' local documentation <https://localhost/eoxserver-"
 "docs/EOxServer_documentation.pdf>`_"
 msgstr ""
-"すでにOSGeoLive環境にいる場合は、メディアにはいっている `EOxServer Users' local documentation "
-"<https://localhost/eoxserver-docs/EOxServer_documentation.pdf>`_ をお読みください。"
+"すでにOSGeoLive環境にいる場合は、メディアにはいっている `EOxServer ユーザーズ・ローカルドキュメント "
+"<https://localhost/eoxserver-docs/EOxServer_documentation.pdf>`_ を読んでください。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:152
 msgid ""

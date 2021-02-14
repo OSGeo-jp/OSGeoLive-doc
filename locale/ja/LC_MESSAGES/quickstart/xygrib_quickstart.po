@@ -23,23 +23,25 @@ msgstr ""
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:18
 msgid "XyGrib Quickstart"
-msgstr ""
+msgstr "XyGrib クイックスタート"
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:20
 msgid ""
 "XyGrib is a program to download and visualize weather forecast data in the "
 "standard GRIB distribution format."
-msgstr ""
+msgstr "XyGrib は、標準的なGRIB配布フォーマットで天気予報データをダウンロードして視覚化するプログラムです。"
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:26
 msgid "Start XyGrib"
-msgstr ""
+msgstr "XyGribを開始する"
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:28
 msgid ""
 "From the desktop, choose :menuselection:`Navigation and Maps --> XyGrib GRIB"
 " file viewer`."
 msgstr ""
+"デスクトップから :menuselection:`Navigation and Maps --> XyGrib GRIB file viewer` "
+"を選択します。"
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:29
 msgid ""
@@ -61,6 +63,7 @@ msgid ""
 "You can get GRIB data from many sources, but as a convenience the XyGrib "
 "authors maintain a data server to use with XyGrib."
 msgstr ""
+"GRIB天気予報データをダウンロードするにはインターネット接続が必要です。多くのソースからGRIBデータを取得することができますが、XyGribの作者は便宜上、XyGribで使用するデータサーバーを維持管理しています。"
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:37
 msgid "Download data"
@@ -138,7 +141,7 @@ msgid ""
 "ground level. It is a measure of atmospheric instability, and high values "
 "(1000s of J/kg) indicate a threat of thunderstorms and/or tornadoes."
 msgstr ""
-"メキシコ湾のデータをダウンロードした場合、CAPEデータのビューに興味があるでしょう。\"CAPE\" は対流利用可能ポテンシャルエネルギー "
+"メキシコ湾のデータをダウンロードした場合、CAPEデータのビューに興味があるでしょう。 \"CAPE\" は対流利用可能ポテンシャルエネルギー "
 "(Convection Available Potential Energy)の略です。これは大気の不安定性の尺度であり、高い値(1000 "
 "J/kg)は雷雨や竜巻の脅威を示します。"
 
@@ -198,8 +201,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:79
 msgid "Website: https://opengribs.org"
-msgstr ""
+msgstr "Webサイト: https://opengribs.org"
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:80
 msgid "Support: https://opengribs.org/en/support-forum"
-msgstr ""
+msgstr "サポート: https://opengribs.org/en/support-forum"

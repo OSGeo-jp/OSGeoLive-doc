@@ -57,8 +57,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:36
 msgid "Click :guilabel:`I agree` to the NOAA Nautical Chart Data Agreement."
-msgstr ""
-" :guilabel:`I agree` をクリックして、NOAA Nautical Chart Data Agreementに同意します。"
+msgstr ":guilabel:`I agree` をクリックして、NOAA Nautical Chart Data Agreementに同意します。"
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:37
 msgid "Click :guilabel:`OK` to agree to the OpenCPN license."
@@ -82,13 +81,13 @@ msgstr "GPSに接続している場合は、gpsdサービスを開始します�
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:54
 msgid "and"
-msgstr "and"
+msgstr "および"
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:60
 msgid ""
 "BlueTooth GPS users should take special care to read up about the no-probe "
 "option."
-msgstr "Blue tooth GPSユーザーは、no-probeオプションについて詳しく調べる必要があります。"
+msgstr "Bluetooth GPSユーザーは、no-probeオプションについて詳しく調べる必要があります。"
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:66
 msgid "'`xgps`' is a good program to check that Gpsd can see your GPS ok."
@@ -105,6 +104,9 @@ msgid ""
 "<../overview/xygrib_overview>` (also on this disc) is an easy way to "
 "download that."
 msgstr ""
+"GRIBプラグインを使用すると、現在の気象や波の予測データをダウンロードして、グラフ上にドレープすることができます。The :doc:`zyGrib "
+"software <../overview/xygrib_overview>` (also on this disc) is an easy way "
+"to download that."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:74
 msgid ""
@@ -114,7 +116,7 @@ msgstr "ツールバーの :guilabel:`Options`  アイコンをクリックし�
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:75
 msgid "Select the :guilabel:`Plugins` tab."
-msgstr " :guilabel:`Plugins` タブを選択します。"
+msgstr ":guilabel:`Plugins` タブを選択します。"
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:76
 msgid "Choose GRIB and then click :guilabel:`Enable`."
@@ -122,7 +124,7 @@ msgstr "GRIBを選択し、 :guilabel:`Enable` をクリックします。"
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:77
 msgid "Click :guilabel:`OK`. A windsock icon is now displayed on the toolbar."
-msgstr " :guilabel:`OK` をクリックします。吹き流しのアイコンがツールバーに表示されます。"
+msgstr ":guilabel:`OK` をクリックします。吹き流しのアイコンがツールバーに表示されます。"
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:80
 msgid ""
@@ -137,6 +139,10 @@ msgid ""
 " Then right click on the file listing's background to show hidden files, "
 "including the ``.xygrib`` directory that contains the GRIB download files."
 msgstr ""
+"zyGribファイルをホームディレクトリに保存した場合は、 :file:`/home`  に移動して、 ``user``  "
+"ディレクトリをGRIBデータディレクトリとして選択してください。Then right click on the file listing's "
+"background to show hidden files, including the ``.xygrib`` directory that "
+"contains the GRIB download files."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:84
 msgid ""

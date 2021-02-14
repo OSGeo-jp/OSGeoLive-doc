@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Ko Nagase <nagase@georepublic.co.jp>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-21 12:32-0600\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,7 +35,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:30
 msgid "Mapnik & Python"
-msgstr ""
+msgstr "Mapnik と Python"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:32
 msgid ""
@@ -49,6 +49,8 @@ msgid ""
 " `python3` on the command line to enter a python interpreter. Then try "
 "this::"
 msgstr ""
+"Mapnikを使えば、Pythonでマップを簡単に作成できます。ターミナルウィンドウを開き、コマンドラインに `python3` "
+"と入力して、pythonインタプリタを起動します。次の操作を試してください::"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:38
 msgid ""
@@ -57,6 +59,10 @@ msgid ""
 "m.zoom_all() mapnik.render_to_file(m,'world_population.png') os.system('xdg-"
 "open world_population.png')"
 msgstr ""
+"import mapnik, os m = mapnik.Map(600,400) style = "
+"'/usr/local/share/mapnik/world_population.xml' mapnik.load_map(m,style) "
+"m.zoom_all() mapnik.render_to_file(m,'world_population.png') os.system('xdg-"
+"open world_population.png')"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:49
 msgid ""
@@ -64,20 +70,21 @@ msgid ""
 "(world_population.xml), defining the layers to read data from and the styles"
 " to apply to those layers."
 msgstr ""
+"上記のコードは、Mapnikが読み取れるXMLスタイルシートを用意し、データを読み込むレイヤーと、それらのレイヤーに適用するスタイルを定義することで実現しています。"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:54
 msgid "Mapnik & MapProxy"
-msgstr ""
+msgstr "Mapnik と MapProxy"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:56
 msgid ""
 "A basic demo application is available which demonstrates using Mapnik with "
 "MapProxy"
-msgstr ""
+msgstr "MapProxyでMapnikを使用する基本的なデモアプリケーションが利用可能です。"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:58
 msgid "The demo uses the world_population.xml from the Mapnik demo."
-msgstr ""
+msgstr "このデモでは、Mapnikデモのworld_population.xmlを使用します。"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:60
 msgid ""
@@ -85,10 +92,12 @@ msgid ""
 "MapProxy`. The server starts in a terminal window (which stays open and "
 "outputs basic debugging information)."
 msgstr ""
+":menuselection:`Geospatial --> Web Services --> MapProxy --> Start MapProxy`"
+" をクリックします。サーバはターミナルウィンドウで起動します(ターミナルウィンドウは開いたままになり、基本的なデバッグ情報を出力します)。"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:62
 msgid "Open the MapProxy demo application http://0.0.0.0:8011/demo/"
-msgstr ""
+msgstr "MapProxyデモアプリケーションを http://0.0.0.0:8011/demo/ で開きます"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:64
 msgid ""
@@ -96,16 +105,19 @@ msgid ""
 "world population in combination with a the GeoServer layer topp:states (make"
 " sure GeoServer is running)"
 msgstr ""
+"WMSレイヤとしてのMapnikによる世界人口のデモと、GeoServerレイヤトップ:states(GeoServerが動作していることを確認)との組み合わせによる世界人口のデモをご覧ください。"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:67
 msgid ""
 "You can use the MapProxy WMS in other applications for example in QGIS or in"
 " Mapbender (http://localhost/mapbender/application/mapbender_user)."
 msgstr ""
+"MapProxy "
+"WMSは、QGISやMapbender(http://localhost/mapbender/application/mapbender_user)などの他のアプリケーションで使用できます。"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:70
 msgid "Observe the output in the server terminal window."
-msgstr ""
+msgstr "サーバターミナルウィンドウの出力を確認します。"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:74
 msgid "What next?"
@@ -128,4 +140,4 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:80
 msgid "Visit the Mapnik website: https://mapnik.org"
-msgstr " Mapnik websiteを訪問してください: https://mapnik.org"
+msgstr "Mapnik Webサイトを訪問してください: https://mapnik.org"

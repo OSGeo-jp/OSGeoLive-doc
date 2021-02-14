@@ -36,6 +36,9 @@ msgid ""
 "<https://www.postgresql.org>`__ geospatial database to provide geospatial "
 "routing and other network analysis functionality."
 msgstr ""
+"pgRouting は地理空間における経路探索や他のネットワーク解析機能を提供するために "
+":doc:`postgis_overview`/`PostgreSQL <https://www.postgresql.org>`__ "
+"地理空間データベースを拡張します。"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:28
 msgid "Advantages of the database routing approach are:"
@@ -47,6 +50,8 @@ msgid ""
 ":doc:`qgis_overview` and :doc:`udig_overview` through JDBC, ODBC, or "
 "directly using Pl/pgSQL. The clients can either be PCs or mobile devices."
 msgstr ""
+"データや属性を、多くのクライアント、例えば :doc:`qgis_overview` や :doc:`udig_overview` から、JDBC や "
+"ODBC、もしくは 直接 PL/pgSQL を発行することで、変更することが可能です。クライアントは PC やモバイル端末でもかまいません。"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:33
 msgid ""
@@ -64,7 +69,7 @@ msgstr "\"コスト\" パラメータは SQL 経由で動的に計算可能で�
 msgid ""
 "pgRouting is available under the GPLv2+ license and is supported by a "
 "growing community of individuals, businesses and organizations."
-msgstr ""
+msgstr "pgRouting は GPLv2+ ライセンスで提供され、個人、企業及び団体からなる、成長中のコミュニティによってサポートされています。"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:48
 msgid "Core Features"
@@ -77,15 +82,15 @@ msgstr "pgRouting は以下の機能を提供します:"
 #: ../../build/doc/overview/pgrouting_overview.rst:52
 msgid ""
 "All Pairs Shortest Path * Johnson’s Algorithm * Floyd-Warshall Algorithm"
-msgstr ""
+msgstr "全点対間最短経路探索 * ジョンソンのアルゴリズム * ワーシャル-フロイド法"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:55
 msgid "Shortest Path * A* algorithm * Dijkstra algorithm"
-msgstr ""
+msgstr "最短経路探索 * A* アルゴリズム * ダイクストラ法"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:58
 msgid "Bi-directional Shortest Path * A* algorithm * Dijkstra algorithm"
-msgstr ""
+msgstr "双方向最短経路探索 * A* アルゴリズム * ダイクストラ法"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:61
 msgid "Driving Distance"
@@ -93,7 +98,7 @@ msgstr "到達圏探索"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:62
 msgid "K-Shortest Path * Yen's algorithm"
-msgstr ""
+msgstr "K-最短経路探索 * Yen のアルゴリズム"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:64
 msgid "Traveling Sales Person"
@@ -101,13 +106,14 @@ msgstr "巡回セールスマン問題"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:65
 msgid "And many more"
-msgstr ""
+msgstr "その他多数"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:67
 msgid ""
 "Learn more about pgRouting in the `documentation "
 "<http://docs.pgrouting.org>`__."
 msgstr ""
+"pgRouting についてもっと知りたい場合は `ドキュメント <http://docs.pgrouting.org>`__ を参照してください。"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:71
 msgid "Details"
