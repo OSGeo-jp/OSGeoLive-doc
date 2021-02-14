@@ -85,7 +85,7 @@ msgstr "マップの表示"
 msgid ""
 "Once inside, select for display the raster map layer \"`elevation`\" from "
 "the PERMANENT mapset."
-msgstr ""
+msgstr "内にはいると、 PERMANENT マップセットから \"`elevation`\" ラスタマップレイヤ表示を選択します。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:72
 msgid "Go into the `GIS Layer Manager` window."

@@ -41,7 +41,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:35
 msgid "Running"
-msgstr ""
+msgstr "実行する"
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:37
 msgid ""

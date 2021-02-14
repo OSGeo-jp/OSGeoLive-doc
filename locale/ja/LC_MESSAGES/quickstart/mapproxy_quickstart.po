@@ -77,8 +77,6 @@ msgid ""
 "You can add MapProxy in any WMS Desktop GIS like uDig, QGIS or gvSIG. The "
 "service URL is: `<http://localhost:8011/service?>`_"
 msgstr ""
-"MapProxyは、uDig、QGIS、gvSIGなどの任意のWMSデスクトップGISに追加できます。 サービスのURLは次のとおりです： "
-"`<http://localhost:8011/service?>`_"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:53
 msgid ""
@@ -178,8 +176,6 @@ msgid ""
 "You can now visit the demo page at http://127.0.0.1:8011/demo/. MapProxy "
 "will automatically reload if you change your configuration file."
 msgstr ""
-"これで、 http://127.0.0.1:8011/demo/ のデモページにアクセスできます。 "
-"設定ファイルを変更すると、MapProxyは自動的に再読み込みされます。"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:102
 msgid "What next?"
