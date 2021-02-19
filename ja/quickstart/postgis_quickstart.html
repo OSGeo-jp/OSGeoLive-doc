@@ -58,7 +58,7 @@
 	<font size="-2">
 		<div id="translations">
 		<!-- alphabetical order -->
-              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a>
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
 		</div>
 	</font>
     </div>
@@ -117,8 +117,7 @@
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">psql</span> <span class="o">-</span><span class="n">l</span>
 </pre></div>
 </div>
-<p>command. You should see several databases used by some of the projects on the system.
-We will create a new one for this quickstart.</p>
+<p>. システム上の一部のプロジェクトで使用されている複数のデータベースが表示されます。このクイックスタート用に新しいものを作成します。</p>
 <div class="admonition tip">
 <p class="first admonition-title">ちなみに</p>
 <p class="last">このリストでは標準的なUNIXのページャの使いかたを示します - スペースで次のページ、 <code class="kbd docutils literal"><span class="pre">b</span></code> は戻る、 <code class="kbd docutils literal"><span class="pre">q</span></code> は終了、h はヘルプを表示します。</p>
@@ -326,7 +325,7 @@ We will create a new one for this quickstart.</p>
 <a class="reference internal image-reference" href="../../_images/postgis_browsedata.png"><img alt="Find the shapefile" class="align-center" src="../../_images/postgis_browsedata.png" style="width: 632.25px; height: 492.0px;" /></a>
 <p>他のものはすべてそのままにして、 <code class="docutils literal"><span class="pre">Load</span></code> を押します。</p>
 <a class="reference internal image-reference" href="../../_images/postgis_importsids.png"><img alt="Import a shapefile" class="align-center" src="../../_images/postgis_importsids.png" style="width: 346.5px; height: 400.5px;" /></a>
-<p>座標参照系セレクタの既定値を(WGS 84 EPSG:4326)にして、 <code class="docutils literal"><span class="pre">OK</span></code> を押します。シェープファイルは、エラーなしでPostGISにインポートする必要があります。PostGISマネージャを閉じて、メインのQGISウィンドウに戻ります。</p>
+<p>座標参照系セレクタのデフォルト値を(WGS 84 EPSG:4326)にして、 <code class="docutils literal"><span class="pre">OK</span></code> を押します。シェープファイルは、エラーなしでPostGISにインポートする必要があります。PostGISマネージャを閉じて、メインのQGISウィンドウに戻ります。</p>
 <p>次に、』PostGISマップを追加’オプションを使用して、SIDSデータをレイヤにロードします。レイヤの再配置と若干の色付けを行うことで、North Carolinaの乳幼児突然死症候群の発生数 (sid74またはsid79フィールド)の階級区分図を作成できるようになります。</p>
 <a class="reference internal image-reference" href="../../_images/postgis_sidsmap.png"><img alt="SIDS data mapped" class="align-center" src="../../_images/postgis_sidsmap.png" style="width: 1143.75px; height: 948.0px;" /></a>
 </div>
@@ -372,7 +371,7 @@ We will create a new one for this quickstart.</p>
 </div>
 <div class="admonition tip">
 <p class="first admonition-title">ちなみに</p>
-<p class="last">pgAdmin IIIでは、外部データラッパー、外部サーバ、ユーザマッピング、外部テーブルが既定でツリーに表示されないことに注意してください。これらを有効にするには、メニューの <span class="menuselection">File‣ Options‣ Browser‣ Display</span> を使用する必要があります。</p>
+<p class="last">pgAdmin IIIのデフォルトでは、外部データラッパー、外部サーバ、ユーザマッピング、外部テーブルが、ツリーに表示されないことに注意してください。これらを有効にするには、メニューの <span class="menuselection">File‣ Options‣ Browser‣ Display</span> を使用する必要があります。</p>
 </div>
 <p>接続するデータソースの場所を通知する外部サーバーを作成</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">CREATE</span> <span class="n">SERVER</span> <span class="n">fdw_pg_server_osm_local</span>
@@ -380,7 +379,7 @@ We will create a new one for this quickstart.</p>
  <span class="n">OPTIONS</span> <span class="p">(</span><span class="n">host</span> <span class="s1">&#39;127.0.0.1&#39;</span><span class="p">,</span> <span class="n">port</span> <span class="s1">&#39;5432&#39;</span><span class="p">,</span> <span class="n">dbname</span> <span class="s1">&#39;osm_local&#39;</span><span class="p">);</span>
 </pre></div>
 </div>
-<p>外部サーバーに接続するときに使用するユーザーを定義</p>
+<p>外部サーバに接続するときに使用するユーザを定義</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">CREATE</span> <span class="n">USER</span> <span class="n">MAPPING</span> <span class="n">FOR</span> <span class="n">user</span>
       <span class="n">SERVER</span> <span class="n">fdw_pg_server_osm_local</span>
       <span class="n">OPTIONS</span> <span class="p">(</span><span class="n">user</span> <span class="s1">&#39;user&#39;</span><span class="p">,</span> <span class="n">password</span> <span class="s1">&#39;user&#39;</span><span class="p">);</span>
@@ -463,7 +462,7 @@ We will create a new one for this quickstart.</p>
 <li>コマンドラインで <code class="docutils literal"><span class="pre">pgsql2shp</span></code> を使用して、テーブルをシェープファイルにエクスポートします。</li>
 <li>データベースにデータをインポート/エクスポートするには、コマンドラインで <code class="docutils literal"><span class="pre">ogr2ogr</span></code> を試してください。</li>
 <li>コマンドラインで <code class="docutils literal"><span class="pre">shp2pgsql</span></code> を使用して、データベースにデータをインポートしてみてください。</li>
-<li>Try to do road routing using <a class="reference internal" href="../overview/pgrouting_overview.html"><span class="doc">pgRouting</span></a>.</li>
+<li><a class="reference internal" href="../overview/pgrouting_overview.html"><span class="doc">pgRouting</span></a> を使用して、道路のルーティングを試みます。</li>
 </ul>
 </div>
 <div class="section" id="what-next">
@@ -486,7 +485,7 @@ We will create a new one for this quickstart.</p>
 	<font size="-2">
 		<div id="translations">
 		<!-- alphabetical order -->
-              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a>
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
 		</div>
 	</font>
     </div>
