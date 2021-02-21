@@ -149,7 +149,7 @@ msgstr "WMS機能:"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:69
 msgid "build layer trees from different sources"
-msgstr "異なるソースからのレイヤーツリーの構築"
+msgstr "異なるソースからのレイヤツリーの構築"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:70
 msgid ""
@@ -195,7 +195,7 @@ msgstr "ポリゴン領域へのアクセス制限 (WMS とタイルサービス
 
 #: ../../build/doc/overview/mapproxy_overview.rst:81
 msgid "integrate with existing user databases and authentication methods"
-msgstr "既存のユーザーデータベースや認証方法との統合"
+msgstr "既存のユーザデータベースや認証方法との統合"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:86
 msgid "Powerful tools:"

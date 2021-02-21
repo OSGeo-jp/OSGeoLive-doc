@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:12
 msgid "Re3gistry Quickstart"
-msgstr ""
+msgstr "Re3gistry Quickstart"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:14
 msgid ""

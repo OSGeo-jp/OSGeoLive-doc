@@ -71,7 +71,7 @@ msgstr "[3] ブラウザパネル: マップフレームにコンテンツをド
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:60
 msgid "[4] Layer Panel: Controls the map layers, their order, and visibility."
-msgstr "[4] レイヤーパネル: マップ画層、画層の順序、表示/非表示をコントロールします。"
+msgstr "[4] レイヤパネル: マップ画層、画層の順序、表示/非表示をコントロールします。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:61
 msgid ""
@@ -177,7 +177,7 @@ msgid ""
 "QGIS going into the future."
 msgstr ""
 "QGISプロジェクトは、レイヤ、スタイル、マップ範囲、および設定を保存し、後で使用できるようにします。この情報はQGISのプロジェクトファイルとして保存され、拡張子は"
-" '.qgs' または '.qgz' になります。 '.qgz' は将来のQGISでの既定のファイル形式です。"
+" '.qgs' または '.qgz' になります。 '.qgz' は将来のQGISでのデフォルトのファイル形式です。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:140
 msgid "Let's open an existing QGIS project and have a look at how it works."
@@ -192,11 +192,11 @@ msgstr "QGISを開くQGISを開くと、最近選択したプロジェクトの�
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:143
 msgid "Choose :menuselection:`Project --> Open`."
-msgstr " :menuselection:`Project --> Open` を選択"
+msgstr ":menuselection:`Project --> Open` を選択"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:144
 msgid "Navigate to '/home/user/qgis-example'."
-msgstr " '/home/user/qgis-example' に移動します。"
+msgstr "'/home/user/qgis-example' に移動します。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:145
 msgid "Select the project 'QGIS-NaturalEarth-Example.qgs'."
@@ -213,7 +213,7 @@ msgid ""
 "and is displaying the spatial content in the map frame."
 msgstr ""
 "以下に示すように、Natural "
-"Earchデータセットを持つQGISプロジェクトが開かれます。このプロジェクトには、レイヤーパネルに複数のレイヤーが含まれ、マップフレームに空間コンテンツが表示されています。"
+"Earchデータセットを持つQGISプロジェクトが開かれます。このプロジェクトには、レイヤパネルに複数のレイヤーが含まれ、マップフレームに空間コンテンツが表示されています。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:160
 msgid ""
@@ -221,7 +221,7 @@ msgid ""
 "name in the layers panel. When a layer is turned on in the layer panel, the "
 "map frame will be updated to display the layer. A close up of the layer "
 "panel is shown below."
-msgstr "レイヤーパネルでレイヤー名の横にあるチェックボックスをクリックすると、レイヤーの表示/非表示を切り替えることができます。レイヤパネルでレイヤをオンにすると、マップフレームが更新されてレイヤが表示されます。レイヤーパネルの拡大図を以下に示します。"
+msgstr "レイヤパネルでレイヤ名の横にあるチェックボックスをクリックすると、レイヤ表示/非表示を切り替えることができます。レイヤパネルでレイヤをオンにすると、マップフレームが更新されてレイヤが表示されます。レイヤパネルの拡大図を以下に示します。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:168
 msgid ""
@@ -269,7 +269,7 @@ msgid ""
 "Notice how the raster layer is now on top of all other layers in the layer "
 "panel. This now renders the raster layer on top of all other layers in the "
 "map frame."
-msgstr "ラスタレイヤがレイヤパネルの他のすべてのレイヤーの上に表示されます。これで、ラスタレイヤがマップフレームの他のすべてのレイヤの上にレンダリングされます。"
+msgstr "ラスタレイヤがレイヤパネルの他のすべてのレイヤの上に表示されます。これで、ラスタレイヤがマップフレームの他のすべてのレイヤの上にレンダリングされます。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:196
 msgid ""
@@ -303,7 +303,7 @@ msgstr "[3] ズームアウト: マップのズームアウトを許可します
 msgid ""
 "[4] Zoom to full extent: Changes the map extent to fit all of the map layers"
 " into the map frame."
-msgstr "[4] 全範囲ズーム: マップの範囲を変更して、すべてのマップレイヤーをマップの枠に合わせます。"
+msgstr "[4] 全範囲ズーム: マップの範囲を変更して、すべてのマップレイヤをマップの枠に合わせます。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:212
 msgid ""
@@ -349,7 +349,7 @@ msgid ""
 "Now, let’s look at the zoom to full extent tool. This tool will zoom the map"
 " out to an extent that will fit in all the layers in the map. To use this "
 "tool, click on the 'Zoom to full extent' button."
-msgstr "次に、全範囲ズームツールを見てみましょう。このツールは、マップのすべてのレイヤーに収まるようにマップをズームアウトします。このツールを使用するには、[全体にズーム]ボタンをクリックします。"
+msgstr "次に、全範囲ズームツールを見てみましょう。このツールは、マップのすべてのレイヤに収まるようにマップをズームアウトします。このツールを使用するには、[全体にズーム]ボタンをクリックします。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:228
 msgid "Finally, try the zoom to layer tool. To use this tool follow these steps:"
@@ -369,14 +369,14 @@ msgstr "マップは選択された('アクティブ')レイヤの範囲にズ�
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:236
 msgid "Style your layers"
-msgstr "レイヤーのスタイルを設定"
+msgstr "レイヤのスタイルを設定"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:238
 msgid ""
 "Layers can be styled in QGIS using the style dock. The style dock is not "
 "visible by default, but easily accessible via a button at the top of the "
 "layer panel as shown below."
-msgstr "レイヤーは、スタイルドックを使用してQGISでスタイル設定できます。スタイル枠は既定では表示されていませんが、次に示すように、レイヤパネルの上部にあるボタンから簡単にアクセスできます。"
+msgstr "レイヤは、スタイルドックを使用してQGISでスタイル設定できます。スタイル枠はデフォルトでは表示されていませんが、次に示すように、レイヤパネルの上部にあるボタンから簡単にアクセスできます。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:245
 msgid ""

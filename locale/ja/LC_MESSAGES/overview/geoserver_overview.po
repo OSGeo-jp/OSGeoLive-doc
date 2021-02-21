@@ -114,7 +114,7 @@ msgid ""
 "A GIS client can request the actual raster data for use in spatial analysis."
 " This allows a user to create applications which can model the process "
 "described by your data."
-msgstr "GISクライアントはラスタの実データを要求して空間解析に使うことができます。この機能を使うと、あなたのデータで記述したプロセスをベースに、ユーザーが活用することができます。"
+msgstr "GISクライアントはラスタの実データを要求して空間解析に使うことができます。この機能を使うと、あなたのデータで記述したプロセスをベースに、ユーザが活用することができます。"
 
 #: ../../build/doc/overview/geoserver_overview.rst:58
 msgid "**On the fly reprojection:**"

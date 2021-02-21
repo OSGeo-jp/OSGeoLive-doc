@@ -88,7 +88,7 @@ msgid ""
 "`/home/user`. Anytime you open a terminal window it will start in your home "
 "directory (see pwd)."
 msgstr ""
-"現在のユーザーは「 `user` 」で、 `/home/user` "
+"現在のユーザは \"`user`\" で、 `/home/user` "
 "にホームディレクトリがあります。ターミナルウィンドウを開くと、ホームディレクトリから開きます(pwdを参照)。"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:65
@@ -106,7 +106,7 @@ msgid ""
 "`cd ..` moves you one directory to the top, `cd` user goes from your current"
 " location to the home directory of user. This is not the same as `/user`"
 msgstr ""
-"`cd ..` はディレクトリを一つ上に移動します。 `cd` では、現在の場所からユーザーのホームディレクトリに移動します。これは `/user` "
+"`cd ..` はディレクトリを一つ上に移動します。 `cd` では、現在の場所からユーザのホームディレクトリに移動します。これは `/user` "
 "と同じではありません"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:76
@@ -165,7 +165,7 @@ msgstr "`ls` はすべてのファイルとディレクトリをリストしま�
 msgid ""
 "`ls -l` shows a more detailed list of the files/directories with time, user "
 "access rights"
-msgstr "`ls -l` を使うと、時間、ユーザーのアクセス権限などの、ファイル/ディレクトリの詳細なリストを表示します。"
+msgstr "`ls -l` を使うと、時間、ユーザのアクセス権限などの、ファイル/ディレクトリの詳細なリストを表示します。"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:119
 msgid "`ls -a` also shows hidden files"
@@ -212,7 +212,7 @@ msgid ""
 "following commands."
 msgstr ""
 "`sudo` を使って、通常は実行できないコマンドを実行できるようにします。`sudo` は、コマンドを通常 root "
-"ユーザとして知られるスーパーユーザーの権限で実行します。 `sudo` "
+"ユーザとして知られるスーパーユーザの権限で実行します。 `sudo` "
 "をつかうと、ソフトウエアを導入するとか、サービスの管理をするとか、アクセス権限を変更するとか、いろいろ可能です。次のコマンドは、 `sudo` "
 "の用例です。"
 

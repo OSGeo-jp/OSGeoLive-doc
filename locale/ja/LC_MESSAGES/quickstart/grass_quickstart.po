@@ -40,7 +40,7 @@ msgstr "GRASS の開始"
 msgid ""
 "Click on the GRASS link in the :menuselection:`Geospatial --> Desktop GIS` "
 "menu."
-msgstr " :menuselection:`Geospatial --> Desktop GIS` メニューから、 GRASS をクリックします。"
+msgstr ":menuselection:`Geospatial --> Desktop GIS` メニューから、 GRASS をクリックします。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:40
 msgid ""
@@ -52,7 +52,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:41
 msgid "Click on :guilabel:`Start GRASS session`."
-msgstr " :guilabel:`Start GRASS session` をクリックします。"
+msgstr ":guilabel:`Start GRASS session` をクリックします。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:48
 msgid ""
@@ -85,11 +85,11 @@ msgstr "マップの表示"
 msgid ""
 "Once inside, select for display the raster map layer \"`elevation`\" from "
 "the PERMANENT mapset."
-msgstr ""
+msgstr "内にはいると、 PERMANENT マップセットから \"`elevation`\" ラスタマップレイヤ表示を選択します。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:72
 msgid "Go into the `GIS Layer Manager` window."
-msgstr " `GIS Layer Manager` ウインドウにすすみます。"
+msgstr "`GIS Layer Manager` ウインドウにすすみます。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:73
 msgid "Click on the checkerboard toolbar button with a \"+\" on it."
@@ -99,27 +99,27 @@ msgstr "ツールバーの\"+\" がついたチェッカーボードのボタン
 msgid ""
 "Select the map name you want from the \"*map to be displayed*\" pull-down "
 "list, and click :guilabel:`Ok`."
-msgstr " \"*map to be displayed*\" プルダウン・リストから選択したいマップ名を選択し、 :guilabel:`Ok` をクリックします。"
+msgstr "\"*map to be displayed*\" プルダウン・リストから選択したいマップ名を選択し、 :guilabel:`Ok` をクリックします。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:75
 msgid ""
 "Click on the toolbar button with a \"+\" and a bent poly-line which looks a "
 "bit like a \"V\"."
-msgstr ""
-"Click on the toolbar button with a \"+\" and a bent poly-line which looks a "
-"bit like a \"V\"."
+msgstr "「+」のついたツールバーボタンをクリックします。そして、「V」のようなアイコンのボタンはポリラインを曲げます。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:76
 msgid ""
 "Select the \"`roadsmajor`\" vector layer from the PERMANENT mapset, and "
 "click :guilabel:`Ok`."
 msgstr ""
+"Select the \"`roadsmajor`\" vector layer from the PERMANENT mapset, and "
+"click :guilabel:`Ok`."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:78
 msgid ""
 "If you need to, right click on the raster map layer and choose \"Zoom to "
 "selected map(s)\"."
-msgstr ""
+msgstr "必要に応じて、ラスターマップ画層を右クリックし、[選択したマップにズーム]を選択します。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:80
 msgid "You should now see the maps displayed."
@@ -453,25 +453,31 @@ msgstr "次のステップ"
 msgid ""
 "Visit the GRASS GIS website at `https://grass.osgeo.org "
 "<https://grass.osgeo.org>`_"
-msgstr ""
+msgstr "GRASS GIS ウエブサイト `https://grass.osgeo.org <https://grass.osgeo.org>`_"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:344
 msgid ""
 "Visit the GRASS GIS Wiki help site at `https://grasswiki.osgeo.org/wiki/ "
 "<https://grasswiki.osgeo.org/wiki/Main_Page>`_"
 msgstr ""
+"GRASS GIS Wikiヘルプサイト `https://grasswiki.osgeo.org/wiki/ "
+"<https://grasswiki.osgeo.org/wiki/Main_Page>`_"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:345
 msgid ""
 "More tutorials and overviews can be found `here "
 "<https://grasswiki.osgeo.org/wiki/GRASS_Help#Getting_Started>`_."
 msgstr ""
+"チュートリアルや概要は、 `こちら "
+"<https://grasswiki.osgeo.org/wiki/GRASS_Help#Getting_Started>`_."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:346
 msgid ""
 "A `synopsis of the GRASS GIS modules "
 "<https://grass.osgeo.org/grass78/manuals/full_index.html>`_"
 msgstr ""
+"`GRASS GISモジュールの概要 "
+"<https://grass.osgeo.org/grass78/manuals/full_index.html>`_"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:347
 msgid ""
@@ -480,4 +486,7 @@ msgid ""
 "`https://grass.osgeo.org/grass78/manuals/addons/ "
 "<https://grass.osgeo.org/grass78/manuals/addons/>`_"
 msgstr ""
+"GRASSに付属する400こ の GIS モジュールで不足する場合、 "
+"`https://grass.osgeo.org/grass78/manuals/addons/ "
+"<https://grass.osgeo.org/grass78/manuals/addons/>`_ に大量のアドオンがあります。"
 
