@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../build/doc/overview/xygrib_overview.rst:14
 msgid "XyGrib"
-msgstr ""
+msgstr "XyGrib"
 
 #: ../../build/doc/overview/xygrib_overview.rst:17
 msgid "Weather forecasting"
@@ -39,6 +39,9 @@ msgid ""
 "members of the sailing community, private and sport aviators, farmers, "
 "weather buffs and many more."
 msgstr ""
+"XyGrib は Grib ファイルリーダ、気象データを可視化して、天気予報もしくは過去の再予報を分析するオフライン機能を提供しています。XyGrib "
+"は zyGrip "
+"ソフトウェアパッケージの新しいボランティアチームによる後継となります。気象を調べることに真剣な興味がある誰もに、有能な気象ワークステーションとして利用されることを意図されています。これには、セーリングコミュニティのメンバーや、民間およびスポーツの飛行士、農業従事者、気象マニアなどが含まれています。"
 
 #: ../../build/doc/overview/xygrib_overview.rst:29
 msgid "Core Features"
@@ -78,7 +81,7 @@ msgstr "詳細"
 
 #: ../../build/doc/overview/xygrib_overview.rst:41
 msgid "**Website:** https://opengribs.org"
-msgstr ""
+msgstr "**Webサイト:** https://opengribs.org"
 
 #: ../../build/doc/overview/xygrib_overview.rst:43
 msgid "**Licence:** GNU General Public License (GPL) version 3"
@@ -86,7 +89,7 @@ msgstr "**ライセンス:** GNU General Public License (GPL) version 3"
 
 #: ../../build/doc/overview/xygrib_overview.rst:45
 msgid "**Software Version:** |version-xygrib|"
-msgstr ""
+msgstr "**ソフトウェアバージョン:** |version-xygrib|"
 
 #: ../../build/doc/overview/xygrib_overview.rst:47
 msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows"
@@ -94,7 +97,7 @@ msgstr "**対応プラットフォーム:** GNU/Linux, Mac OSX, MS Windows"
 
 #: ../../build/doc/overview/xygrib_overview.rst:49
 msgid "**Support:** https://opengribs.org/en/support-forum"
-msgstr ""
+msgstr "**サポート:** https://opengribs.org/en/support-forum"
 
 #: ../../build/doc/overview/xygrib_overview.rst:55
 msgid "Quickstart"
@@ -102,4 +105,4 @@ msgstr "クイックスタート"
 
 #: ../../build/doc/overview/xygrib_overview.rst:57
 msgid ":doc:`Quickstart documentation <../quickstart/xygrib_quickstart>`"
-msgstr ""
+msgstr ":doc:`クイックスタート文書 <../quickstart/xygrib_quickstart>`"

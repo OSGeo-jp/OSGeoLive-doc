@@ -34,7 +34,7 @@ msgid ""
 "performance and usability in mind."
 msgstr ""
 "Leaflet はブラウザベースで、モバイルフレンドリーなインタラクティブ地図のための JavaScript "
-"ライブラリです。軽量ですが、開発者が必要とする少し前のオンライン地図の全機能を持っています。Leaflet "
+"ライブラリです。軽量ですが、ほとんどの開発者がオンライン地図に必要とするすべての機能を備えています。Leaflet "
 "はシンプル、パフォーマンス、ユーザビリティを念頭に設計されています。"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:25
@@ -76,7 +76,7 @@ msgstr "地図のコードをかきはじめる前に、ページで、次の準
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:38
 msgid "Include Leaflet CSS files in the head section of your document"
-msgstr "文書のヘッダーで、Leaflet CSSファイルをよみこむ"
+msgstr "ドキュメントのヘッダーセクションで、Leaflet CSSファイルをよみこむ"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:47
 msgid "Include Leaflet JavaScript file:"
@@ -115,8 +115,8 @@ msgid ""
 "all mouse and touch interactions on the map are enabled, and it has zoom and"
 " attribution controls."
 msgstr ""
-"デフォルトで、 (地図インスタンスを作成するときに、設定オプションを与えない場合), "
-"全てのマウス操作とタッチ操作は有効化されます。ズームや属性制御することができます。"
+"デフォルトで "
+"(地図インスタンスを作成するときに、設定オプションを与えない場合)、全てのマウス操作とタッチ操作は有効化されます。ズームと属性コントロールがあります。"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:77
 msgid ""
@@ -125,7 +125,7 @@ msgid ""
 "convenient jQuery-like method chaining."
 msgstr ""
 "setView のよびだしも、地図オブジェクトを返却します。 - 多くのLeafletのメソッドは、明示的な戻り値がない場合、同様に動作します。 "
-"jQueryのようなメソッドのチェインニングができて便利です。"
+"jQueryのようなメソッドのチェイニングができて便利です。"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:79
 msgid ""
@@ -134,27 +134,28 @@ msgid ""
 "background maps such as openstreetmap will result in a much better user "
 "experience."
 msgstr ""
-"次に、地図にレイヤを追加します。In this case we will be using the tile images provided by "
-"TileStache on the live dvd. Note that using nicer background maps such as "
-"openstreetmap will result in a much better user experience."
+"次に、地図にレイヤを追加します。この例では、ライブDVDでTileStacheから提供されたタイルイメージを使用します。OpenStreetMap "
+"などの、より良い背景地図を使用すると、ユーザ体験を向上させられることに注意してください。"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:82
 msgid ""
 "Creating a tile layer usually involves setting the URL template for the tile"
 " images, the attribution text and the maximum zoom level of the layer:"
-msgstr ""
+msgstr "タイルレイヤ を作成するには、通常、タイルイメージのURLテンプレート、属性テキスト、およびレイヤの最大ズームレベルを設定します。"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:88
 msgid ""
 "If you have online access you may want to use a nicer tilemap as the "
 "background:"
-msgstr ""
+msgstr "オンラインアクセスがある場合は、バックグラウンドとしてより良いタイルマップサービスを使用することができます。"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:94
 msgid ""
 "Make sure all the code is called after the **div** and **leaflet.js** "
 "inclusion. That's it! You have a working Leaflet map now."
 msgstr ""
+"すべてのコードが **div** タグと **leaflet.js** "
+"の読み込みの後に呼び出されていることを確認してください。これが全てです。これで、Leaflet の地図を動かすことができました。"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:96
 msgid ""
@@ -163,16 +164,19 @@ msgid ""
 "contain a single provider-specific line of code, so you're free to use other"
 " providers if you need to."
 msgstr ""
+"Leaflet "
+"はプロバイダに依存しないので、タイルに対して特定のプロバイダの選択を強制することはなく、プロバイダ固有のコード行も含まれていないので、必要に応じて他のプロバイダを使用することもできます。"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:99
 msgid "Markers, circles and polygons"
-msgstr ""
+msgstr "マーカー、円、ポリゴン"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:101
 msgid ""
 "Besides tile layers, you can easily add other things to your map, including "
 "markers, polylines, polygons, circles and popups. Let's add a marker:"
 msgstr ""
+"タイルレイヤ以外にも、マーカー、ポリライン、ポリゴン、円、ポップアップなど、他のものをマップに簡単に追加できます。マーカーを追加しましょう："
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:108
 msgid ""
@@ -180,22 +184,23 @@ msgid ""
 " second argument), but lets you control how it looks by passing options as "
 "the last argument when creating the object:"
 msgstr ""
+"円の追加もだいたい同じです。ただし、2番目の引数として半径をメートル単位で指定する点が違います。 "
+"さらに、オブジェクトの作成時に最後の引数としてオプションを渡すことで、円の外観を制御できます。"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:118
 msgid "Adding a polygon is as easy:"
-msgstr ""
+msgstr "ポリゴンの追加は簡単です："
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:130
 msgid "Working with popups"
-msgstr ""
+msgstr "ポップアップの操作"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:132
 msgid ""
 "Popups are usually used when you want to attach some information to a "
 "particular object on a map. Leaflet has a very handy shortcut for this:"
 msgstr ""
-"Popups are usually used when you want to attach some information to a "
-"particular object on a map. Leaflet has a very handy shortcut for this:"
+"ポップアップは通常、マップ上の特定のオブジェクトに情報をアタッチする場合に使用します。リーフレットには非常に便利なショートカットがあります："
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:141
 msgid ""
@@ -203,10 +208,12 @@ msgid ""
 "closing of a previously opened popup when opening a new one which is good "
 "for usability."
 msgstr ""
+"ここでは、 **addTo** の代わりに **openOn** "
+"を使用しています。これは、新しいポップアップを開いたときに、以前に開いたポップアップを閉じる処理を自動化します。使いやすさを優先しています。"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:144
 msgid "Dealing with events"
-msgstr ""
+msgstr "イベントへの対応"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:146
 msgid ""
@@ -214,6 +221,9 @@ msgid ""
 " zoom changes, the corresponding object sends an event which you can "
 "subscribe to with a function. It allows you to react to user interaction:"
 msgstr ""
+"ユーザがマーカーをクリックしたり、地図のズームを変更したりするなど、何か Leaflet "
+"に起こるたびに、対応するオブジェクトがイベントを送信し、ユーザはそのイベントを関数でsubscribe (受信) "
+"することができます。この仕組みで、ユーザの操作に反応できます。"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:156
 msgid ""
@@ -223,16 +233,18 @@ msgid ""
 "event object (e in the example above) has latlng property which is a "
 "location at which the click occured."
 msgstr ""
+"各オブジェクトには独自のイベント・セットがあります。詳細は documentation_ "
+"を参照してください。リスナー関数の最初の引数はイベントオブジェクトです。イベントオブジェクトには、発生したイベントに関する有用な情報が含まれています。たとえば、マップクリックイベントオブジェクト(上の例のe)には、クリックが発生した場所であるlatlngプロパティがあります。"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:158
 msgid "Let's improve our example by using a popup instead of an alert:"
-msgstr ""
+msgstr "アラートの代わりにポップアップを使用して、例を改善しましょう。"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:173
 msgid ""
 "Try clicking on the map and you will see the coordinates in a popup. View "
 "the full example_"
-msgstr ""
+msgstr "マップをクリックすると、座標がポップアップで表示されます。完全な example_ を表示します "
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:176
 msgid "What Next?"
@@ -244,3 +256,5 @@ msgid ""
 "away! Don't forget to take a look at the detailed documentation_ or other "
 "examples_."
 msgstr ""
+"これで、Leaflet の基礎を学び、地図アプリをすぐに作ることができます! 詳細な documentation_ やその他の examples_ "
+"をぜひ見てください。"
