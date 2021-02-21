@@ -54,8 +54,9 @@ msgid ""
 "<http://localhost:8080/rasdaman/ows>`_ loads in the browser)."
 msgstr ""
 "次のクエリを実行する前に、まずrasdamanとTomcatを起動します。デスクトップで *Databases* ディレクトリを開き、 "
-"*Rasdaman Server* を起動します。rasdaman、特にTomcatが完全に起動するまで、2分から3分間待ちます( `rasdaman "
-"web client <http://localhost:8080/rasdaman/ows>`_ がブラウザにロードされるまで)。"
+"*Rasdaman Server* を起動します。rasdamanが起動するまで、特にTomcatが完全に起動するまで(`rasdaman "
+"ウェブクライアント <http://localhost:8080/rasdaman/ows>`_ "
+"がブラウザにロードされるまで)、2分から3分間待ちます。"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:42
 msgid ""
@@ -64,7 +65,7 @@ msgid ""
 "tutorial though, continue with the next examples here."
 msgstr ""
 "その後、同じディレクトリから *Rasdaman-Earthlookデモ* "
-"を開くことができます。これにより、ブラウザでローカルのデモが起動します。しかし、より実践的なチュートリアルのために、次の例に進んでください。"
+"を開くことができます。これにより、ブラウザでローカルのデモが起動します。より実践的なチュートリアルを行なうので、次の例に進んでください。"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:48
 msgid "Running WCPS queries"
@@ -72,7 +73,7 @@ msgstr "WCPSクエリを実行"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:53
 msgid "Either:"
-msgstr "Either:"
+msgstr "次のいずれか："
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:51
 msgid ""
@@ -80,9 +81,8 @@ msgid ""
 "switch to the *ProcessCoverages* tab, and enter your query in the query "
 "boxes and press send."
 msgstr ""
-"Go to the `rasdaman web client <http://localhost:8080/rasdaman/ows>`_, "
-"switch to the *ProcessCoverages* tab, and enter your query in the query "
-"boxes and press send."
+"`rasdamanウェブクライアント <http://localhost:8080/rasdaman/ows>`_ に行って "
+"*ProcessCoverages* タブに切り替え、クエリボックスにクエリを入力して送信を押してください。"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:52
 msgid ""
@@ -90,24 +90,26 @@ msgid ""
 "http://localhost:8080/rasdaman/ows?query=your_query and run it using a "
 "browser."
 msgstr ""
+"クエリーを次のURLに追加し、ブラウザーを使って実行します:  "
+"http://localhost:8080/rasdaman/ows?query=your_query "
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:56
 msgid "Running coverage"
-msgstr ""
+msgstr "実行中のカバレッジ"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:58
 msgid ""
 "The example coverage which will be used subsequently is a 6 MB image as "
 "below:"
-msgstr ""
+msgstr "後で使用されるカバレッジの例は、次の6MBイメージです："
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:64
 msgid "Access full coverage"
-msgstr ""
+msgstr "フル・カバレッジへのアクセス"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:66
 msgid "The WCPS query to access the full coverage is as follows:"
-msgstr ""
+msgstr "すべてのカバレッジにアクセスするためのWCPSクエリは次のとおりです。"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:72
 msgid ""
@@ -115,14 +117,16 @@ msgid ""
 "<http://localhost:8080/rasdaman/ows?query=for%20c%20in%20(NIR)%20return%20encode%28c,%20%22png%22%29>`_"
 " to execute it in the browser."
 msgstr ""
+"`カバレッジリクエスト <http://localhost:8080/rasdaman/ows?query=for%20c%20 "
+"in%20(NIR)%20 return%20 encode%28c,%20%22 png%22%29>`_ をクリックしてブラウザで実行してください。"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:76
 msgid "Select a subset of the coverage"
-msgstr ""
+msgstr "カバレッジのサブセットを選択します。"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:78
 msgid "The WCPS query to access a subset of the coverage is as follows:"
-msgstr ""
+msgstr "カバレッジのサブセットにアクセスするためのWCPSクエリは次のとおりです："
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:84
 msgid ""
@@ -130,18 +134,21 @@ msgid ""
 "<http://localhost:8080/rasdaman/ows?query=for%20c%20in%20(NIR)%20return%20encode%28c[i(0:500),"
 " j(0:500)],%20%22png%22%29>`_ to execute it on the browser."
 msgstr ""
+"ブラウザで実行するには、 `サブセットリクエスト "
+"<http://localhost:8080/rasdaman/ows?query=for%20c%20 in%20(NIR)%20 return%20"
+" encode%28c[i(0:500), j(0:500)],%20%22 png%22%29>`_  をクリックします。"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:86
 msgid "The query result is an image as follows:"
-msgstr ""
+msgstr "クエリー結果は次のようなイメージです:"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:93
 msgid "Band extraction from the coverage"
-msgstr ""
+msgstr "カバレッジからのバンド抽出"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:95
 msgid "The WCPS query to access the red band of the coverage is as follows:"
-msgstr ""
+msgstr "カバレッジの赤色帯域にアクセスするためのWCPSクエリは次のとおりです:"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:101
 msgid ""
@@ -150,10 +157,13 @@ msgid ""
 " to execute it; you should see the following image in the browser as a "
 "result:"
 msgstr ""
+"`バンド抽出 "
+"<http://localhost:8080/rasdaman/ows?query=for%20c%20in%20(NIR)%20return%20encode%28c.red,%20%22png%22%29>`_"
+" をクリックして、実行します。その結果、つぎのような画像が表示されます："
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:107
 msgid "Arithmetic operation: Extracting NDVI of the coverage"
-msgstr ""
+msgstr "算術演算:カバレッジのNDVIの抽出"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:109
 msgid ""
@@ -162,6 +172,8 @@ msgid ""
 "is, the more likely it is plants. The WCPS query to derive NDVI from the "
 "coverage is as follows:"
 msgstr ""
+"NDVI(Normalized Difference Vegetation "
+"Index)はリモートセンシングにおける植生の確率の尺度です。カバレッジからNDVIを導出するためのWCPSクエリは次のとおりです。"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:127
 msgid "What next?"
@@ -173,6 +185,8 @@ msgid ""
 "condensed introduction to the concepts behind rasdaman, rasql and the OGC "
 "web services support."
 msgstr ""
+"rasdamanや rasql そして、OGC Webサービスサポートの背景にある概念を要約して `rasdaman チュートリアル "
+"<https://tutorial.rasdaman.org/>`_ で紹介しています。"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:130
 msgid ""
@@ -181,6 +195,10 @@ msgid ""
 "tutorials page <https://standards.rasdaman.com/>`_  and `WCPS Query SandBox "
 "<http://localhost/rasdaman-demo/demo/client/query-sandbox.html>`_."
 msgstr ""
+"OGC  |WCPS| 言語標準 (rasdamanに影響されて制定された)について、学んでください。 `ドキュメントとチュートリアルのページ "
+"<https://standards.rasdaman.com/>`_  そして、 `WCPS Query SandBox "
+"<http://localhost/rasdaman-demo/demo/client/query-sandbox.html>`_ "
+"が良い出発点になるでしょう。 "
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:133
 msgid ""
@@ -188,12 +206,16 @@ msgid ""
 "Domain Working Group wiki "
 "<https://external.ogc.org/twiki_public/CoveragesDWG/WebHome>`_."
 msgstr ""
+"カバレッジデータおよびサービス全般に興味がありますか? OGCの `Coverages Domain Working Group wiki "
+"<https://external.ogc.org/twiki_public/CoveragesDWG/WebHome>`_ を参照してみましょう。"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:134
 msgid ""
 "Explore the `rasdaman documentation <https://doc.rasdaman.org>`_ to learn "
 "about rasdaman administration, its query language, and data ingestion."
 msgstr ""
+"`rasdaman 文書 <https://doc.rasdaman.org>`_ にアクセスできる方は、 rasdaman "
+"の管理、その問い合わせ言語、データの取り込み方法も学べます。"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:135
 msgid ""
@@ -203,3 +225,7 @@ msgid ""
 "forward to the `OGC standards showcase site "
 "<https://standards.rasdaman.com>`_ ."
 msgstr ""
+"インタラクティブな1-Dから4-Dのrasdamanのデモを見るには、 `多次元デモ <http://localhost/rasdaman-"
+"demo>`_ をご覧ください。OSGeoLive に含まれているのは小さい例です。 `OGC標準ショーケースサイト "
+"<https://standards.rasdaman.com>`_  "
+"では、(ドライブ容量をこえるような)大きなデータセットを使っている例を見ることができます。"
