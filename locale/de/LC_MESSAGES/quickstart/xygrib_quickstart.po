@@ -4,9 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Vicky Vergara <vicky@georepublic.de>, 2021
-# Nicolas Roelandt (Personnel), 2021
-# Harrissou Sant-anna, 2021
+# Astrid Emde <astrid_emde@osgeo.org>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -15,43 +13,45 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-06 18:01-0600\n"
 "PO-Revision-Date: 2021-02-07 00:37+0000\n"
-"Last-Translator: Harrissou Sant-anna, 2021\n"
-"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2021\n"
+"Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:18
 msgid "XyGrib Quickstart"
-msgstr "Guide de démarrage avec XyGrib"
+msgstr "XyGrib Quickstart"
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:20
 msgid ""
 "XyGrib is a program to download and visualize weather forecast data in the "
 "standard GRIB distribution format."
 msgstr ""
-"XyGrib est un programne pour télécharger et visualiser des données de "
-"prévision météorologique au format standard de distribution GRIB."
+"XyGrib ist ein Programm, um Daten zur Wettervorhersage im standardmäßigen "
+"GRIB-Format herunterzuladen und zu visualisieren."
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:26
 msgid "Start XyGrib"
-msgstr "Démarrer XyGrib"
+msgstr "Start XyGrib"
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:28
 msgid ""
 "From the desktop, choose :menuselection:`Navigation and Maps --> XyGrib GRIB"
 " file viewer`."
 msgstr ""
+"Wählen Sie auf dem Desktop :menuselection:'Navigation and Maps --> XyGrib "
+"GRIB file viewer'."
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:29
 msgid ""
 "Select your preferred language and click :guilabel:`OK`. The program opens "
 "and you are presented with a map of the world."
 msgstr ""
-"Sélectionnez votre langue préférée et cliquez sur :guilabel:`OK`. Le "
-"programme s’ouvre et une carte du monde vous est présentée."
+"Wählen Sie Ihre bevorzugte Sprache und klicken Sie auf :guilabel:'OK'. Das "
+"Programm wird geöffnet und Sie erhalten eine Weltkarte."
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:30
 msgid ""
@@ -59,10 +59,10 @@ msgid ""
 "the screen, click the power plug icon. The File Server Status window opens "
 "and after a moment, it will confirm the status of the connection."
 msgstr ""
-"Vérifiez la connexion au serveur de données. Sur la barre d’outils en haut à"
-" droite de l’écran, cliquez sur l’icône en forme de prise de courant. La "
-"fenêtre d’état du serveur de fichiers s’ouvre et après un moment, elle "
-"confirmera l’état de la connexion."
+"Überprüfen Sie die Verbindung zum Datenserver. Klicken Sie auf der "
+"Symbolleiste oben rechts auf dem Bildschirm auf das Netzsteckersymbol. Das "
+"Fenster Dateiserverstatus wird geöffnet und nach einem Moment wird der "
+"Status der Verbindung bestätigt."
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:33
 msgid ""
@@ -70,14 +70,14 @@ msgid ""
 "You can get GRIB data from many sources, but as a convenience the XyGrib "
 "authors maintain a data server to use with XyGrib."
 msgstr ""
-"Vous aurez besoin d’une connexion Internet pour télécharger les données des "
-"prévisions météorologiques GRIB. Vous pouvez obtenir des données GRIB de "
-"nombreuses sources, mais par commodité les auteurs de XyGrib maintiennent un"
-" serveur de données à utiliser avec XyGrib."
+"Sie benötigen eine Internetverbindung, um GRIB Wettervorhersagedaten "
+"herunterzuladen. Sie können GRIB-Daten aus vielen Quellen beziehen, aber aus"
+" Bequemlichkeit unterhalten die XyGrib-Autoren einen Datenserver, der mit "
+"XyGrib verwendet werden kann."
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:37
 msgid "Download data"
-msgstr "Télécharger les données"
+msgstr "Daten herunterladen"
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:39
 msgid ""
@@ -85,40 +85,41 @@ msgid ""
 "world you are interested in. The Gulf of Mexico or the southern tip of "
 "Africa often have dynamic winds."
 msgstr ""
-"Utilisez la souris pour faire un cliqué-glissé sur la zone de la carte sur "
-"une partie du monde qui vous intéresse. Le golfe du Mexique ou la pointe sud"
-" de l’Afrique ont souvent des vents dynamiques."
+"Klicken und ziehen Sie mit der Maus ein Feld auf der Karte in dem Bereich "
+"auf, an dem Sie interessiert sind. Der Golf von Mexiko oder die südliche "
+"Spitze Afrikas haben oft dynamische Winde."
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:40
 msgid ""
 "With your box drawn on the map, click the zoom-to-box icon on the taskbar "
 "(the magnifying glass with a small box underneath it)"
 msgstr ""
-"Avec votre rectangle dessiné sur la carte, cliquez sur l’icône zoom-to-box "
-"sur la barre des tâches (la loupe avec un petit rectangle en dessous)"
+"Wenn das Feld auf der Karte gezeichnet ist, klicken Sie auf das Zoom-to-Box-"
+"Symbol in der Taskleiste (die Lupe mit einem kleinen Feld darunter)"
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:41
 msgid ""
 "Again,  mark out a box of interest with a left-click drag, but this time "
 "covering most or all of the zoomed-in map canvas."
 msgstr ""
-"Encore une fois, marquez votre zone d'intérêt avec un cliqué-glissé gauche, "
-"mais cette fois couvrant la plupart de la carte zoomée."
+"Ziehen Sie erneut einen Bereich mit einem Linksklick-Ziehen auf, das jedoch "
+"dieses Mal den größten Teil oder den gesamten vergrößerten Kartenbereich "
+"abdeckt."
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:42
 msgid ""
 "Select :menuselection:`File --> Download GRIB` and select the features you "
 "want to download. If in doubt, accept the defaults."
 msgstr ""
-"Sélectionnez :menuselection:`File --> Download GRIB` et sélectionnez les "
-"entités que vous souhaitez télécharger. En cas de doute, acceptez les "
-"paramètres par défaut."
+"Wählen Sie :menuselection:`File --> Download GRIB` und wählen Sie die "
+"Funktionen aus, die Sie herunterladen möchten. Wählen Sie im Zweifelsfall "
+"die Standardwerte."
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:43
 msgid "When ready click the ``Download`` button, and save the file to disk."
 msgstr ""
-"Lorsque vous êtes prêt, cliquez sur le bouton ``Download`` et enregistrez le"
-" fichier sur le disque."
+"Wenn Sie fertig sind, klicken Sie auf die Schaltfläche ''Download'' und "
+"speichern Sie die Datei."
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:45
 msgid ""
@@ -126,29 +127,29 @@ msgid ""
 "set for the current time. You can use the mouse wheel to zoom in if you "
 "like."
 msgstr ""
-"L’application affiche une carte météo avec un curseur de temps le long du "
-"bas de la carte, définie pour l’heure actuelle. Vous pouvez utiliser la "
-"molette de la souris pour zoomer si vous le souhaitez."
+"Die Anwendung zeigt eine Wetterkarte mit einem Zeitschieberegler entlang der"
+" Unterseite. Dieser ist auf die aktuelle Zeit eingestellt. Sie können das "
+"Mausrad verwenden, um die Karte zu vergrößern, wenn Sie möchten."
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:49
 msgid "Change views"
-msgstr "Modifier les vues"
+msgstr "Ansichten anpassen"
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:51
 msgid ""
 "Move the mouse around the map you'll see the exact conditions listed in the "
 "pane on the left."
 msgstr ""
-"Déplacez la souris autour de la carte, vous verrez les conditions exactes "
-"énumérées dans le volet sur la gauche."
+"Bewegen Sie die Maus auf der Karte, sie sehen die genauen Bedingungen im "
+"Bereich auf der linken Seite aufgeführt."
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:52
 msgid ""
 "You can change the time by moving the slider along the bottom, or from the "
 "drop down menu in the top-left of the window."
 msgstr ""
-"Vous pouvez modifier le temps en déplaçant le curseur le long de la partie "
-"inférieure, ou dans le menu déroulant en haut à gauche de la fenêtre."
+"Sie können die Uhrzeit ändern, indem Sie den Schieberegler am unteren Rand "
+"oder über das Dropdown-Menü oben links im Fenster verschieben."
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:53
 msgid ""
@@ -156,9 +157,9 @@ msgid ""
 "select :menuselection:`Weather map --> Cloud cover` and the view should "
 "change."
 msgstr ""
-"Dans le menu ``Weather map``, sélectionnez une variable à visualiser. Par "
-"exemple, sélectionnez :menuselection:`Weather map --> Cloud cover` et la vue"
-" doit changer."
+"Wählen Sie im Menü ``Weather map``  eine Variable aus, die visualisiert "
+"werden soll. Wählen Sie beispielsweise :menuselection:`Wetterkarte --> "
+"Wolkenabdeckung` und die Ansicht sollte sich ändern."
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:55
 msgid ""
@@ -167,47 +168,44 @@ msgid ""
 "ground level. It is a measure of atmospheric instability, and high values "
 "(1000s of J/kg) indicate a threat of thunderstorms and/or tornadoes."
 msgstr ""
-"Si vous avez téléchargé les données pour le golfe du Mexique, vous serez "
-"intéressé d’afficher les données CAPE. \"CAPE\" signifie Convective "
-"Available Potential Energy  (Energie convective potentielle disponible) au "
-"niveau du sol. C’est une mesure de l’instabilité atmosphérique et des "
-"valeurs élevées (1000 s de J/kg) indique un risque d’orages et/ou de "
-"tornades."
+"Wenn Sie Daten für den Golf von Mexiko heruntergeladen haben, werden Sie "
+"daran interessiert sein, die CAPE-Daten anzuzeigen. \"CAPE\" steht für "
+"Convective Available Potential Energy at ground level. Es ist ein Maß für "
+"die atmosphärische Instabilität, und hohe Werte (1000 J/kg) deuten auf die "
+"Gefahr von Gewittern und/oder Tornados hin."
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:57
 msgid ""
 "If you downloaded data for southern Africa, cloud cover may be more "
 "interesting."
 msgstr ""
-"Si vous avez téléchargé des données pour l’Afrique australe, la couverture "
-"nuageuse peut être plus intéressante."
+"Wenn Sie Daten für das südliche Afrika heruntergeladen haben, kann die "
+"Cloud-Abdeckung interessanter sein."
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:61
 msgid "Create an animation"
-msgstr "Créer une animation"
+msgstr "Erstellen einer Animation"
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:63
 msgid ""
 "Click the right-hand most icon on the toolbar (a rocketship). A new window "
 "opens and an animation will be generated."
 msgstr ""
-"Cliquez sur l’icône la plus à droite sur la barre d’outils (une fusée). Une "
-"nouvelle fenêtre s’ouvre et une animation sera générée."
+"Klicken Sie auf das rechte Symbol auf der Symbolleiste (ein Raketenschiff). "
+"Ein neues Fenster wird geöffnet und eine Animation wird generiert."
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:64
 msgid ""
 "Wait while it runs through the time sequence for the first time. When it is "
 "done it will rewind to the beginning of the time series."
 msgstr ""
-"Attendez que l'application traverse la séquence de temps pour la première "
-"fois. Quand cela est fait, elle se rembobinera au début de la série de "
-"temps."
+"Warten Sie, während es zum ersten Mal durch die Zeitsequenz läuft. Wenn es "
+"fertig ist, wird es zum Anfang der Zeitreihe zurückspulen."
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:65
 msgid "You can play, pause and rewind the sequence as you like."
 msgstr ""
-"Vous pouvez jouer, mettre en pause et rembobiner la séquence comme vous le "
-"souhaitez."
+"Sie können die Sequenz nach Belieben wiedergeben, anhalten und zurückspulen."
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:66
 msgid ""
@@ -215,19 +213,18 @@ msgid ""
 "AVI, MPEG, or animated GIF `using other software "
 "<https://grasswiki.osgeo.org/wiki/Movies>`_."
 msgstr ""
-"Vous pouvez également enregistrer chaque image comme un fichier d’image pour"
-" l’encodage ultérieur dans un AVI, MPEG, ou GIF animé en utilisant `d’autres"
-" logiciels <https://grasswiki.osgeo.org/wiki/Movies>`_."
+"Sie können jeden Ausschnitt auch als Bilddatei als AVI, MPEG oder animiertes"
+" GIF `mit anderer Software <https://grasswiki.osgeo.org/wiki/Movies>`_ "
+"speichern."
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:67
 msgid "When you're done, click the red power button to close."
 msgstr ""
-"Lorsque vous avez terminé, cliquez sur le bouton d’alimentation rouge pour "
-"fermer."
+"Wenn Sie fertig sind, klicken Sie auf den roten Button, zum Schließen."
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:71
 msgid "What next?"
-msgstr "Ensuite ?"
+msgstr "Was kommt als Nächstes?"
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:73
 msgid ""
@@ -236,15 +233,14 @@ msgid ""
 " GRIB file. See the :doc:`OpenCPN quickstart "
 "<../quickstart/opencpn_quickstart>` for details."
 msgstr ""
-"Le :doc:`logiciel OpenCPN <../overview/opencpn_overview>` (aussi sur ce "
-"disque) a un plugin de superposition GRIB qui vous pouvez essayer avec votre"
-" fichier GRIB nouvellement téléchargé. Voir le :doc:`guide de démarrage "
-"rapide d'OpenCPN quickstart <../quickstart/opencpn_quickstart>` pour plus de"
-" détails."
+"Die :doc:`OpenCPN Software <../overview/opencpn_overview>`  (auch auf "
+"OSGeoLive) hat ein GRIB-Overlay-Plugin, das Sie mit Ihrer neu "
+"heruntergeladenen GRIB-Datei ausprobieren können. Details finden Sie im "
+":doc:`OpenCPN Quickstart <../quickstart/opencpn_quickstart>`."
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:79
 msgid "Website: https://opengribs.org"
-msgstr "Site web: https://opengribs.org"
+msgstr "Webseite: https://opengribs.org"
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:80
 msgid "Support: https://opengribs.org/en/support-forum"
