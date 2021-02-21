@@ -89,7 +89,7 @@
 </div>
 <div class="section" id="setup">
 <h2><a class="toc-backref" href="#id3">セットアップ</a><a class="headerlink" href="#setup" title="このヘッドラインへのパーマリンク">¶</a></h2>
-<p>次のクエリを実行する前に、まずrasdamanとTomcatを起動します。デスクトップで <em>Databases</em> ディレクトリを開き、 <em>Rasdaman Server</em> を起動します。rasdamanが起動するまで、特にTomcatが完全に起動するまで( <a class="reference external" href="http://localhost:8080/rasdaman/ows">rasdaman ウェブクライアント</a> がブラウザにロードされるまで)、2分から3分間待ちます。</p>
+<p>次のクエリを実行する前に、まずrasdamanとTomcatを起動します。デスクトップで <em>Databases</em> ディレクトリを開き、 <em>Rasdaman Server</em> を起動します。rasdamanが起動するまで、特にTomcatが完全に起動するまで(<a class="reference external" href="http://localhost:8080/rasdaman/ows">rasdaman ウェブクライアント</a> がブラウザにロードされるまで)、2分から3分間待ちます。</p>
 <p>その後、同じディレクトリから <em>Rasdaman-Earthlookデモ</em> を開くことができます。これにより、ブラウザでローカルのデモが起動します。より実践的なチュートリアルを行なうので、次の例に進んでください。</p>
 </div>
 <div class="section" id="running-wcps-queries">
@@ -132,7 +132,7 @@
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="p">(</span><span class="n">NIR</span><span class="p">)</span> <span class="k">return</span> <span class="n">encode</span><span class="p">(</span><span class="n">c</span><span class="o">.</span><span class="n">red</span><span class="p">,</span> <span class="s2">&quot;png&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
-<p><a class="reference external" href="http://localhost:8080/rasdaman/ows?query=for%20c%20in%20(NIR)%20return%20encode%28c.red,%20%22png%22%29">band extraction</a> をクリックして、実行します。その結果、つぎのような画像が表示されます：</p>
+<p><a class="reference external" href="http://localhost:8080/rasdaman/ows?query=for%20c%20in%20(NIR)%20return%20encode%28c.red,%20%22png%22%29">バンド抽出</a> をクリックして、実行します。その結果、つぎのような画像が表示されます：</p>
 <a class="reference internal image-reference" href="../../_images/rasdaman_ndvi3.png"><img alt="../../_images/rasdaman_ndvi3.png" src="../../_images/rasdaman_ndvi3.png" style="width: 479.0px; height: 269.0px;" /></a>
 </div>
 <div class="section" id="arithmetic-operation-extracting-ndvi-of-the-coverage">
@@ -154,8 +154,8 @@
 <ul class="simple">
 <li>rasdamanや rasql そして、OGC Webサービスサポートの背景にある概念を要約して <a class="reference external" href="https://tutorial.rasdaman.org/">rasdaman チュートリアル</a> で紹介しています。</li>
 <li>OGC  <a class="reference external" href="https://www.ogc.org/standards/wcps">Web Coverage Processing Service</a> 言語標準 (rasdamanに影響されて制定された)について、学んでください。 <a class="reference external" href="https://standards.rasdaman.com/">ドキュメントとチュートリアルのページ</a>  そして、 <a class="reference external" href="http://localhost/rasdaman-demo/demo/client/query-sandbox.html">WCPS Query SandBox</a> が良い出発点になるでしょう。</li>
-<li>カバレッジデータおよびサービス全般に興味がありますか?OGCの <a class="reference external" href="https://external.ogc.org/twiki_public/CoveragesDWG/WebHome">Coverages Domain Working Group wiki</a> を参照してみましょう。</li>
-<li><a class="reference external" href="https://doc.rasdaman.org">rasdaman documentation</a> にアクセスできる方は、 rasdaman の管理、その問い合わせ言語、データの取り込み方法も学べます。</li>
+<li>カバレッジデータおよびサービス全般に興味がありますか? OGCの <a class="reference external" href="https://external.ogc.org/twiki_public/CoveragesDWG/WebHome">Coverages Domain Working Group wiki</a> を参照してみましょう。</li>
+<li><a class="reference external" href="https://doc.rasdaman.org">rasdaman 文書</a> にアクセスできる方は、 rasdaman の管理、その問い合わせ言語、データの取り込み方法も学べます。</li>
 <li>インタラクティブな1-Dから4-Dのrasdamanのデモを見るには、 <a class="reference external" href="http://localhost/rasdaman-demo">多次元デモ</a> をご覧ください。OSGeoLive に含まれているのは小さい例です。 <a class="reference external" href="https://standards.rasdaman.com">OGC標準ショーケースサイト</a>  では、(ドライブ容量をこえるような)大きなデータセットを使っている例を見ることができます。</li>
 </ul>
 </div>
