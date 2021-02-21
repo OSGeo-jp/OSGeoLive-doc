@@ -43,7 +43,7 @@ msgid ""
 "the daily operations and a RESTFull Web api for automatizing administration "
 "procedures."
 msgstr ""
-"このプロジェクトはまた、日常的な操作を容易にするグラフィカル・ユーザー・インタフェースと、管理手順を自動化するためのRESTフル Web "
+"このプロジェクトはまた、日常的な操作を容易にするグラフィカル・ユーザ・インタフェースと、管理手順を自動化するためのRESTフル Web "
 "apiも提供しています。"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:28
@@ -331,7 +331,7 @@ msgid ""
 "Write \"python scripts/csv2istsos.py -p T_LUGANO -u http://localhost/istsos "
 "-s demo -w ~/Desktop\" and press ENTER"
 msgstr ""
-" \"python scripts/csv2istsos.py -p T_LUGANO -u http://localhost/istsos -s "
+"\"python scripts/csv2istsos.py -p T_LUGANO -u http://localhost/istsos -s "
 "demo -w ~/Desktop\" とうちこんで、ENTERを押します"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:184

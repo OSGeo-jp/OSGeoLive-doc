@@ -523,7 +523,7 @@ msgid ""
 "and hit ``OK``. The shapefile should be imported into PostGIS with no "
 "errors. Close the PostGIS manager and get back to the main QGIS window."
 msgstr ""
-"座標参照系セレクタの既定値を(WGS 84 EPSG:4326)にして、 ``OK`` "
+"座標参照系セレクタのデフォルト値を(WGS 84 EPSG:4326)にして、 ``OK`` "
 "を押します。シェープファイルは、エラーなしでPostGISにインポートする必要があります。PostGISマネージャを閉じて、メインのQGISウィンドウに戻ります。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:453
@@ -689,7 +689,7 @@ msgid ""
 "Browser --> Display`"
 msgstr ""
 "pgAdmin "
-"IIIでは、外部データラッパー、外部サーバ、ユーザマッピング、外部テーブルが既定でツリーに表示されないことに注意してください。これらを有効にするには、メニューの"
+"IIIのデフォルトでは、外部データラッパー、外部サーバ、ユーザマッピング、外部テーブルが、ツリーに表示されないことに注意してください。これらを有効にするには、メニューの"
 " :menuselection:`File--> Options--> Browser--> Display` を使用する必要があります。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:560
@@ -701,7 +701,7 @@ msgstr "接続するデータソースの場所を通知する外部サーバー
 #: ../../build/doc/quickstart/postgis_quickstart.rst:568
 msgid ""
 "Define the user that should be used when you connect to the foreign server"
-msgstr "外部サーバーに接続するときに使用するユーザーを定義"
+msgstr "外部サーバに接続するときに使用するユーザを定義"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:576
 msgid "Now you can create a foreign table."
@@ -854,7 +854,7 @@ msgstr "コマンドラインで ``shp2pgsql`` を使用して、データベー
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:689
 msgid "Try to do road routing using :doc:`../overview/pgrouting_overview`."
-msgstr " :doc:`../overview/pgrouting_overview` を使用して、道路のルーティングを試みます。"
+msgstr ":doc:`../overview/pgrouting_overview` を使用して、道路のルーティングを試みます。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:694
 msgid "What next?"
