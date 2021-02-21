@@ -72,7 +72,7 @@
   <a class="reference external image-reference" href="https://leafletjs.com"><img alt="../../_images/logo_leaflet.png" class="align-right" src="../../_images/logo_leaflet.png" /></a>
 <div class="section" id="leaflet-quickstart">
 <h1><a class="toc-backref" href="#id1">Leaflet クイックスタート</a><a class="headerlink" href="#leaflet-quickstart" title="このヘッドラインへのパーマリンク">¶</a></h1>
-<p>Leaflet はブラウザベースで、モバイルフレンドリーなインタラクティブ地図のための JavaScript ライブラリです。軽量ですが、開発者が必要とする少し前のオンライン地図の全機能を持っています。Leaflet はシンプル、パフォーマンス、ユーザビリティを念頭に設計されています。</p>
+<p>Leaflet はブラウザベースで、モバイルフレンドリーなインタラクティブ地図のための JavaScript ライブラリです。軽量ですが、ほとんどの開発者がオンライン地図に必要とするすべての機能を備えています。Leaflet はシンプル、パフォーマンス、ユーザビリティを念頭に設計されています。</p>
 <div class="contents topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
@@ -101,7 +101,7 @@
 <h2><a class="toc-backref" href="#id3">HTMLページを用意する</a><a class="headerlink" href="#preparing-your-page" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>地図のコードをかきはじめる前に、ページで、次の準備ステップを実施する必要があります:</p>
 <ul class="simple">
-<li>文書のヘッダーで、Leaflet CSSファイルをよみこむ</li>
+<li>ドキュメントのヘッダーセクションで、Leaflet CSSファイルをよみこむ</li>
 </ul>
 <div class="highlight-html"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;/leaflet/leaflet.css&quot;</span> <span class="p">/&gt;</span>
 <span class="c">&lt;!--[if lte IE 8]&gt;</span>
@@ -135,8 +135,8 @@
 <div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">map</span> <span class="o">=</span> <span class="nx">L</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="s1">&#39;map&#39;</span><span class="p">).</span><span class="nx">setView</span><span class="p">([</span><span class="mf">44.43743</span><span class="p">,</span> <span class="mf">26.104</span><span class="p">],</span> <span class="mf">15</span><span class="p">);</span>
 </pre></div>
 </div>
-<p>デフォルトで、 (地図インスタンスを作成するときに、設定オプションを与えない場合), 全てのマウス操作とタッチ操作は有効化されます。ズームや属性制御することができます。</p>
-<p>setView のよびだしも、地図オブジェクトを返却します。 - 多くのLeafletのメソッドは、明示的な戻り値がない場合、同様に動作します。 jQueryのようなメソッドのチェインニングができて便利です。</p>
+<p>デフォルトで (地図インスタンスを作成するときに、設定オプションを与えない場合)、全てのマウス操作とタッチ操作は有効化されます。ズームと属性コントロールがあります。</p>
+<p>setView のよびだしも、地図オブジェクトを返却します。 - 多くのLeafletのメソッドは、明示的な戻り値がない場合、同様に動作します。 jQueryのようなメソッドのチェイニングができて便利です。</p>
 <p>次に、地図にレイヤを追加します。この例では、ライブDVDでTileStacheから提供されたタイルイメージを使用します。OpenStreetMap などの、より良い背景地図を使用すると、ユーザ体験を向上させられることに注意してください。</p>
 <p>タイルレイヤ を作成するには、通常、タイルイメージのURLテンプレート、属性テキスト、およびレイヤの最大ズームレベルを設定します。</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">L</span><span class="o">.</span><span class="n">tileLayer</span><span class="p">(</span><span class="s1">&#39;http://localhost:8012/example/</span><span class="si">{z}</span><span class="s1">/</span><span class="si">{x}</span><span class="s1">/</span><span class="si">{y}</span><span class="s1">.png,</span><span class="si">{}</span><span class="s1">).addTo(map);</span>
@@ -146,8 +146,8 @@
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">L</span><span class="o">.</span><span class="n">tileLayer</span><span class="p">(</span><span class="s1">&#39;http://</span><span class="si">{s}</span><span class="s1">.tile.openstreetmap.org/</span><span class="si">{z}</span><span class="s1">/</span><span class="si">{x}</span><span class="s1">/</span><span class="si">{y}</span><span class="s1">.png&#39;</span><span class="p">,{</span><span class="n">maxZoom</span><span class="p">:</span><span class="mi">18</span><span class="p">,</span> <span class="n">attribution</span><span class="p">:</span> <span class="s1">&#39;© &lt;a href=&quot;https://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt; contributors&#39;</span><span class="p">})</span><span class="o">.</span><span class="n">addTo</span><span class="p">(</span><span class="nb">map</span><span class="p">);</span>
 </pre></div>
 </div>
-<p>すべてのコードが <strong>div</strong> タグと <strong>leaflet.js</strong> の読み込みの後に呼び出されていることを確認してください。これが全てです。これで、Leaflet の地図をうごかすことができました。</p>
-<p>Leaflopはプロバイダに依存しないので、タイルに対して特定のプロバイダの選択を強制することはなく、プロバイダ固有のコード行も含まれていないので、必要に応じて他のプロバイダを使用することもできます。</p>
+<p>すべてのコードが <strong>div</strong> タグと <strong>leaflet.js</strong> の読み込みの後に呼び出されていることを確認してください。これが全てです。これで、Leaflet の地図を動かすことができました。</p>
+<p>Leaflet はプロバイダに依存しないので、タイルに対して特定のプロバイダの選択を強制することはなく、プロバイダ固有のコード行も含まれていないので、必要に応じて他のプロバイダを使用することもできます。</p>
 </div>
 <div class="section" id="markers-circles-and-polygons">
 <h2><a class="toc-backref" href="#id5">マーカー、円、ポリゴン</a><a class="headerlink" href="#markers-circles-and-polygons" title="このヘッドラインへのパーマリンク">¶</a></h2>
@@ -211,7 +211,7 @@
 </div>
 <div class="section" id="what-next">
 <h2><a class="toc-backref" href="#id8">次のステップ</a><a class="headerlink" href="#what-next" title="このヘッドラインへのパーマリンク">¶</a></h2>
-<p>これで、Leaflet の基礎を学び、地図アプリをすぐに作ることができます!詳細な <a class="reference external" href="https://leafletjs.com/reference.html">documentation</a> やその他の <a class="reference external" href="https://leafletjs.com/examples.html">examples</a> をぜひ見てください。</p>
+<p>これで、Leaflet の基礎を学び、地図アプリをすぐに作ることができます! 詳細な <a class="reference external" href="https://leafletjs.com/reference.html">documentation</a> やその他の <a class="reference external" href="https://leafletjs.com/examples.html">examples</a> をぜひ見てください。</p>
 </div>
 </div>
 
