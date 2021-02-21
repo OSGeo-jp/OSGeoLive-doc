@@ -88,7 +88,7 @@ msgid ""
 "`/home/user`. Anytime you open a terminal window it will start in your home "
 "directory (see pwd)."
 msgstr ""
-"現在のユーザは \"`user`\" で、 `/home/user` "
+"現在のユーザは「 `user` 」で、 `/home/user` "
 "にホームディレクトリがあります。ターミナルウィンドウを開くと、ホームディレクトリから開きます(pwdを参照)。"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:65

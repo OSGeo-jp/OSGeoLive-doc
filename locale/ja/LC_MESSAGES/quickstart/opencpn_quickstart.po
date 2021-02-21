@@ -85,7 +85,7 @@ msgstr "および"
 msgid ""
 "BlueTooth GPS users should take special care to read up about the no-probe "
 "option."
-msgstr "Bluetooth GPSユーザは、no-probeオプションについて詳しく調べる必要があります。"
+msgstr "Bluetooth GPSユーザーは、no-probeオプションについて詳しく調べる必要があります。"
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:66
 msgid "'`xgps`' is a good program to check that Gpsd can see your GPS ok."
@@ -102,9 +102,6 @@ msgid ""
 "<../overview/xygrib_overview>` (also on this disc) is an easy way to "
 "download that."
 msgstr ""
-"GRIBプラグインを使用すると、現在の気象や波の予測データをダウンロードして、グラフ上にドレープすることができます。The :doc:`XyGrib "
-"software <../overview/xygrib_overview>` (also on this disc) is an easy way "
-"to download that."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:74
 msgid ""

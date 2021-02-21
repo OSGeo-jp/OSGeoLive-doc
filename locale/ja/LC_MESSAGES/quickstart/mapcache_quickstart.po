@@ -31,8 +31,6 @@ msgid ""
 " as a CGI application under many different web servers, or as an Apache "
 "module. OSGeoLive has MapCache installed and configured as an Apache module."
 msgstr ""
-"MapCache は、 WMS "
-"レイヤへのアクセスを高速化するタイルサーバーです。さまざまなWebサーバー上でCGIアプリケーションとして実行することも、Apacheモジュールとして実行することもできます。OSGeoLiveにはMapCacheがインストールされており、Apacheモジュールとして設定されています。"
 
 #: ../../build/doc/quickstart/mapcache_quickstart.rst:23
 msgid ""
@@ -40,12 +38,10 @@ msgid ""
 "display the tile service in an OpenLayers web map, and seed a tile cache "
 "from the command line."
 msgstr ""
-"このクイックスタートでは、新しいWMSレイヤをMapCacheのセットアップに追加し、タイルサービスをOpenLayers "
-"Webマップに表示し、コマンドラインからタイルキャッシュをシードする方法を示します。"
 
 #: ../../build/doc/quickstart/mapcache_quickstart.rst:31
 msgid "Adding a New Tileset and Displaying in OpenLayers"
-msgstr "新しいタイルセットを追加してOpenLayersに表示する"
+msgstr ""
 
 #: ../../build/doc/quickstart/mapcache_quickstart.rst:33
 msgid ""
@@ -54,10 +50,6 @@ msgid ""
 " The example uses the OSGeoLive demo MapServer application of Itasca County "
 "in the United States as its source."
 msgstr ""
-"MapCacheはXMLファイルを使用して構成されます。OSGeoLive includes an example configuration file"
-" at ``/usr/local/share/mapcache/mapcache-quickstart.xml``. The example uses "
-"the OSGeoLive demo MapServer application of Itasca County in the United "
-"States as its source."
 
 #: ../../build/doc/quickstart/mapcache_quickstart.rst:36
 msgid ""

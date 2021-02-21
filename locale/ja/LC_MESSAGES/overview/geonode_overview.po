@@ -5,7 +5,6 @@
 #
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
-# Vicky Vergara <vicky@georepublic.de>, 2020
 # Ko Nagase <nagase@georepublic.co.jp>, 2021
 #, fuzzy
 msgid ""
