@@ -4,7 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021
+# Astrid Emde <astrid_emde@osgeo.org>, 2020
+# Jan Suleiman <suleiman@terrestris.de>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -13,17 +14,17 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-06 18:01-0600\n"
 "PO-Revision-Date: 2020-10-21 15:59+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021\n"
-"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"Last-Translator: Jan Suleiman <suleiman@terrestris.de>, 2021\n"
+"Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
+"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:16
 msgid "GeoStyler Quickstart"
-msgstr "GeoStyler gyorstalpaló"
+msgstr "GeoStyler Quickstart"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:18
 msgid ""
@@ -31,17 +32,17 @@ msgid ""
 "GeoStyler: installing GeoStyler and adding a first UI component to your "
 "react application."
 msgstr ""
-"Ez a gyorstalpaló néhány alapvető lépést ismertet a a munka megkezdéséhez a "
-"GeoStyler-ben: a GeoStyler telepítése és az első felhasználói felületi "
-"összetevő hozzáadása az alkalmazáshoz."
+"Dieses Quickstart beschreibt die grundlegenden Schritte, die notwendig sind,"
+" um mit GeoStyler zu arbeiten: Die Installation von GeoStyler, sowie das "
+"Hinzufügen einer ersten UI Komponente zu Ihrer react Anwendung."
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:20
 msgid ""
 "A complete beginner tutorial can be found on `localhost/geostyler "
 "<localhost/geostyler>`__."
 msgstr ""
-"Egy teljesen kezdőknek szóló oktatóanyag található itt `localhost/geostyler "
-"<localhost/geostyler>`__."
+"Ein vollständiges Anfängertutorial kann auf `localhost/geostyler "
+"<localhost/geostyler>`__ gefunden werden."
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:22
 msgid ""
@@ -49,13 +50,13 @@ msgid ""
 "independent from any styling format and should be usable for e.g. OpenLayer "
 "or SLD."
 msgstr ""
-"A GeoStyler könnyűvé teszi a geo adatok stílusának beállítását bármely "
-"honlapon. Az felhasználói felület független bármely stílus formátumtól  és "
-"használható például OpenLayers-hez vagy SLD-hez."
+"GeoStyler ermöglicht es geographische Stilinformationen für Geodaten auf "
+"einfache Art und Weise im Web zu editieren. Die UI funktioniert Stilformat "
+"unabhängig und kann beispielsweise mit OpenLayers oder SLD genutzt werden."
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:28
 msgid "Installing GeoStyler"
-msgstr "GeoStyler telepítése"
+msgstr "GeoStyler installieren"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:30
 msgid ""
@@ -63,17 +64,17 @@ msgid ""
 "system. Instructions on how to install ``node.js`` can be found on the "
 "`node.js homepage <https://nodejs.org/>`__."
 msgstr ""
-"A GeoStyler használatához a számítógépére telepíteni kell a ``node.js``. Az "
-"útmutatót a telepítéshez megtalálhatja a `node.js honlapon "
-"<https://nodejs.org/>`__."
+"Um GeoStyler zu verwenden muss ``node.js`` auf Ihrem System installiert "
+"sein. Anleitungen zur Installation von ``node.js`` können auf der `node.js "
+"homepage <https://nodejs.org/>`__ gefunden werden."
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:34
 msgid ""
 "It is recommended to install GeoStyler for each project separately. This "
 "sections describes the required steps."
 msgstr ""
-"Ajánlott a GeoStyler-t minden projekthez külön-külön telepíteni. Ez a "
-"szakasz a szükséges lépéseket ismerteti."
+"Wir empfehlen GeoStyler für jedes Projekt separat zu installieren. Dieser "
+"Abschnitt beschreibt die dazu notwendigen Schritte."
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:37
 msgid ""
@@ -81,63 +82,69 @@ msgid ""
 "the ``node.js`` installation. Simply run following command from your project"
 " root:"
 msgstr ""
-"A GeoStyles legegyszerűbb telepítési módja az  ``npm`` használata, melyet a "
-"``node.js`` telepítésével megkapunk. Egyszerűen futtassa az alábbi parancsot"
-" projektjének gyökér könyvtárából:"
+"Der einfachste Weg GeoStyler zu installieren ist mittels ``npm``, was bei "
+"der Installation von ``node.js`` mitgeliefert wird. Führen Sie einfach "
+"folgenden Befehl auf root-Ebene des jeweiligen Projekts aus:"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:44
 msgid ""
 "Please make sure that all peer dependencies are installed in the specified "
 "versions:"
 msgstr ""
-"Győződjön meg róla hogy az összes függőség a megfelelő verzióját "
-"telepítette:"
+"Bitte stellen Sie sicher, dass alle peer dependencies in den angegebenen "
+"Versionen installiert wurden:"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:50
 msgid "Don't forget to install the parsers you want to use:"
-msgstr "Ne felejtse el telepíteni a használni akart értelmezőket:"
+msgstr ""
+"Denken Sie daran, die Parser zu installieren, die Sie verwenden möchten:"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:58
 msgid "Integrate GeoStyler"
-msgstr "GeoStyler integráció"
+msgstr "GeoStyler integrieren"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:60
 msgid ""
 "Import the GeoStyler ``Style`` component into your application as follows:"
 msgstr ""
-"Importálja a GeoStyler `Style`` komponensét az alkalmazásába a következők "
-"szerint:"
+"Importieren Sie die GeoStyler ``Style`` Komponente folgendermaßen in Ihre "
+"Anwendung:"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:66
 msgid "The ``Style`` component provides a variety of styling functionality."
-msgstr "A ``Style`` komponens a stílus beállítás variációit biztosítja."
+msgstr ""
+"Die ``Style`` Komponente stellt eine Vielzahl an Stylingfunktionalität "
+"bereit."
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:68
 msgid "After importing, you can use it in your render method like this:"
-msgstr "Az importálás után így használhatja a rajzoló módszereiben:"
+msgstr ""
+"Nach dem Importieren kann sie folgendermaßen in der render-Methode verwendet"
+" werden:"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:76
 msgid "The ``Style`` component should now be visible in the browser."
-msgstr "A `Style`` komponensnek látszania kell a böngészőben,"
+msgstr "Die ``Style`` Komponente sollte jetzt im Browser sichtbar sein."
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:81
 msgid "Integrate geostyler-sld-parser"
-msgstr "geostyler-sld-parser integrálása"
+msgstr "geostyler-sld-parser integrieren"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:83
 msgid ""
 "To edit an existing SLD via GeoStyler, we first have to import and "
 "instantiate the ``geostyler-sld-parser``."
 msgstr ""
-"Egy meglévő SLD GeoStylerrel szerkesztéséhez először importálni és "
-"példányosítani kell a \"geostyler-sld-parser\"-t."
+"Um ein bestehendes SLD mittels GeoStyler zu editieren, müssen wir zunächst "
+"den ``geostyler-sld-parser`` importieren und instanziieren."
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:90
 msgid ""
 "Afterwards, we are able to read an existing SLD into the GeoStyler-readable "
 "format."
 msgstr ""
-"Ezután be tudunk olvasni egy létező SLD a GeoStyler olvasható formátumba."
+"Anschließend können wir ein existierendes SLD in das GeoStyler-lesbare "
+"Format überführen."
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:120
 msgid ""
@@ -145,15 +152,15 @@ msgid ""
 "and pass it to our ``Style`` component. After defining ``myStyle`` as a "
 "state variable, you can use it as follows:"
 msgstr ""
-"Ahhoz, hogy ezt a stílust a felhasználói felülethez kapcsoljuk, egy állapot "
-"változóban kell tárolnunk és át kell adnunk a ``Style`` komponensünknek. A "
-"``myStyle`` stílusváltozóként deklarálása után, a következőképpen "
-"használhatja:"
+"Um diesen Stil mit der UI zu verbinden, müssen wir ihn in einer state-"
+"Variablen speichern und ihn an unsere ``Style`` Komponente weitergeben. "
+"Nachdem ``myStyle`` als state-Variable definiert wurde, können wir sie wie "
+"folgt nutzen:"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:157
 msgid "The GeoStyler UI should now match the style that was defined as SLD."
 msgstr ""
-"A GeoStyler felületének meg kell felelnie az SLD-ben definiált stílusnak."
+"Die GeoStyler UI sollte jetzt dem im SLD definierten Stil entsprechen."
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:159
 msgid ""
@@ -161,13 +168,13 @@ msgid ""
 " ``writeStyle()`` method of the geostyler-sld-parser within the "
 "``onStyleChange()`` method of the ``Style`` component."
 msgstr ""
-"A ``Style`` komponensből a módosított stíluts SLD-ként megkaphatjuk, "
-"használhatja a geostyler-sld-parser ``writeStyle()`` metódusát a ``Style`` "
-"komponens  ``onStyleChange()`` metódusából."
+"Um den editierten Stil als SLD von der ``Style`` Komponente zu erhalten, "
+"kann die ``writeStyle()``-Methode des geostyler-sld-parsers innerhalb der "
+"``onStyleChange()``-Methode der ``Style`` Komponente verwendet werden."
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:202
 msgid "Things to try"
-msgstr "Kipróbálandó dolgok"
+msgstr "Was Sie noch ausprobieren können"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:204
 msgid ""
@@ -175,25 +182,25 @@ msgid ""
 "<https://openlayers.org/>`__ map and connect the ``Style`` component to the "
 "map, so that you can directly see the changes you made on the map."
 msgstr ""
-"A következő lépésben megpróbálhat egy `OpenLayers "
-"<https://openlayers.org/>`__  térképet hozzáadni és a ``Style`` komponenst a"
-" térképhez kapcsolni, így közvetlenül láthatja a módosításait  a térképen."
+"Probieren Sie doch als nächsten Schritt eine OpenLayers "
+"<https://openlayers.org/>`__ Karte hinzuzufügen und die ``Style`` Komponente"
+" mit der Karte zu verknüpfen. Dadurch können Stiländerungen direkt in der "
+"Karte dargestellt werden."
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:208
 msgid "What next?"
-msgstr "Mi a következő?"
+msgstr "Was kommt als Nächstes?"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:210
 msgid "Check out these other resources about this application."
-msgstr ""
-"Tekintse meg ezeket, ezzel az alkalmazással kapcsolatos egyéb forrásokat."
+msgstr "Weitere GeoStyler Informationen finden Sie hier:"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:212
 msgid ""
 "`GeoStyler Documentation "
 "<https://geostyler.github.io/geostyler/latest/index.html>`__"
 msgstr ""
-"`GeoStyler dokumentáció "
+"`GeoStyler Dokumentation "
 "<https://geostyler.github.io/geostyler/latest/index.html>`__"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:213
@@ -201,9 +208,9 @@ msgid ""
 "`Beginner Tutorial <https://geostyler.github.io/geostyler-beginner-"
 "workshop>`__"
 msgstr ""
-"`Bevezető oktatóanyagl <https://geostyler.github.io/geostyler-beginner-"
+"`Anfänger Tutorial <https://geostyler.github.io/geostyler-beginner-"
 "workshop>`__"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:214
 msgid "`geostyler.org Website <https://geostyler.org>`__"
-msgstr "`geostyler.org honlap <https://geostyler.org>`__"
+msgstr "`geostyler.org Website <https://geostyler.org>`__"
