@@ -42,7 +42,7 @@ msgstr "このクイックスタートでは、次の方法について説明し
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:34
 msgid "add a vector and raster data source to GeoServer"
-msgstr "GeoServerにベクターとラスターデータソースを追加する"
+msgstr "GeoServerにベクタとラスターデータソースを追加する"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:35
 msgid "apply color to map features using styling"
@@ -50,7 +50,7 @@ msgstr "スタイルを使用してマップフィーチャーに色を適用す
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:36
 msgid "test the layers in a simple web map"
-msgstr "シンプルなWebマップでレイヤーをテストする"
+msgstr "シンプルなWebマップでレイヤをテストする"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:37
 msgid "learn about clients that can display your maps"
@@ -58,7 +58,7 @@ msgstr "マップを表示できるクライアントについて学習"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:38
 msgid "add a layer from a NetCDF file"
-msgstr "NetCDFファイルからレイヤーを追加する"
+msgstr "NetCDFファイルからレイヤを追加する"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:44
 msgid "Start Geoserver"
@@ -78,7 +78,7 @@ msgstr ""
 msgid ""
 "Log in using the username **admin** and password **geoserver**. You will now"
 " see the *admin page*."
-msgstr "ユーザー名 **admin** とパスワード **geoserver** を使用してログインします。これで、 *admin page* が表示されます。"
+msgstr "ユーザ名 **admin** とパスワード **geoserver** を使用してログインします。これで、 *admin page* が表示されます。"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:56
 msgid ""
@@ -186,7 +186,7 @@ msgstr ":guilabel:`保存` を押します。"
 msgid ""
 "Press :guilabel:`publish` next to one of the layers to finish adding the "
 "data. This will take you to the *Layers* page:"
-msgstr "いずれかのレイヤーの横にある :guilabel:`公開` を押して、データの追加を完了します。これにより、 *レイヤ* ページに移動します。"
+msgstr "いずれかのレイヤの横にある :guilabel:`公開` を押して、データの追加を完了します。これにより、 *レイヤ* ページに移動します。"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:120
 msgid ""
@@ -226,7 +226,7 @@ msgstr "最後に :guilabel:`保存` をクリックて、最初のレイヤを�
 msgid ""
 "Don't worry if the layer preview doesn't look very good as it is using the "
 "default style. In the next section we will look at producing a nicer style."
-msgstr "レイヤのプレビューは既定のスタイルを使用しているため、あまり見栄えがしなくても心配ありません。次のセクションでは、より良いスタイルの作成について説明します。"
+msgstr "レイヤのプレビューはデフォルトのスタイルを使用しているため、あまり見栄えがしなくても心配ありません。次のセクションでは、より良いスタイルの作成について説明します。"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:129
 msgid ""
@@ -235,7 +235,7 @@ msgid ""
 "the natural earth store from the drop down box to get back to the store's "
 "page."
 msgstr ""
-"ディレクトリ内の他のレイヤーについても、レイヤーページの :guilabel:`Add a new resource` "
+"ディレクトリ内の他のレイヤについても、レイヤページの :guilabel:`Add a new resource` "
 "ボタンを使用して同じ手順を実行できます。ドロップダウンボックスからNatural Earthストアを選択するだけで、ストアのページに戻ります。"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:132
@@ -407,7 +407,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:244
 msgid "Clients for WMS layers"
-msgstr "WMSレイヤーのクライアント"
+msgstr "WMSレイヤのクライアント"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:246
 msgid ""
@@ -514,7 +514,7 @@ msgstr "GeoServer プロジェクト ホーム - http://geoserver.org/"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:297
 msgid "GeoServer User Manual - https://docs.geoserver.org/latest/en/user/"
-msgstr "GeoServer ユーザーマニュアル -  https://docs.geoserver.org/latest/en/user/"
+msgstr "GeoServer ユーザマニュアル -  https://docs.geoserver.org/latest/en/user/"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:299
 msgid ""
