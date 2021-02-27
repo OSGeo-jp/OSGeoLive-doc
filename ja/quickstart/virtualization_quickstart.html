@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Running in a Virtual Machine &#8212; OSGeoLive 14.0 Documentation</title>
+    <title>仮想マシン内での OSGeoLive 起動クイックスタート &#8212; OSGeoLive 14.0 Documentation</title>
     <link rel="stylesheet" href="../../_static/overview.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <script type="text/javascript">
@@ -58,7 +58,7 @@
 	<font size="-2">
 		<div id="translations">
 		<!-- alphabetical order -->
-              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a>
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
 		</div>
 	</font>
     </div>
@@ -69,8 +69,8 @@
       <div class="documentwrapper">
           <div class="body" role="main">
             
-  <div class="section" id="running-in-a-virtual-machine">
-<h1>Running in a Virtual Machine<a class="headerlink" href="#running-in-a-virtual-machine" title="このヘッドラインへのパーマリンク">¶</a></h1>
+  <div class="section" id="osgeolive-quickstart-for-running-in-a-virtual-machine">
+<h1>仮想マシン内での OSGeoLive 起動クイックスタート<a class="headerlink" href="#osgeolive-quickstart-for-running-in-a-virtual-machine" title="このヘッドラインへのパーマリンク">¶</a></h1>
 <p>ここでは、 OSGeo-Live を VirtualBox の仮想マシン内で動作させる1つの方法について記載します。他の方法については、以下の 「参照」 の章のリンクにしたがってください。</p>
 <div class="section" id="virtual-machine-advantages">
 <h2>仮想マシンの利点<a class="headerlink" href="#virtual-machine-advantages" title="このヘッドラインへのパーマリンク">¶</a></h2>
@@ -138,16 +138,13 @@
 <p>共有フォルダを読み取り専用にし、自動マウントすることもできます。 「フォルダパス」 と 「フォルダ名」 を定義したら、[OK]をクリックし、もう一度[OK]をクリックして設定ウィンドウを閉じます。</p>
 <p><strong>仮想マシンの起動</strong></p>
 <p>Start (緑の矢印) ボタンをクリックして、VM を起動しましょう。</p>
-<p>You should install the virtualbox guest additions, this will allow you to use full-screen mode.</p>
-<blockquote>
-<div><code class="docutils literal"><span class="pre">sudo</span> <span class="pre">apt-get</span> <span class="pre">install</span> <span class="pre">--yes</span> <span class="pre">virtualbox-guest-dkms</span> <span class="pre">virtualbox-guest-utils</span> <span class="pre">virtualbox-guest-x11</span></code></div></blockquote>
-<p>VMにisoをインストールする場合は、ユーザー名を 「user」 に設定する必要があります。</p>
-<p>ユーザー 「user」 は、OSGeoLive仮想マシンの 「users」 グループのメンバーではありません。これにより、一部のツールがデータディレクトリに書き込みできなくなり、一部のソフトウェアが起動できなくなります。</p>
+<p>VMにisoをインストールする場合は、ユーザ名を 「user」 に設定する必要があります。</p>
+<p>ユーザ 「user」 は、OSGeoLive仮想マシンの 「users」 グループのメンバではありません。これにより、一部のツールがデータディレクトリに書き込みできなくなり、一部のソフトウェアが起動できなくなります。</p>
 <p>この問題を解決するには、次の1回限りの手順でvmdkを修正します。</p>
 <ol class="arabic simple">
 <li>端末を起動します。</li>
 <li>sudo adduser user usersを実行します。</li>
-<li>この変更を適用するには、新しいデスクトップセッションを開始します。仮想マシンを再起動するか、ログアウトして再度ログインします(ユーザー名 「user」、パスワード 「user」)。</li>
+<li>この変更を適用するには、新しいデスクトップセッションを開始します。仮想マシンを再起動するか、ログアウトして再度ログインします(ユーザ名 「user」、パスワード 「user」)。</li>
 </ol>
 <p>また、OSGeoシステムが起動したら、vboxsfグループに自分自身を追加し、ターミナルウィンドウでを実行して共有フォルダ(上記で定義)にアクセスできるようにします。</p>
 <p><code class="docutils literal"><span class="pre">user&#64;osgeolive:~$</span> <span class="pre">sudo</span> <span class="pre">usermod</span> <span class="pre">-a</span> <span class="pre">-G</span> <span class="pre">vboxsf</span> <span class="pre">user</span></code></p>
@@ -165,7 +162,7 @@
 <dd><a class="reference external" href="https://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine">仮想マシンを作成するその他の方法</a></dd>
 </dl>
 </li>
-<li><a class="reference internal" href="osgeolive_quickstart.html"><span class="doc">Getting started with OSGeoLive</span></a></li>
+<li><a class="reference internal" href="osgeolive_quickstart.html"><span class="doc">OSGeoLive クイックスタート</span></a></li>
 <li><a class="reference internal" href="osgeolive_install_quickstart.html"><span class="doc">ハードディスクに OSGeoLive をインストール</span></a></li>
 <li><a class="reference internal" href="usb_quickstart.html"><span class="doc">OSGeoLive を起動できる ブータブル USB フラッシュドライブの作成</span></a></li>
 </ul>
@@ -183,7 +180,7 @@
 	<font size="-2">
 		<div id="translations">
 		<!-- alphabetical order -->
-              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a>
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
 		</div>
 	</font>
     </div>
