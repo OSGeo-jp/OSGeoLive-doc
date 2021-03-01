@@ -6,7 +6,7 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 ********************************************************************************
-OSGeoLive Quickstart for Running in a Virtual Machine
+Running in a Virtual Machine
 ********************************************************************************
 
 This Quick Start describes one way to run OSGeoLive within a VirtualBox virtual machine. For other methods, follow links from the "See Also" section below.
@@ -92,6 +92,10 @@ You can choose to make the shared folder read-only, and auto-mounted. Once the "
 **Running the Virtual Machine**
 
 Now bootup the VM by clicking the Start (green arrow) button.
+
+You should install the virtualbox guest additions, this will allow you to use full-screen mode.
+
+  ``sudo apt-get install --yes virtualbox-guest-dkms virtualbox-guest-utils virtualbox-guest-x11``
 
 When you install the iso on the VM, the username must be set to "user"
 
