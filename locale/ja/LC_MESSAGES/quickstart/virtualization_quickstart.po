@@ -33,7 +33,7 @@ msgid ""
 "virtual machine. For other methods, follow links from the \"See Also\" "
 "section below."
 msgstr ""
-"ここでは、 OSGeo-Live を VirtualBox の仮想マシン内で動作させる1つの方法について記載します。他の方法については、以下の "
+"ここでは、 OSGeoLive を VirtualBox の仮想マシン内で動作させる1つの方法について記載します。他の方法については、以下の "
 "\"参照\" の章のリンクにしたがってください。"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:15
@@ -222,13 +222,15 @@ msgstr "Start (緑の矢印) ボタンをクリックして、VM を起動しま
 msgid ""
 "You should install the virtualbox guest additions, this will allow you to "
 "use full-screen mode."
-msgstr ""
+msgstr "VirtualBox Guest Addition をインストールする必要があります。これにより、フルスクリーンモードを利用できます。"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:98
 msgid ""
 "``sudo apt-get install --yes virtualbox-guest-dkms virtualbox-guest-utils "
 "virtualbox-guest-x11``"
 msgstr ""
+"``sudo apt-get install --yes virtualbox-guest-dkms virtualbox-guest-utils "
+"virtualbox-guest-x11``"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:100
 msgid "When you install the iso on the VM, the username must be set to \"user\""

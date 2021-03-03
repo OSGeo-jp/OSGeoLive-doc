@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:8
 msgid "Command Line basics"
-msgstr "コマンドラインの基本<br>"
+msgstr "コマンドラインの基本"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:10
 msgid ""
