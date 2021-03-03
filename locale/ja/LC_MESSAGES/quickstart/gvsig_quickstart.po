@@ -27,7 +27,7 @@ msgstr "このプロジェクトはOSGeoLive仮想マシンディスク(VMDK)に
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:24
 msgid "gvSIG Desktop Quickstart"
-msgstr ""
+msgstr "gvSIG デスクトップクイックスタート"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:26
 msgid ""
@@ -41,6 +41,9 @@ msgid ""
 "networks, etc.), which turns gvSIG into the ideal tool for users working in "
 "the land realm."
 msgstr ""
+"gvSIG は、地理情報システム (GIS) "
+"デスクトップアプリケーションで、複雑な管理と計画の問題を解決するために、参照されているあらゆる種類の地理情報をキャプチャ、保存、処理、分析、および展開するように設計されています。gvSIGは、ユーザフレンドリなインタフェースと、一般的なベクタ形式とラスタ形式にアクセスできることで知られています。これには、地理情報等を操作するためのさまざまなツール(クエリー、レイアウト作成、ジオプロセシング、ネットワークなど)が用意されており、陸上データの作業するユーザにとってgvSIG"
+" を理想的なツールに変えることができます。"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:38
 msgid ""
@@ -49,6 +52,8 @@ msgid ""
 " happens in the gvSIG distro for OSGeoLive. It doesn't appear in a normal "
 "gvSIG installation."
 msgstr ""
+"もし、gvSIG のユーザインタフェースが反応しなくなったら、たとえばファイルを開く :kbd:`Alt+f` "
+"キーを試してみてください。ユーザー・インターフェースは再び動作するはずです。このバグはOSGeoLiveのgvSIGでのみ発生します。通常のgvSIGインストールでは発生しません。"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:43
 msgid ""
@@ -59,10 +64,14 @@ msgid ""
 "to select, when asked, a folder where the user does have write permission, "
 "like for example, \"/home/user\"."
 msgstr ""
+"gvSIG バージョン2.3.1の注意: "
+"ラスタファイルをロードするには、ファイルの存在するフォルダに書き込み権限が必要です。そうでない場合、アプリケーションは、(書き込み権限のある)適切なフォルダを選択するよう聞いてきます。\"user\""
+" ユーザは、 \"data\" フォルダに書き込み権限がないため、 それを選択する必要があるときは、きかれたら、たとえば \"/home/user\" "
+"などのユーザが書き込み権限のあるフォルダを指定してください。"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:51
 msgid "Start gvSIG and create a view"
-msgstr ""
+msgstr "gvSIGを開始してビューを作成する"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:53
 msgid ""
@@ -70,6 +79,8 @@ msgid ""
 "Desktop GIS --> gvSIG`. The application usually takes about a minute to "
 "startup."
 msgstr ""
+"デスクトップから :menuselection:`Geospatial --> Desktop GIS --> gvSIG` "
+"を選択します。通常、アプリケーションの起動には約1分かかります。"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:55
 msgid ""
@@ -79,30 +90,36 @@ msgid ""
 " :menuselection:`File --> New Project`. When prompted, you can select "
 ":guilabel:`Discard Changes` as we won't be using the last project."
 msgstr ""
+"デフォルトでは、gvSIGは 'View' ドキュメントタイプが選択された空のプロジェクトファイルで開きます。しかし、OSGeoLiveでは、 "
+"gvSIG  は、デフォルトのプロジェクトで開始するように設定されています。:guilabel:`New Project` ボタンをクリックして、 "
+":menuselection:`File --> New Project` を選択してください。入力待ちになったら、最後のプロジェクトを使わない場合は "
+":guilabel:`Discard Changes` を選択します。"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:61
 msgid ""
 "Click on the :guilabel:`New` button to create a view. It will be opened "
 "automatically."
-msgstr ""
+msgstr ":guilabel:`New` ボタンをクリックして、ビューを作成します。これは、自動的に開きます。"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:67
 msgid "Define the projection of your view"
-msgstr ""
+msgstr "ビューの投影を定義する"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:69
 msgid "Select :menuselection:`View --> Properties`."
-msgstr ""
+msgstr ":menuselection:`View --> Properties` を選択します。"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:74
 msgid ""
 "For the :guilabel:`Current projection`, click on the :guilabel:`...` button."
 " This will open the **New CRS** dialog."
 msgstr ""
+":guilabel:`Current projection` では、 :guilabel:`...`  ボタンをクリックします。**New CRS** "
+"ダイアログが開きます。"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:76
 msgid "Using the dropdown list for :guilabel:`Type`, select EPSG."
-msgstr ""
+msgstr "ドロップダウンリストで :guilabel:`Type` を選択し、EPSGを選択します。"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:77
 msgid ""
@@ -111,32 +128,36 @@ msgid ""
 "click on the :guilabel:`Search` button. This will list the selected CRS in "
 "the table below the search input field."
 msgstr ""
+"座標参照システムのEPSGコードを入力します。この例では、WGS84 2D 地理投影の EPSG=4326 "
+"を使用します。:guilabel:`Search` ボタンをクリックします。検索インプット欄の下に選択したCRSが一覧表で表示されます。"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:81
 msgid ""
 "Select :guilabel:`OK` to return to the **View Properties** dialog. The EPSG "
 "code is now 4326 and that the map units have changed to degrees."
 msgstr ""
+":guilabel:`OK` を選択し、 **View Properties** ダイアログに戻ります。EPSGコードは現在 4326 "
+"で、地図の緯経度の単位が度に設定されます。"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:82
 msgid "Select :guilabel:`OK` to return to the **Project Manager**."
-msgstr ""
+msgstr ":guilabel:`OK` を選択して、 **Project Manager** に戻ります。"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:87
 msgid "The view window consists of three zones."
-msgstr ""
+msgstr "ビューウィンドウは3つのゾーンで構成されています。"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:88
 msgid ""
 "(2) The top-left cell contains a list of vector or raster layers being used "
 "in the view (i.e. Table-of-Contents)."
-msgstr ""
+msgstr "(2)左上のセルには、ビューで使用されているベクタレイヤまたはラスタレイヤのリスト(目次など)が含まれます。"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:90
 msgid ""
 "(3) The bottom-left cell displays the extent of the main view over a "
 "selected vector file."
-msgstr ""
+msgstr "(3) 左下のセルには、選択したベクタファイルのメインビューの範囲が表示されます。"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:92
 msgid ""
@@ -146,33 +167,37 @@ msgstr "(4)右のセルは、ラスタデータとベクタデータがレンダ
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:99
 msgid "Add layers to the view"
-msgstr ""
+msgstr "ビューにレイヤを追加"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:101
 msgid ""
 "Click on the :guilabel:`Add layer` icon in the main toolbar to open the "
 "**Add layer** dialog."
-msgstr ""
+msgstr "メインツールバーから :guilabel:`Add layer` アイコンをクリックして、 **Add layer** ダイアログを開きます。"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:102
 msgid ""
 "Select :guilabel:`Add` in the **Add layer** dialog. By default the first tab"
 " is :guilabel:`File` so the **Open** file dialog will appear."
 msgstr ""
+"**Add layer** ダイアログで、 :guilabel:`Add` を選択します。デフォルトで、最初のタブは  :guilabel:`File`"
+" です、そのため、ファイルの **Open**  ダイアログが表示されます。"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:104
 msgid "Drill down to the ``/usr/local/share/data/natural_earth2/`` directory."
-msgstr ""
+msgstr "``/usr/local/share/data/natural_earth2/`` ディレクトリをドリルダウンします。"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:105
 msgid "Select the files as shown in the picture."
-msgstr ""
+msgstr "図のようにファイルを選択します。"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:110
 msgid ""
 "By default all formats are shown so we can select both vector and raster "
 "files at a time by keeping pressed the :kbd:`CTRL` key."
 msgstr ""
+"By default all formats are shown so we can select both vector and raster "
+"files at a time by keeping pressed the :kbd:`CTRL` key."
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:112
 msgid "Click on the :guilabel:`OK` button to return to the **Add layer** dialog."
@@ -725,20 +750,26 @@ msgid ""
 "`User manuals "
 "<http://downloads.gvsig.org/download/web/en/build/html/index.html>`_"
 msgstr ""
+"`ユーザマニュアル "
+"<http://downloads.gvsig.org/download/web/en/build/html/index.html>`_"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:453
 msgid ""
 "`Courses and tutorials <http://www.gvsig.com/en/diffusion/educational-"
 "material?p_p_id=122_INSTANCE_A9eo37KAqtxs&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&p_r_p_564233524_resetCur=true&p_r_p_564233524_categoryId=25973>`_"
 msgstr ""
+"`Courses and tutorials <http://www.gvsig.com/en/diffusion/educational-"
+"material?p_p_id=122_INSTANCE_A9eo37KAqtxs&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&p_r_p_564233524_resetCur=true&p_r_p_564233524_categoryId=25973>`_"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:454
 msgid ""
 "`Learning gvSIG in 30 minutes <https://blog.gvsig.org/2017/05/23/learning-"
 "gvsig-in-30-minutes/>`_"
 msgstr ""
+"`gvSIG 30分速習 <https://blog.gvsig.org/2017/05/23/learning-gvsig-"
+"in-30-minutes/>`_"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:455
 msgid "`gvSIG Blog <https://blog.gvsig.org/category/languages/english/>`_"
-msgstr ""
+msgstr "`gvSIGブログ <https://blog.gvsig.org/category/languages/english/>`_"
 
