@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Ko Nagase <nagase@georepublic.co.jp>, 2021
 # Vicky Vergara <vicky@georepublic.de>, 2021
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-01 08:42-0600\n"
 "PO-Revision-Date: 2018-07-27 22:51+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2021\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -44,7 +44,7 @@ msgid ""
 msgstr ""
 "`INSPIRE指令 <https://inspire.ec.europa.eu>`__  "
 "は、環境政策を目的とした欧州連合の空間データインフラ(SDI)の構築を目的としています。この欧州SDIは、公共セクターの組織間で環境空間情報を共有することを可能にし、空間情報への一般市民のアクセスを容易にし、境界を超えた政策決定を支援します。INSPIREは、EUの27加盟国によって設立・運営されている空間情報インフラに基づいています。この指令"
-" ( `full text <https://eur-lex.europa.eu/legal-"
+" (`全文 <https://eur-lex.europa.eu/legal-"
 "content/EN/TXT/PDF/?uri=CELEX:32007L0002&from=EN>`__ 参照)は、 "
 "2007年5月15日に発効し、さまざまな段階で実装されています。2021年までには完全な実装が必要です。INSPIRE は、主に :doc:`OGC "
 "<ogc_overview>` と `ISO <https://www.iso.org>`__ "
@@ -80,7 +80,7 @@ msgid ""
 "data), view services (to access the data) and download services (to download"
 " the data);"
 msgstr ""
-"ネットワークサービスを通じて公開する: "
+"ネットワークサービスを通じて公開します: "
 "デイスカバリーサービス(データを発見するため)、ビューサービス(データにアクセスするため)、ダウンロードサービス(データをダウンロードするため)。"
 
 #: ../../build/doc/overview/inspire_overview.rst:25
@@ -108,12 +108,9 @@ msgid ""
 msgstr ""
 "現在、7000を超えるヨーロッパの公共機関がINSPIREにデータを提供しています。その多くは、OSGeoのソフトウェアプロジェクトを利用しています。:doc:`OSGeoLive"
 " <../index>` "
-"は、ますます、複数のアプリケーションドメインでのソフトウエアのチュートリアルで、多くの欧州のサンプルデータを使用した例の整備を通じて、INSPIRE実装を容易にしていきます。In"
-" addition, `a dedicated page on INSPIRE "
-"<https://wiki.osgeo.org/wiki/INSPIRE>`__ under the OSGeo wiki is maintained "
-"that gives an overview of the legal and technical aspects of INSPIRE "
-"together with selected use cases and an overview of OSGeo software projects "
-"that implementers may use."
+"は、ますます、複数のアプリケーションドメインでのソフトウエアのチュートリアルで、多くの欧州のサンプルデータを使用した例の整備を通じて、INSPIRE実装を容易にしていきます。さらに、OSGeo"
+" wikiの下に `INSPIREの専用ページ <https://wiki.osgeo.org/wiki/INSPIRE>`__ "
+"が維持されており、INSPIREの法的および技術的側面の概要と選ばれたユースケースおよび実装者が使用できるOSGeoソフトウェアプロジェクトの概要を提供しています。"
 
 #: ../../build/doc/overview/inspire_overview.rst:36
 msgid ""
@@ -122,6 +119,9 @@ msgid ""
 "software components, which help Member States in the INSPIRE implementation "
 "process:"
 msgstr ""
+"`欧州委員会の合同調査センター(JRC: Joint Research Centre) <https://ec.europa.eu/jrc/en>`__"
+" "
+"は、いくつかの中央ソフトウエアコンポーネントを開発して維持しています。これらのコンポーネントは、INSPIRE導入プロセスにおいて加盟国を支援するものです:"
 
 #: ../../build/doc/overview/inspire_overview.rst:38
 msgid ""
@@ -130,6 +130,9 @@ msgid ""
 "unique identifiers and descriptions of INSPIRE resources such as themes, "
 "code lists and application schemas;"
 msgstr ""
+"オープンソースの :doc:`Re3gistry <re3gistry_overview>` をベースとして、 `INSPIRE Registry "
+"<https://inspire.ec.europa.eu/registry>`__   は、テーマ、コードリスト、アプリケーションスキーマなどの "
+"INSPIRE リソースの一意の識別子と記述を管理します;"
 
 #: ../../build/doc/overview/inspire_overview.rst:39
 msgid ""
@@ -138,6 +141,10 @@ msgid ""
 " `ETF testing framework <https://etf-validator.net>`__, allows to test that "
 "metadata, datasets and services are compliant with INSPIRE requirements;"
 msgstr ""
+"オープンソースの `ETF testing framework <https://etf-validator.net>`__ をベースとして、 "
+"`INSPIRE Reference Validator "
+"<https://inspire.ec.europa.eu/validator/about/>`__  "
+"は、メタデータ、データセット、サービスがINSPIRE要請に適合しているか、テストできるようになります;"
 
 #: ../../build/doc/overview/inspire_overview.rst:40
 msgid ""
@@ -145,6 +152,8 @@ msgid ""
 "to discover, access and download all the datasets made available by Member "
 "States under INSPIRE."
 msgstr ""
+"`INSPIRE Geoportal <https://inspire-geoportal.ec.europa.eu/>`__ "
+"は、INSPIREの元で加盟国が、全てのデータセット発見、アクセス、ダウンロードできるようにしてくれます。"
 
 #: ../../build/doc/overview/inspire_overview.rst:48
 msgid "Details"

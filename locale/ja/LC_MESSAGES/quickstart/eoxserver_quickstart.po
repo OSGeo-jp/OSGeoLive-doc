@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:19
 msgid "EOxServer Quickstart"
-msgstr "EOxServer クイックスタートt"
+msgstr "EOxServer クイックスタート"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:21
 msgid ""
@@ -36,7 +36,7 @@ msgid ""
 " :doc:`SpatiaLite <../overview/spatialite_overview>` or :doc:`PostGIS "
 "<../overview/postgis_overview>` database."
 msgstr ""
-"EOxServerは、大規模な地球観測(EO)データアーカイブとメタデータをオープンスタンダードで提供するサーバです。これは、Python、:doc:`MapServer"
+"EOxServerは、大規模な地球観測(EO)データアーカイブとメタデータをオープン標準で提供するサーバです。これは、Python、:doc:`MapServer"
 " <../overview/mapserver_overview>`、  Django/GeoDjango、:doc:`GDAL "
 "<../overview/gdal_overview>`、:doc:`PROJ <../overview/proj_overview>` と  "
 ":doc:`SpatiaLite <../overview/spatialite_overview>`  または  :doc:`PostGIS "
@@ -89,6 +89,7 @@ msgid ""
 "datasets already displayed. On the bottom, you'll find the timeslider "
 "widget, that allows you to explore the contents in the temporal dimension."
 msgstr ""
+"クライアントは、マップ・ビューと、主要な相互作用を含むウィジェットで構成されています。主な領域は、クライアントのマップウィジェットで、一連のデータセットがすでに表示されています。下部にはタイムスライダウィジェットが表示され、時間次元のコンテンツを表示できます。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:69
 msgid ""
@@ -98,6 +99,7 @@ msgid ""
 " and select the background layer. The Filters tab in this widget enables "
 "querying for different spatial and temporal values."
 msgstr ""
+"[レイヤ選択]ウィジェットを展開するには、左上の歯車をクリックします。このウィジェットでは、レイヤの表示/非表示を切り替えたり、レイヤのレンダリングを設定したりできます。また、通りのオーバーレイを表示または非表示にしたり、背景のレイヤを選択したりすることもできます。このウィジェットの[フィルタ]タブでは、さまざまな空間値と時間値を照会できます。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:79
 msgid ""
@@ -114,6 +116,7 @@ msgid ""
 "point directly on the map. The drawn feature is used for querying within the"
 " Download Tool."
 msgstr ""
+"空間フィルタを有効にすると、マップ上に境界ボックス、ポリゴン、または点を直接描画できます。描画された地物は、ダウンロードツール内のクエリーに使用されます。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:95
 msgid ""
@@ -121,6 +124,7 @@ msgid ""
 "selected product by hovering on the product in the search results widget and"
 " clicking on the icon in the top right."
 msgstr ""
+"検索結果ウィジェットの結果上にマウスポインタを置き、右上のアイコンをクリックすると、選択した結果で利用可能なサービスとメタデータの詳細情報を取得できます。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:103
 msgid ""
@@ -150,7 +154,7 @@ msgid ""
 "From the EOxServer main page, click the **Admin Client** link and login with"
 " user `admin` and password `admin`."
 msgstr ""
-"EOxServerのメインページで **Admin Client** リンクをクリックし、ユーザー `admin` とパスワード `admin` "
+"EOxServerのメインページで **Admin Client** リンクをクリックし、ユーザ `admin` とパスワード `admin` "
 "でログインします。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:123
@@ -170,12 +174,14 @@ msgid ""
 "clicking the \"Collections\" link and then the \"MER_FRS_1P_RGB_reduced\" "
 "link."
 msgstr ""
+"たとえば、デフォルトでロードされているコレクションを検査するには、 \"コレクション\" リンクをクリックし、 "
+"\"MER_FRS_1P_RGB_reduced\" リンクをクリックします。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:139
 msgid ""
 "You can preview the coverages by going back and clicking on the "
 "\"Coverages\" link."
-msgstr ""
+msgstr "\"Coverages\" リンクをクリックすると、カバレッジをプレビューできます。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:146
 msgid "What Next?"
@@ -210,6 +216,8 @@ msgid ""
 "Read the `EOxServer Basics "
 "<https://docs.eoxserver.org/en/latest/users/basics.html>`_."
 msgstr ""
+"`EOxServer の基本 <https://docs.eoxserver.org/en/latest/users/basics.html>`_ "
+"を読んでください。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:155
 msgid ""

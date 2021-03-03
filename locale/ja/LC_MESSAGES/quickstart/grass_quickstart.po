@@ -34,33 +34,34 @@ msgstr "GRASS GIS は、地理空間データの可視化、管理、分析、�
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:34
 msgid "Start GRASS"
-msgstr "GRASS の開始"
+msgstr "GRASS の起動"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:39
 msgid ""
 "Click on the GRASS link in the :menuselection:`Geospatial --> Desktop GIS` "
 "menu."
-msgstr " :menuselection:`Geospatial --> Desktop GIS` メニューから、 GRASS をクリックします。"
+msgstr ""
+":menuselection:`Geospatial --> Desktop GIS` メニューから、 GRASS のリンクをクリックします。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:40
 msgid ""
 "From the \"Welcome to GRASS GIS \" window, select the nc_basic_spm_grass7 "
 "dataset for the location, and \"user1\" for the mapset"
 msgstr ""
-"\"Welcome to GRASS GIS \" ウインドウからロケーションデータセットとして、 nc_basic_spm_grass7 "
-"をマップセットとして \"user1\"を選択します。"
+"\"Welcome to GRASS GIS \" ウインドウから、ロケーションに nc_basic_spm_grass7 データセット、マップセットに"
+" \"user1\" を選択します。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:41
 msgid "Click on :guilabel:`Start GRASS session`."
-msgstr " :guilabel:`Start GRASS session` をクリックします。"
+msgstr ":guilabel:`Start GRASS session` をクリックします。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:48
 msgid ""
 "This will launch GRASS into the `graphical user interface (written in "
 "wxPython) <../../grass/wxGUI.html>`_."
 msgstr ""
-"GRASSが `graphical user interface (written in wxPython) "
-"<../../grass/wxGUI.html>`_ として起動します。"
+"GRASS が `(wsPythonで書かれた)グラフィカルユーザインタフェース <../../grass/wxGUI.html>`_ "
+"として起動します。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:50
 msgid ""
@@ -71,11 +72,10 @@ msgid ""
 " might have to move the window up past the top of the screen a bit to get "
 "the room (hold down the Alt key and left-click drag the window to move it)."
 msgstr ""
-"ディスプレイが非常に小さいノートPC(解像度800x600) の場合には、スタートアップダイアログが画面からでてしまい、 [*Start GRASS*]"
-" "
-"ボタンが、ロケーションやマップセット一覧のうらに隠れてしまうかもしれません。この問題が発生するときは、ウインドウの角をドラッグして、もうすこしサイズを大きくしてみてください。You"
-" might have to move the window up past the top of the screen a bit to get "
-"the room (hold down the Alt key and left-click drag the window to move it)."
+"ディスプレイが非常に小さいノートPC (解像度800x600) の場合には、スタートアップダイアログが画面からでてしまい、 [*Start "
+"GRASS*] "
+"ボタンが、ロケーションやマップセット一覧の裏に隠れてしまうかもしれません。この問題が発生するときは、ウインドウの角をドラッグして、もう少しサイズを大きくしてみてください。ウィンドウを画面の上にずらす必要があるかもしれません"
+" (Altキーを押しながら左クリックでドラッグするとウィンドウを動かせます)。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:64
 msgid "Display a map"
@@ -85,51 +85,48 @@ msgstr "マップの表示"
 msgid ""
 "Once inside, select for display the raster map layer \"`elevation`\" from "
 "the PERMANENT mapset."
-msgstr ""
+msgstr "内部に入ったら、 PERMANENT マップセットから \"`elevation`\" ラスタマップレイヤ表示を選択します。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:72
 msgid "Go into the `GIS Layer Manager` window."
-msgstr " `GIS Layer Manager` ウインドウにすすみます。"
+msgstr "`GIS Layer Manager` ウインドウにすすみます。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:73
 msgid "Click on the checkerboard toolbar button with a \"+\" on it."
-msgstr "ツールバーの\"+\" がついたチェッカーボードのボタンをクリックします。"
+msgstr "\"+\" がついたチェッカーボードのツールバーボタンをクリックします。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:74
 msgid ""
 "Select the map name you want from the \"*map to be displayed*\" pull-down "
 "list, and click :guilabel:`Ok`."
-msgstr ""
-" \"*map to be displayed*\" プルダウン・リストから選択したいマップ名を選択し、 :guilabel:`Ok` "
-"をクリックします。"
+msgstr "\"*ラスターマップ名*\" プルダウン・リストから選択したいマップ名を選択し、 :guilabel:`Ok` をクリックします。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:75
 msgid ""
 "Click on the toolbar button with a \"+\" and a bent poly-line which looks a "
 "bit like a \"V\"."
-msgstr ""
-"Click on the toolbar button with a \"+\" and a bent poly-line which looks a "
-"bit like a \"V\"."
+msgstr "\"+\" と、少し \"V\" 字型に似た折れ曲がったポリラインのツールバーボタンをクリックします。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:76
 msgid ""
 "Select the \"`roadsmajor`\" vector layer from the PERMANENT mapset, and "
 "click :guilabel:`Ok`."
 msgstr ""
+"PERMANNENT マップセットから \"`roadsmajor`\" ベクトルレイヤーを選択し、 :guilabel:`Ok` をクリックします。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:78
 msgid ""
 "If you need to, right click on the raster map layer and choose \"Zoom to "
 "selected map(s)\"."
-msgstr ""
+msgstr "必要に応じて、ラスターマップ画層を右クリックし、 \"選択したマップのズーム\" を選択します。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:80
 msgid "You should now see the maps displayed."
-msgstr ""
+msgstr "マップが表示されます。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:83
 msgid "Plot an elevation profile"
-msgstr ""
+msgstr "標高プロファイルのプロット"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:89
 msgid ""
@@ -145,6 +142,13 @@ msgid ""
 "go back to the Profile window. Click on the I/O button of the far right to "
 "close the profile window."
 msgstr ""
+"`GIS Layer Manager` ウィンドウに戻って `elevation` ラスターマップ名をクリックして選択します。`Map Display`"
+" ウィンドウには、`マップ` "
+"ツールバーのズーム関連ボタンの右に、折れ線グラフとチェッカーボードのアイコンがあります。そのボタンをクリックし、**横断表層マップ** "
+"を選択します。`@PERMANENT` マップセットが自動的に検索されます。マップが自動的にリストに表示されない場合は、ラスターレイヤーとして "
+"`elevation` マップを再度選択し、:guilabel:`Ok` を押します。`GRASS プロファイル解析ツール` "
+"ウィンドウで、左から2番目のボタンを選択すると、プロファイルのラインを設定することができます。ボタンをクリックし、 `Map Display` "
+"キャンバス上でいくつかの点をマークします。完了したら、プロファイルウィンドウに戻ります。プロファイルウィンドウを閉じるには、右端の電源(I/O)ボタンをクリックします。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:102
 msgid "Adjust raster map colors"
@@ -169,7 +173,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:118
 msgid "Create a shaded relief map"
-msgstr ""
+msgstr "陰影図の作成"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:124
 msgid ""
@@ -181,6 +185,10 @@ msgid ""
 " from selected map(s)\". If necessary, click on the \"*Layers*\" tab at the "
 "bottom to get back to the layer list."
 msgstr ""
+"次に、先ほどの `elevation` レイヤの陰影図を作成します。まず、*計算領域* が対象のラスターマップである PERMANENT マップセットの"
+" \"`elevation`\" に一致しているかを確認します。これを行うには、メインの `GIS Layer Manager` "
+"ウィンドウのレイヤリストに読み込まれているかを確認してから、名前を右クリックして、 \"マップから計算領域をセット\" "
+"を選択します。必要に応じて、下部の \"*レイヤー*\" タブをクリックしてレイヤリストに戻ります。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:132
 msgid ""
@@ -192,10 +200,15 @@ msgid ""
 "`shaded_relief` *@user1* map added into your layer list. Un-tick the other "
 "raster layers to only display the newly created shaded relief raster layer."
 msgstr ""
+"`ラスター` メニューで :menuselection:`地形解析 --> Compute shaded relief` (地形解析は `ラスター` "
+"メニューの中程にあります) を選択すると、モジュールコントロールダイアログが表示されます。入力マップ名として \"elevation\" "
+"*@PERMANENT*、出力マップとして \"shaded_relief\" を指定します。設定が完了したら、[*実行*] をクリックします。新しい "
+"`shaded_relief` *@user1* "
+"マップがレイヤリストに追加されます。他のラスターレイヤのチェックを外すと、新たに作成された陰影図ラスターレイヤのみが表示されます。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:141
 msgid "Add watersheds and streams"
-msgstr ""
+msgstr "分水界と水系"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:142
 msgid ""
@@ -205,6 +218,9 @@ msgid ""
 "context menu in order to consider the full map for the watsershed "
 "calculation."
 msgstr ""
+"もう一度 `elevation` *@PERMANENT* "
+"マップを選択します。先ほどの範囲から変更を加えた場合は、再度レイヤ名を右クリックし、コンテキストメニューから "
+":menuselection:`マップから計算領域をセット` をクリックして、分水界計算のための全体のマップを考慮に入れます。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:147
 msgid ""
@@ -215,6 +231,9 @@ msgid ""
 "differing bounds and resolution will be resampled to the current "
 "computational region on-the-fly."
 msgstr ""
+"wxGUI のマップ表示のビューとズームは独立しており、処理計算には影響しません。計算領域は :menuselection:`設定 --> Region"
+" --> Display Region` "
+"でいつでも確認できます。これはラスターグリッド操作の重要な基本です。範囲や解像度が異なるラスターマップは、オンザフライで現在の計算領域にリサンプリングされます。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:149
 msgid ""
@@ -227,6 +246,12 @@ msgid ""
 "stream segments raster map\" *streams* option just below it. Then click "
 "[*Run*]."
 msgstr ""
+"次に、`ラスター` メニューから :menuselection:`水文モデリング --> 分水界解析` を選択します。``r.watershed`` "
+"モジュールが開きます。`elevation` レイヤを入力マップとして選択し、同じ 'Inputs' タブで \"Minimum size of the"
+" exterior watershed basin\" の *threshold* を 10000 セルに設定し、 '出力' タブで \"Name "
+"for basins raster map\" *basins* (水域)オプションに \"elev.basins\" と入力し、その下の \"Name"
+" for output stream segments raster map\" *streams* (水系)オプションに "
+"\"elev.streams\" と入力します。 [*実行*] をクリックします。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:158
 msgid ""
@@ -240,6 +265,11 @@ msgid ""
 "it to be drawn behind the watershed basins map layer, and make sure to tick "
 "its visibility box to view it as a backdrop."
 msgstr ""
+"`GIS Layer Manager` "
+"ウィンドウに戻り、これら2つの新しいラスターマップがレイヤリストにあることを確認し、水域マップのレイヤ名左側のボックスにチェックが付いていることを確認します。水系マップのチェックを外すこともできます。次に"
+" \"`elev.basins`\" ラスターマップレイヤ名を右クリックし、 \"`不透明度レベルの変更`\" を選択します。約50%に設定すると、 "
+"Map Display "
+"が再描画されます。(先ほど作成した陰影図などの)マップレイヤを分水界水域マップレイヤの背後に描画する場合は、レイヤリスト内で下にドラッグし、背景として表示するために、表示チェックボックスにチェックが付いていることを確認します。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:173
 msgid ""
@@ -248,6 +278,9 @@ msgid ""
 " Once done press :guilabel:`OK`. Optionally you may change the colors for "
 "the grid lines and the text labels."
 msgstr ""
+"`GIS Layer Manager` ウィンドウで、`Add various overlays` ボタンをクリックし、`グリッドレイヤー追加` "
+"を選択します。グリッドのサイズに 5000 (地図単位、ここではメートル) を設定します。完了したら、:guilabel:`OK` "
+"をクリックします。必要に応じて、グリッド線とテキストラベルの色を変更できます。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:178
 msgid ""
@@ -257,6 +290,9 @@ msgid ""
 "scalebar will appear in the top left of the map canvas. Drag it down to the "
 "bottom right."
 msgstr ""
+"スケールバーを追加するには、`Map Display` ウィンドウに移動し、先ほどプロファイルツールを選択したボタンの右にある "
+"\"マップエレメント追加\" ボタンをクリックし、 \"レイヤー追加\" から :guilabel:`Ok` "
+"ボタンをクリックします。スケールバーがマップキャンバスの左上に表示されます。ドラッグして右下に移動します。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:193
 msgid ""
@@ -268,10 +304,16 @@ msgid ""
 "re-render to see the change so click on the re-render button the first in "
 "the `Map Display` window. The fonts will now be much prettier."
 msgstr ""
+"今度はこれらのフォントが少しイマイチに思えてくるかもしれません。これは、`GIS Layer Manager` メニューから "
+":menuselection:`設定 --> GUI設定` を選択し、マップディスプレイタブから [*フォント設定*] "
+"ボタンをクリックして、設定ウィンドウから一つ(例えば DejaVu Sans Bold)を選択し、 [*Save*] もしくは [*Save for "
+"this session only*] "
+"ボタンをクリックすることで、簡単に修正できます。変更を確認するには、完全な再レンダリングが必要となるため、`Map Display` "
+"ウィンドウで一番左のレンダーマップボタンをクリックします。これでフォントは大分ましになったはずです。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:203
 msgid "Work with vector modules"
-msgstr ""
+msgstr "ベクトルモジュールの操作"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:204
 msgid ""
@@ -281,6 +323,10 @@ msgid ""
 "maintains a fully topological vector engine which allows all sorts of very "
 "powerful analyses."
 msgstr ""
+"上記の作業では、いくつかのラスターモジュールについてのみ説明しました。これは、GRASS GIS "
+"がラスターマップのためだけのものであるということではありません。-- "
+"ベクトルエンジンとモジュールも、ラスターと同じくらいの機能を持っています。GRASS GIS "
+"は、あらゆる種類の強力な解析を可能とする、完全なトポロジーベクトルエンジンを持っています。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:215
 msgid ""
@@ -296,10 +342,18 @@ msgid ""
 "[*Run*]. Once the new vector map is displayed, you might right click on it "
 "in the `Layer Manager` list and change its opacity level to 50%."
 msgstr ""
+"上記で作成した分水界水域を元に、次にそれらをベクトルポリゴンに変換します。`ラスター` メニュから、:menuselection:`マップタイプの変換 "
+"--> ラスター → ベクトル` を選択します。`r.to.vect` ダイアログで、``elev.basins @user1`` "
+"が入力マップとして選択されていることを確認し、出力マップの名前を ``basins_areas`` "
+"のように指定し(ベクトルマップの名前はSQLに準拠している必要があるため、すべての文字が使用できるわけではありません)、 \"Output "
+"feature type\" を `area` に設定します。`属性` タブで、ラスター値をカテゴリーとして使用(例: "
+"IDなど)にチェックを入れ、先ほど作成した水系セグメントラスターマップと値を一致させるようにします。そして [*実行*] "
+"をクリックします。新しいベクトルマップが表示されたら、`Layer Manager` リストでそれを右クリックし、不透明度レベルを 50% "
+"に設定します。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:228
 msgid "Adjust vector map colors"
-msgstr ""
+msgstr "ベクトルマップの色の調整"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:229
 msgid ""
@@ -312,10 +366,16 @@ msgid ""
 "*v.colors* dialog window. You may need to re-draw the map to see the "
 "colorized vector map."
 msgstr ""
+"先ほどラスターマップで行ったように、新しい分水界水域ベクトルマップのカラーテーブルを変更します。レイヤリストで ``basins_areas`` "
+"を選択した状態で、このベクトルマップレイヤ名を右クリックし、 \"カラーテーブルのセット\" を選択します。'Define' タブで \"Name of"
+" color table\" オプションからプルダウンリストをクリックし、リストから \"bcyr\" "
+"(blue(青)-cyan(シアン)-yellow(黃)-red(赤)) などを選択します。完了したら、 [*実行*] "
+"ボタンをクリックして、*v.colors* "
+"ダイアログウィンドウを閉じます。カラー化されたベクトルマップ表示するには、マップを再描画する必要があるかもしれません。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:244
 msgid "Manage attributes"
-msgstr ""
+msgstr "属性の管理"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:245
 msgid ""
@@ -329,6 +389,12 @@ msgid ""
 "fourth icon from the left and after verifying that the vector-areas map is "
 "selected in the `Layer List`, clicking on a vector area in the map canvas."
 msgstr ""
+"次に、これらの新しい領域に、各水域の平均標高を含むいくつかの属性を追加します。ベクトルメニューから、:menuselection:`属性の更新 --> "
+"ラスターからエリア属性を更新` を選択します。ベクトルマップ名として ``basin_areas`` を使用し、``elevation`` "
+"ラスターマップを選択して、そこから統計情報を計算します。そして、 \"新しい属性列の列プリフィックス\" を ``elev`` に設定し、 [*実行*]"
+" をクリックします。完了したらダイアログを閉じます。`Map Display` "
+"ウィンドウで、左から4番目のアイコンを使用して値を照会できます。`Layer List` "
+"でベクトル領域マップが選択されていることを確認した後、マップキャンバスでベクトル領域をクリックします。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:254
 msgid ""
@@ -343,6 +409,13 @@ msgid ""
 "need to refresh the map display (first icon from left) to see the updated "
 "basins map."
 msgstr ""
+"``v.colors`` モジュールを使用することで、平均標高値に基づいて領域を再配色できるようになります。ベクトルメニューで、 "
+":menuselection:`カラー調整 --> カラーテーブル` を選択してください。入力ベクトルマップとして ``basin_areas`` "
+"を選択し、 \"Source value\" として、``cat`` のかわりに、``attr`` を選択します。そして、 \"Define\" "
+"タブで数値範囲を含む列(Name of column containing numeric data)の ``elev_average`` "
+"属性列を選択します。`elevation` ラスターマップから色をコピーしたいので、 \"Raster map from which to copy "
+"color table\" にそれを選択します。[*実行*] "
+"をクリックした後、更新された水域マップを表示するには、マップ表示を(左から最初のアイコンで)更新する必要があります。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:264
 msgid ""
@@ -362,10 +435,20 @@ msgid ""
 " time choose ``Highlight selected features``. You should see e.g. alluvial "
 "flood basins and mesas show up in the ``Map Display``."
 msgstr ""
+"次に、属性テーブルとSQLビルダーを詳しく見ていきましょう。`Layer Manager` で、ツールバーの下側の左から2番目のテーブルアイコン "
+"(\"Show attribute data for selected vector map\") "
+"をクリックします。選択したベクトルマップにアタッチされているデータベーステーブルのビューが開きます。ここでは、たくさんある中でも *簡単な* "
+"データベースクエリを実行して、分水界の水域を検索しましょう。``SELECT * FROM basin_areas WHERE`` "
+"と表示されている箇所で、プルダウンリストから標準偏差統計 ``elev_stddev`` を選択し、リレーションリストから ``<`` "
+"を選択して、テキストボックスに ``50`` を入力して [*Apply*] "
+"をクリックします。ウィンドウ下部の情報バーに読み込まれているレコード数が少なくなり、標準偏差 (std. dev.) "
+"として大きな値が含まれている行は、表示されているテーブルから見えなくなります。テーブルデータ上で右クリックし、``全て選択`` "
+"を選択します。再度テーブルデータ上で右クリックし、``選択したフィーチャの強調表示`` を選択します。``Map Display`` "
+"に沖積氾濫水域やメサ(卓上台地)などが表示されます。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:281
 msgid "View a 3D visualization"
-msgstr ""
+msgstr "3D 可視化表示"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:287
 msgid ""
@@ -378,6 +461,11 @@ msgid ""
 "finer the resolution), then move the positioning puck and height slider on "
 "the \"View\" tab around to get different views."
 msgstr ""
+"3D可視化スイートを開始するには、`Layer list` でラスター標高として `elevation` "
+"マップを選択し、さらに追加の項目を選択してから、`Map Display` ウィンドウで \"3D表示\" (ツールバーの右端) "
+"を選択します。3D表示インタフェースが読み込まれると、3D表示のコントロール用のタブがいくつか表示されます。次に \"データ\" タブを選択し、 "
+"解像度に \"1\" を設定し(値が低いほど解像度は高くなります)、 \"ビュー\" "
+"タブで位置決めコントロールと高さスライダを動かして、視点を変更します。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:296
 msgid ""
@@ -387,12 +475,17 @@ msgid ""
 "is rendered immediately. Since the area is relatively flat, you can go back "
 "to the \"View\" tab and increase the Z exaggeration (\"z-Exag\")."
 msgstr ""
+"DEMの上に衛星画像や航空写真を重ね合わせるには、 \"データ\" タブで **曲面属性** マップのオーバーレイイメージとして PERMANNENT "
+"マップセットの \"`landuse`\" を選択します。新しいビューはすぐにレンダリングされます。領域は比較的平坦なため、 \"ビュー\" "
+"タブに戻り、Z 鉛直方向の誇張 (\"Z-鉛直\") を増やすこともできます。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:303
 msgid ""
 "For easy navigation in the 3D view, switch on the \"Rotate 3D scene\" in the"
 " map display toolbar, then use the mouse to move the view around."
 msgstr ""
+"3D表示で簡単に操作するために、Map Display のツールバーから \"Rotate 3D scene\" "
+"をオンにし、マウスを使用してビューを移動します。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:307
 msgid "Things to try"
@@ -406,10 +499,13 @@ msgid ""
 "`Layer Manager` window. Further details can be found in the `wxGUI "
 "<https://grass.osgeo.org/grass78/manuals/wxGUI.html>`_ help pages."
 msgstr ""
+"ここでは説明していませんが、カートグラフィックコンポーザーとオブジェクト指向描画モデリングツール(Pythonへのエクスポートを提供)を試してみてください。`Layer"
+" Manager` ウィンドウのアイコンの下の行に、アイコンが表示されています。詳細については、 `wxGUI "
+"<https://grass.osgeo.org/grass78/manuals/wxGUI.html>`_ ヘルプページを参照してください。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:315
 msgid "API"
-msgstr ""
+msgstr "API"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:316
 msgid ""
@@ -423,10 +519,16 @@ msgid ""
 "Python programmer direct access to GRASS GIS' extensive C libraries. See the"
 " manual pages for an extensive description of the programming options."
 msgstr ""
+"wxGUIはPythonで書かれており、Pythonプログラミングのファンならば、素晴らしいツールやAPIがたくさんあります。`Layer "
+"Manager` ウィンドウの下部にある `Python shell` タブをクリックし、``help(grass.core)`` "
+"と入力すると、コアGIS Pythonライブラリで使用できる多くの関数のリストが表示されます。コアGIS関数の他に、 `array` (NumPy)、 "
+"`db` (データベース)、 `raster` 、 `vector` ライブラリも利用できます。高度な使用のために `Pythons Ctypes` "
+"がサポートされており、PythonプログラマーがGRASS "
+"GISの広範なCライブラリに直接アクセスできるようになっています。高度なプログラミングの詳細については、マニュアルページを参照してください。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:327
 msgid "Command line"
-msgstr ""
+msgstr "コマンドライン"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:328
 msgid ""
@@ -439,6 +541,9 @@ msgid ""
 "With these tools you can make a new GRASS module with only about 5 minutes "
 "of coding, complete with powerful parser, GUI, and help page template."
 msgstr ""
+"GRASS端末セッションで、モジュールのオプションを表示する \"``v.clean --help``\"  "
+"をタイプして、GRASSモジュールを試すことができます。GRASSコマンドラインを使うと、GISの本当のパワーを得られます。多量のデータをまとめて処理するジョブを、スクリプトのなかで全てのコマンドを結びつけて実行できるように、GRASSはデザインされています。スクリプト作成が容易にできるように、人気スクリプト言語のBourneシェルやPythonの双方で簡単に利用できる、巧みなトリックがいろいろ提供されています。これらのツールを使うと、たった5分のコーディングだけで、強力なパーサやGUIにヘルプページまでついたGRASS"
+" モジュールを新規作成できます。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:337
 msgid ""
@@ -446,6 +551,9 @@ msgid ""
 "When you are done close the browser and type \"exit\" at the GRASS terminal "
 "prompt to leave the GIS environment."
 msgstr ""
+"\"``g.manual -i``\"  "
+"を実行すると、Webブラウザがひらき、モジュールのヘルプページがひらきます。完了したらブラウザを閉じ、GRASSターミナルプロンプトで \"exit\""
+" と入力してGIS環境を終了します。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:342
 msgid "What next?"
@@ -455,25 +563,31 @@ msgstr "次のステップ"
 msgid ""
 "Visit the GRASS GIS website at `https://grass.osgeo.org "
 "<https://grass.osgeo.org>`_"
-msgstr ""
+msgstr "GRASS GIS Webサイト `https://grass.osgeo.org <https://grass.osgeo.org>`_"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:344
 msgid ""
 "Visit the GRASS GIS Wiki help site at `https://grasswiki.osgeo.org/wiki/ "
 "<https://grasswiki.osgeo.org/wiki/Main_Page>`_"
 msgstr ""
+"GRASS GIS Wikiヘルプサイト `https://grasswiki.osgeo.org/wiki/ "
+"<https://grasswiki.osgeo.org/wiki/Main_Page>`_"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:345
 msgid ""
 "More tutorials and overviews can be found `here "
 "<https://grasswiki.osgeo.org/wiki/GRASS_Help#Getting_Started>`_."
 msgstr ""
+"チュートリアルや概要は、 `こちら "
+"<https://grasswiki.osgeo.org/wiki/GRASS_Help#Getting_Started>`_."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:346
 msgid ""
 "A `synopsis of the GRASS GIS modules "
 "<https://grass.osgeo.org/grass78/manuals/full_index.html>`_"
 msgstr ""
+"`GRASS GISモジュールの概要 "
+"<https://grass.osgeo.org/grass78/manuals/full_index.html>`_"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:347
 msgid ""
@@ -482,3 +596,6 @@ msgid ""
 "`https://grass.osgeo.org/grass78/manuals/addons/ "
 "<https://grass.osgeo.org/grass78/manuals/addons/>`_"
 msgstr ""
+"GRASSに付属する400個の GIS モジュールで不足する場合、 "
+"`https://grass.osgeo.org/grass78/manuals/addons/ "
+"<https://grass.osgeo.org/grass78/manuals/addons/>`_ に大量のアドオンがあります。"
