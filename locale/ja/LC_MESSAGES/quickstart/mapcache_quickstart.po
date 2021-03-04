@@ -73,7 +73,7 @@ msgid ""
 "the command below:"
 msgstr ""
 "まず、FeatherPad(テキストエディタ)でMapCache設定ファイルを開きます。管理者特権でコマンドラインからFeatherPadを開くことで、ファイルを保存することができるようになります。[システムツール]"
-" > [QTerminal]を使用してファイルを保存し、次のコマンドを実行します。"
+" > [QTerminal]を使用して、次のコマンドを実行します。"
 
 #: ../../build/doc/quickstart/mapcache_quickstart.rst:45
 msgid ""
