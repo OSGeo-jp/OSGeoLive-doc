@@ -182,7 +182,7 @@ msgid ""
 "To find out how long the climb is, we will select just the part of the track"
 " which contains the climb, and then we will be able to view the properties "
 "of this selected range, such as the distance, climb and descent."
-msgstr "上昇の長さを確認するには、上昇を含むトラックの部分だけを選択し、選択した範囲のプロパティ(距離、上昇、下降など)を表示します。"
+msgstr "高低差を確認するには、高低差を含むトラックの部分を選択して、その範囲のプロパティ(道のり、登り、下りなど)を表示します。"
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:85
 msgid ""
@@ -210,7 +210,7 @@ msgstr ":menuselection:`Range --> Set range end` を選択して、選択終了�
 msgid ""
 "You can now see in the \"Range details\" section that this part of the track"
 " is 8.55 km long, climbs 346 m and descends just 10 m."
-msgstr "\"Range Details\" セクションでは、この部分の長さが8.55kmで、346mを登って10mだけ下っていることがわかります。"
+msgstr "「Range Details」 セクションでは、この部分の道のりが8.55kmで、346mを登って10mだけ下っていることがわかります。"
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:95
 msgid "Things to Try"
