@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>gvSIG Desktop Quickstart &#8212; OSGeoLive 14.0 Documentation</title>
+    <title>gvSIG デスクトップクイックスタート &#8212; OSGeoLive 14.0 Documentation</title>
     <link rel="stylesheet" href="../../_static/overview.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <script type="text/javascript">
@@ -58,7 +58,7 @@
 	<font size="-2">
 		<div id="translations">
 		<!-- alphabetical order -->
-              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a>
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
 		</div>
 	</font>
     </div>
@@ -73,24 +73,17 @@
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
 <div class="admonition note">
 <p class="first admonition-title">注釈</p>
-<p class="last">This  project is only included on the OSGeoLive virtual machine disk (VMDK)</p>
+<p class="last">このプロジェクトはOSGeoLive仮想マシンディスク(VMDK)にのみ含まれています</p>
 </div>
 <div class="section" id="gvsig-desktop-quickstart">
-<h1>gvSIG Desktop Quickstart<a class="headerlink" href="#gvsig-desktop-quickstart" title="このヘッドラインへのパーマリンク">¶</a></h1>
-<p>gvSIG is a Geographic Information System (GIS), that is, a desktop application
-designed for capturing, storing, handling, analyzing and deploying any kind of
-referenced geographic information in order to solve complex management and
-planning problems. gvSIG is known for having a user-friendly interface, being
-able to access the most common formats, both vector and raster ones. It
-features a wide range of tools for working with geographic-like information
-(query tools, layout creation, geoprocessing, networks, etc.), which turns
-gvSIG into the ideal tool for users working in the land realm.</p>
+<h1>gvSIG デスクトップクイックスタート<a class="headerlink" href="#gvsig-desktop-quickstart" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<p>gvSIG は、地理情報システム (GIS) デスクトップアプリケーションで、複雑な管理と計画の問題を解決するために、参照されているあらゆる種類の地理情報をキャプチャ、保存、処理、分析、および展開するように設計されています。gvSIGは、ユーザフレンドリなインタフェースと、一般的なベクタ形式とラスタ形式にアクセスできることで知られています。これには、地理情報等を操作するためのさまざまなツール(クエリー、レイアウト作成、ジオプロセシング、ネットワークなど)が用意されており、陸上データの作業するユーザにとってgvSIG を理想的なツールに変えることができます。</p>
 <div class="contents local topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#start-gvsig-and-create-a-view" id="id3">Start gvSIG and create a view</a></li>
-<li><a class="reference internal" href="#define-the-projection-of-your-view" id="id4">Define the projection of your view</a></li>
-<li><a class="reference internal" href="#add-layers-to-the-view" id="id5">Add layers to the view</a></li>
+<li><a class="reference internal" href="#start-gvsig-and-create-a-view" id="id3">gvSIGを開始してビューを作成する</a></li>
+<li><a class="reference internal" href="#define-the-projection-of-your-view" id="id4">ビューの投影を定義する</a></li>
+<li><a class="reference internal" href="#add-layers-to-the-view" id="id5">ビューにレイヤを追加</a></li>
 <li><a class="reference internal" href="#configure-the-view-display" id="id6">Configure the view display</a><ul>
 <li><a class="reference internal" href="#zoom-into-a-region" id="id7">Zoom into a region</a></li>
 </ul>
@@ -119,7 +112,7 @@ gvSIG into the ideal tool for users working in the land realm.</p>
 <li><a class="reference internal" href="#id1" id="id25">View the result</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#create-a-new-map" id="id26">Create a new map</a><ul>
+<li><a class="reference internal" href="#create-a-new-map" id="id26">新規マップの作成</a><ul>
 <li><a class="reference internal" href="#work-with-the-map" id="id27">Work with the map</a></li>
 </ul>
 </li>
@@ -140,82 +133,63 @@ gvSIG into the ideal tool for users working in the land realm.</p>
 <li><a class="reference internal" href="#select-image-format-and-reference-system" id="id38">Select image format and reference system</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#what-next" id="id39">What next?</a></li>
+<li><a class="reference internal" href="#what-next" id="id39">次のステップ</a></li>
 </ul>
 </div>
 <div class="admonition note">
 <p class="first admonition-title">注釈</p>
-<p class="last">If gvSIG user interface becomes unresponsive, try <code class="kbd docutils literal"><span class="pre">Alt+f</span></code> to open
-the file menu for example. User interface should work again, then. This
-bug only happens in the gvSIG distro for OSGeoLive. It doesn’t appear
-in a normal gvSIG installation.</p>
+<p class="last">もし、gvSIG のユーザインタフェースが反応しなくなったら、たとえばファイルを開く <code class="kbd docutils literal"><span class="pre">Alt+f</span></code> キーを試してみてください。ユーザー・インターフェースは再び動作するはずです。このバグはOSGeoLiveのgvSIGでのみ発生します。通常のgvSIGインストールでは発生しません。</p>
 </div>
 <div class="admonition note">
 <p class="first admonition-title">注釈</p>
-<p class="last">Note for version gvSIG 2.3.1: To load raster files the user must
-have write permission in the folder where the file is. Otherwise the
-application will ask for a valid folder (with write permission). Since
-the 「user」 user doesn’t have write permission in the 「data」 folder, it
-will be necessary to select, when asked, a folder where the user does
-have write permission, like for example, 「/home/user」.</p>
+<p class="last">gvSIG バージョン2.3.1の注意: ラスタファイルをロードするには、ファイルの存在するフォルダに書き込み権限が必要です。そうでない場合、アプリケーションは、(書き込み権限のある)適切なフォルダを選択するよう聞いてきます。 「user」 ユーザは、 「data」 フォルダに書き込み権限がないため、 それを選択する必要があるときは、きかれたら、たとえば 「/home/user」 などのユーザが書き込み権限のあるフォルダを指定してください。</p>
 </div>
 <div class="section" id="start-gvsig-and-create-a-view">
-<h2><a class="toc-backref" href="#id3">Start gvSIG and create a view</a><a class="headerlink" href="#start-gvsig-and-create-a-view" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#id3">gvSIGを開始してビューを作成する</a><a class="headerlink" href="#start-gvsig-and-create-a-view" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <ol class="arabic simple">
-<li>Select gvSIG from the application menu, <span class="menuselection">Geospatial ‣ Desktop GIS ‣ gvSIG</span>. The application usually takes about a minute to startup.</li>
-<li>By default gvSIG opens with an empty project file with the 『View』 document
-type selected. However, on OSGeoLive, gvSIG has been configured to
-start with a default project. Click on the <span class="guilabel">New Project</span> button or go to
-<span class="menuselection">File ‣ New Project</span>. When prompted, you can select
-<span class="guilabel">Discard Changes</span> as we won’t be using the last project.</li>
-<li>Click on the <span class="guilabel">New</span> button to create a view. It will be opened automatically.</li>
+<li>デスクトップから <span class="menuselection">Geospatial ‣ Desktop GIS ‣ gvSIG</span> を選択します。通常、アプリケーションの起動には約1分かかります。</li>
+<li>デフォルトでは、gvSIGは 『View』 ドキュメントタイプが選択された空のプロジェクトファイルで開きます。しかし、OSGeoLiveでは、 gvSIG  は、デフォルトのプロジェクトで開始するように設定されています。<span class="guilabel">New Project</span> ボタンをクリックして、 <span class="menuselection">File ‣ New Project</span> を選択してください。入力待ちになったら、最後のプロジェクトを使わない場合は <span class="guilabel">Discard Changes</span> を選択します。</li>
+<li><span class="guilabel">New</span> ボタンをクリックして、ビューを作成します。これは、自動的に開きます。</li>
 </ol>
 <a class="reference internal image-reference" href="../../_images/gvsig_qs_001_.png"><img alt="../../_images/gvsig_qs_001_.png" src="../../_images/gvsig_qs_001_.png" style="width: 563.2px; height: 408.65000000000003px;" /></a>
 </div>
 <div class="section" id="define-the-projection-of-your-view">
-<h2><a class="toc-backref" href="#id4">Define the projection of your view</a><a class="headerlink" href="#define-the-projection-of-your-view" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#id4">ビューの投影を定義する</a><a class="headerlink" href="#define-the-projection-of-your-view" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <ol class="arabic">
-<li><p class="first">Select <span class="menuselection">View ‣ Properties</span>.</p>
+<li><p class="first"><span class="menuselection">View ‣ Properties</span> を選択します。</p>
 <a class="reference internal image-reference" href="../../_images/gvsig_qs_002_.png"><img alt="../../_images/gvsig_qs_002_.png" src="../../_images/gvsig_qs_002_.png" style="width: 563.2px; height: 408.65000000000003px;" /></a>
 </li>
-<li><p class="first">For the <span class="guilabel">Current projection</span>, click on the <span class="guilabel">…</span> button.
-This will open the <strong>New CRS</strong> dialog.</p>
+<li><p class="first"><span class="guilabel">Current projection</span> では、 <span class="guilabel">…</span>  ボタンをクリックします。<strong>New CRS</strong> ダイアログが開きます。</p>
 </li>
-<li><p class="first">Using the dropdown list for <span class="guilabel">Type</span>, select EPSG.</p>
+<li><p class="first">ドロップダウンリストで <span class="guilabel">Type</span> を選択し、EPSGを選択します。</p>
 </li>
-<li><p class="first">Enter the EPSG code for the Coordinate Reference System. For this example
-we are using EPSG=4326, which is the WGS84 2D Geographic Projection. Then
-click on the <span class="guilabel">Search</span> button. This will list the selected CRS in the table
-below the search input field.</p>
+<li><p class="first">座標参照システムのEPSGコードを入力します。この例では、WGS84 2D 地理投影の EPSG=4326 を使用します。<span class="guilabel">Search</span> ボタンをクリックします。検索インプット欄の下に選択したCRSが一覧表で表示されます。</p>
 </li>
-<li><p class="first">Select <span class="guilabel">OK</span> to return to the <strong>View Properties</strong> dialog. The EPSG code is now 4326 and that the map units have changed to degrees.</p>
+<li><p class="first"><span class="guilabel">OK</span> を選択し、 <strong>View Properties</strong> ダイアログに戻ります。EPSGコードは現在 4326 で、地図の緯経度の単位が度に設定されます。</p>
 </li>
-<li><p class="first">Select <span class="guilabel">OK</span> to return to the <strong>Project Manager</strong>.</p>
+<li><p class="first"><span class="guilabel">OK</span> を選択して、 <strong>Project Manager</strong> に戻ります。</p>
 </li>
 </ol>
 <a class="reference internal image-reference" href="../../_images/gvsig_qs_003_.png"><img alt="../../_images/gvsig_qs_003_.png" src="../../_images/gvsig_qs_003_.png" style="width: 561.5500000000001px; height: 407.55px;" /></a>
 <ul class="simple">
 <li><ol class="first arabic">
-<li>The view window consists of three zones.</li>
+<li>ビューウィンドウは3つのゾーンで構成されています。</li>
 </ol>
 </li>
-<li>(2) The top-left cell contains a list of vector or raster layers being used in
-the view (i.e. Table-of-Contents).</li>
+<li>(2)左上のセルには、ビューで使用されているベクタレイヤまたはラスタレイヤのリスト(目次など)が含まれます。</li>
 <li>(3) The bottom-left cell displays the extent of the main view over a selected
 vector file.</li>
-<li>(4) The right cell is the main display area where raster and vector data is
-rendered.</li>
+<li>(4)右のセルは、ラスタデータとベクタデータがレンダリングされるメイン表示領域です。</li>
 </ul>
 <a class="reference internal image-reference" href="../../_images/gvsig_qs_005_.png"><img alt="../../_images/gvsig_qs_005_.png" src="../../_images/gvsig_qs_005_.png" style="width: 563.2px; height: 408.65000000000003px;" /></a>
 </div>
 <div class="section" id="add-layers-to-the-view">
-<h2><a class="toc-backref" href="#id5">Add layers to the view</a><a class="headerlink" href="#add-layers-to-the-view" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#id5">ビューにレイヤを追加</a><a class="headerlink" href="#add-layers-to-the-view" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <ol class="arabic simple">
-<li>Click on the <span class="guilabel">Add layer</span> icon in the main toolbar to open the <strong>Add layer</strong> dialog.</li>
-<li>Select <span class="guilabel">Add</span> in the <strong>Add layer</strong> dialog. By default the first tab is <span class="guilabel">File</span>
-so the <strong>Open</strong> file dialog will appear.</li>
-<li>Drill down to the <code class="docutils literal"><span class="pre">/usr/local/share/data/natural_earth2/</span></code> directory.</li>
-<li>Select the files as shown in the picture.</li>
+<li>メインツールバーから <span class="guilabel">Add layer</span> アイコンをクリックして、 <strong>Add layer</strong> ダイアログを開きます。</li>
+<li><strong>Add layer</strong> ダイアログで、 <span class="guilabel">Add</span> を選択します。デフォルトで、最初のタブは  <span class="guilabel">File</span> です、そのため、ファイルの <strong>Open</strong>  ダイアログが表示されます。</li>
+<li><code class="docutils literal"><span class="pre">/usr/local/share/data/natural_earth2/</span></code> ディレクトリをドリルダウンします。</li>
+<li>図のようにファイルを選択します。</li>
 </ol>
 <a class="reference internal image-reference" href="../../_images/gvsig_qs_006_.png"><img alt="../../_images/gvsig_qs_006_.png" src="../../_images/gvsig_qs_006_.png" style="width: 562.6500000000001px; height: 407.00000000000006px;" /></a>
 <div class="admonition note">
@@ -290,10 +264,7 @@ left-mouse-button and click again with the right-mouse-button.</li>
 </div>
 <div class="section" id="view-the-result">
 <h3><a class="toc-backref" href="#id13">View the result</a><a class="headerlink" href="#view-the-result" title="このヘッドラインへのパーマリンク">¶</a></h3>
-<p>Note that this is a very basic view showing a point, a line and a polygon vector
-file superimposed over a raster file. It is just as easy to have an aerial
-photograph or Digital Terrain Model as a backdrop to your vector data, or
-to show other vector data stored in different formats.</p>
+<p>Note that this is a very basic view showing a point, a line and a polygon vector file superimposed over a raster file. 航空写真やデジタル地形モデルをベクタデータの背景として使用したり、異なる形式で保存された他のベクタデータを表示することも簡単です。</p>
 <a class="reference internal image-reference" href="../../_images/gvsig_qs_014_.png"><img alt="../../_images/gvsig_qs_014_.png" src="../../_images/gvsig_qs_014_.png" style="width: 563.2px; height: 408.65000000000003px;" /></a>
 </div>
 </div>
@@ -402,7 +373,7 @@ Only the towns of New South Wales should be shown.</li>
 </div>
 </div>
 <div class="section" id="create-a-new-map">
-<h2><a class="toc-backref" href="#id26">Create a new map</a><a class="headerlink" href="#create-a-new-map" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#id26">新規マップの作成</a><a class="headerlink" href="#create-a-new-map" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <ol class="arabic simple">
 <li>Select the <em>Map</em> document type in the <strong>Project Manager</strong>.</li>
 <li>Click on the <span class="guilabel">New</span> button to create a map.</li>
@@ -518,12 +489,12 @@ cancel, change it and start again).</li>
 </div>
 </div>
 <div class="section" id="what-next">
-<h2><a class="toc-backref" href="#id39">What next?</a><a class="headerlink" href="#what-next" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#id39">次のステップ</a><a class="headerlink" href="#what-next" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <ul class="simple">
-<li><a class="reference external" href="http://downloads.gvsig.org/download/web/en/build/html/index.html">User manuals</a></li>
+<li><a class="reference external" href="http://downloads.gvsig.org/download/web/en/build/html/index.html">ユーザマニュアル</a></li>
 <li><a class="reference external" href="http://www.gvsig.com/en/diffusion/educational-material?p_p_id=122_INSTANCE_A9eo37KAqtxs&amp;p_p_lifecycle=0&amp;p_p_state=normal&amp;p_p_mode=view&amp;p_p_col_id=column-2&amp;p_p_col_count=1&amp;p_r_p_564233524_resetCur=true&amp;p_r_p_564233524_categoryId=25973">Courses and tutorials</a></li>
-<li><a class="reference external" href="https://blog.gvsig.org/2017/05/23/learning-gvsig-in-30-minutes/">Learning gvSIG in 30 minutes</a></li>
-<li><a class="reference external" href="https://blog.gvsig.org/category/languages/english/">gvSIG Blog</a></li>
+<li><a class="reference external" href="https://blog.gvsig.org/2017/05/23/learning-gvsig-in-30-minutes/">gvSIG 30分速習</a></li>
+<li><a class="reference external" href="https://blog.gvsig.org/category/languages/english/">gvSIGブログ</a></li>
 </ul>
 </div>
 </div>
@@ -538,7 +509,7 @@ cancel, change it and start again).</li>
 	<font size="-2">
 		<div id="translations">
 		<!-- alphabetical order -->
-              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a>
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
 		</div>
 	</font>
     </div>
